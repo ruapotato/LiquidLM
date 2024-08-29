@@ -236,7 +236,7 @@ if __name__ == "__main__":
         hidden_size = 1024
         batch_size = 32
         epochs = 60
-        lr = 0.0001
+        lr = 0.00005
         dropout_rate = 0.4
         accumulation_steps = 16
         sequence_length = 512
