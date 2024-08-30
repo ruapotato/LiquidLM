@@ -3080,3 +3080,74 @@ print('\n\n\n\n\n\n\x\n\n+n\n\n+n\n[n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/\n\n\n\n\n\n\n
 # ex=n*p1.0                                     </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
 /matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train.py:279: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
   checkpoint = torch.load('best_model.pth')
+2024-08-30 13:19:30,661 - INFO - Generated text:
+def fibonacci(n):=True
+	if len(1) <x:
+		elprint(x+1 %r)
+		return lenline(d*y)
+	return numpy
+
+
+#def num(100, max = E2):
+	print(i)
+	for i in range(i):
+		value = 1
+		while i in range(1,1):
+			return 1
+			x = len(i), x2)
+	elif len(c) > 0:
+			return "\
+		else:
+			print(n[i], 2)
+		else:
+			return 1
+		return i[1]
+
+def grid_diggon(a, last):
+		print(x)
+#	return [i
+
+def prime_and_hlements(num):
+	# """
+	try:
+			print iter(1, 2), 2)
+		return 0
+	
+def print(x):
+	return False
+
+class Create(object):
+
+	def __init__(self):
+		self.y[0] = 1
+		self.n = None
+		self.y = 0
+		self.x = 0
+		self.y = 1
+		self.label = []
+
+		self.max_day = 0
+		self.k = 0
+
+		self.cur_height = 0
+		self.sort = 0
+		self.y = self.y
+		self.lon = True
+		self.s = 0
+		self.y = 0
+		self.n = 0
+		self.y = 0
+		self.title = 0
+		self.head = []
+		self.n = 1
+		self.label = False
+		self.width = 0
+		self.t = 0
+		self.map = None
+		self.n = 0
+		self.n = 0
+		self.long = 0
+		self.b = 0
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>get</s></s>def</s></s></s></s></s></s></s>super</s></s></s>testpy</s></s>ssts</s>sdsr'ss''index	'password's'title'</s>#''{\'0'}'\'1)strip</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+
+from</s> import                                     
