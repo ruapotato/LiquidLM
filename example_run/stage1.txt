@@ -1,0 +1,3082 @@
+Map (num_proc=4): 100%|███████████| 61373/61373 [01:21<00:00, 748.92 examples/s]
+2024-08-29 15:12:29,562 - INFO - Epoch 1, Batch 0, Loss: 11.1295
+2024-08-29 15:13:34,679 - INFO - Epoch 1, Batch 100, Loss: 11.1219
+2024-08-29 15:14:39,291 - INFO - Epoch 1, Batch 200, Loss: 11.0306
+2024-08-29 15:15:46,116 - INFO - Epoch 1, Batch 300, Loss: 10.8814
+2024-08-29 15:16:53,778 - INFO - Epoch 1, Batch 400, Loss: 10.6211
+2024-08-29 15:18:01,454 - INFO - Epoch 1, Batch 500, Loss: 10.1642
+2024-08-29 15:19:09,615 - INFO - Epoch 1, Batch 600, Loss: 10.0532
+2024-08-29 15:20:17,743 - INFO - Epoch 1, Batch 700, Loss: 9.4725
+2024-08-29 15:21:25,685 - INFO - Epoch 1, Batch 800, Loss: 9.1096
+2024-08-29 15:22:32,103 - INFO - Epoch 1, Batch 900, Loss: 8.3710
+2024-08-29 15:23:40,496 - INFO - Epoch 1, Batch 1000, Loss: 8.0517
+2024-08-29 15:24:49,069 - INFO - Epoch 1, Batch 1100, Loss: 8.4452
+2024-08-29 15:25:58,003 - INFO - Epoch 1, Batch 1200, Loss: 7.6951
+2024-08-29 15:27:05,264 - INFO - Epoch 1, Batch 1300, Loss: 7.6613
+2024-08-29 15:28:10,250 - INFO - Epoch 1, Batch 1400, Loss: 7.3772
+2024-08-29 15:29:15,373 - INFO - Epoch 1, Batch 1500, Loss: 7.2653
+2024-08-29 15:30:20,827 - INFO - Epoch 1, Batch 1600, Loss: 7.3252
+2024-08-29 15:31:25,872 - INFO - Epoch 1, Batch 1700, Loss: 6.9299
+2024-08-29 15:31:42,264 - INFO - Epoch 1 completed. Average Loss: 8.9891
+2024-08-29 15:32:21,412 - INFO - Validation Loss: 6.7603
+2024-08-29 15:33:22,589 - INFO - Sample generated text:
+def main():
+
+ URL 
+
+
+
+ 
+                                                                                                                                                                                                                                        (                                                                                         iter                                                                                                                                                                       
+2024-08-29 15:33:23,162 - INFO - Epoch 2, Batch 0, Loss: 6.5406
+2024-08-29 15:34:29,336 - INFO - Epoch 2, Batch 100, Loss: 6.8994
+2024-08-29 15:35:35,209 - INFO - Epoch 2, Batch 200, Loss: 6.6516
+2024-08-29 15:36:40,830 - INFO - Epoch 2, Batch 300, Loss: 6.4312
+2024-08-29 15:37:46,470 - INFO - Epoch 2, Batch 400, Loss: 6.0429
+2024-08-29 15:38:52,148 - INFO - Epoch 2, Batch 500, Loss: 6.2037
+2024-08-29 15:39:58,332 - INFO - Epoch 2, Batch 600, Loss: 5.7621
+2024-08-29 15:41:04,746 - INFO - Epoch 2, Batch 700, Loss: 5.9399
+2024-08-29 15:42:12,596 - INFO - Epoch 2, Batch 800, Loss: 5.9614
+2024-08-29 15:43:20,300 - INFO - Epoch 2, Batch 900, Loss: 5.8289
+2024-08-29 15:44:27,868 - INFO - Epoch 2, Batch 1000, Loss: 5.8124
+2024-08-29 15:45:34,101 - INFO - Epoch 2, Batch 1100, Loss: 5.5461
+2024-08-29 15:46:39,931 - INFO - Epoch 2, Batch 1200, Loss: 5.8260
+2024-08-29 15:47:45,756 - INFO - Epoch 2, Batch 1300, Loss: 5.3695
+2024-08-29 15:48:50,990 - INFO - Epoch 2, Batch 1400, Loss: 5.5572
+2024-08-29 15:49:56,868 - INFO - Epoch 2, Batch 1500, Loss: 5.1475
+2024-08-29 15:51:02,322 - INFO - Epoch 2, Batch 1600, Loss: 5.4889
+2024-08-29 15:52:07,417 - INFO - Epoch 2, Batch 1700, Loss: 5.1789
+2024-08-29 15:52:23,844 - INFO - Epoch 2 completed. Average Loss: 5.9175
+2024-08-29 15:53:03,292 - INFO - Validation Loss: 5.2329
+2024-08-29 15:53:53,491 - INFO - Sample generated text:
+def main():
+                                                                                                                                                                              self. IDs...',.                                                                                                                                                                                                                                                                                                             """._.(_'_.((
+      
+2024-08-29 15:53:54,067 - INFO - Epoch 3, Batch 0, Loss: 4.8817
+2024-08-29 15:54:59,141 - INFO - Epoch 3, Batch 100, Loss: 5.8682
+2024-08-29 15:56:04,929 - INFO - Epoch 3, Batch 200, Loss: 5.0971
+2024-08-29 15:57:10,010 - INFO - Epoch 3, Batch 300, Loss: 5.4303
+2024-08-29 15:58:15,212 - INFO - Epoch 3, Batch 400, Loss: 5.3942
+2024-08-29 15:59:20,850 - INFO - Epoch 3, Batch 500, Loss: 5.2369
+2024-08-29 16:00:26,456 - INFO - Epoch 3, Batch 600, Loss: 5.1671
+2024-08-29 16:01:31,975 - INFO - Epoch 3, Batch 700, Loss: 5.4310
+2024-08-29 16:02:37,874 - INFO - Epoch 3, Batch 800, Loss: 5.2031
+2024-08-29 16:03:43,430 - INFO - Epoch 3, Batch 900, Loss: 5.2328
+2024-08-29 16:04:49,223 - INFO - Epoch 3, Batch 1000, Loss: 5.1178
+2024-08-29 16:05:54,516 - INFO - Epoch 3, Batch 1100, Loss: 4.8369
+2024-08-29 16:07:00,116 - INFO - Epoch 3, Batch 1200, Loss: 5.2549
+2024-08-29 16:08:05,694 - INFO - Epoch 3, Batch 1300, Loss: 4.8997
+2024-08-29 16:09:11,216 - INFO - Epoch 3, Batch 1400, Loss: 4.9390
+2024-08-29 16:10:16,423 - INFO - Epoch 3, Batch 1500, Loss: 4.8387
+2024-08-29 16:11:21,859 - INFO - Epoch 3, Batch 1600, Loss: 4.7453
+2024-08-29 16:12:27,144 - INFO - Epoch 3, Batch 1700, Loss: 5.0461
+2024-08-29 16:12:43,783 - INFO - Epoch 3 completed. Average Loss: 5.1011
+2024-08-29 16:13:23,377 - INFO - Validation Loss: 4.7090
+2024-08-29 16:13:52,031 - INFO - Sample generated text:
+def main():
+                                         name (,                                                                                                                                                                               -                                                                                                                                                                                                                                                                           </s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 16:13:52,609 - INFO - Epoch 4, Batch 0, Loss: 4.8660
+2024-08-29 16:14:57,940 - INFO - Epoch 4, Batch 100, Loss: 5.1652
+2024-08-29 16:16:03,442 - INFO - Epoch 4, Batch 200, Loss: 4.8139
+2024-08-29 16:17:08,939 - INFO - Epoch 4, Batch 300, Loss: 4.8506
+2024-08-29 16:18:14,351 - INFO - Epoch 4, Batch 400, Loss: 4.6893
+2024-08-29 16:19:19,745 - INFO - Epoch 4, Batch 500, Loss: 4.6483
+2024-08-29 16:20:25,257 - INFO - Epoch 4, Batch 600, Loss: 4.6555
+2024-08-29 16:21:30,804 - INFO - Epoch 4, Batch 700, Loss: 4.8664
+2024-08-29 16:22:36,128 - INFO - Epoch 4, Batch 800, Loss: 4.9228
+2024-08-29 16:23:41,606 - INFO - Epoch 4, Batch 900, Loss: 4.6156
+2024-08-29 16:24:46,997 - INFO - Epoch 4, Batch 1000, Loss: 4.6351
+2024-08-29 16:25:52,464 - INFO - Epoch 4, Batch 1100, Loss: 4.7885
+2024-08-29 16:26:58,128 - INFO - Epoch 4, Batch 1200, Loss: 4.8440
+2024-08-29 16:28:03,804 - INFO - Epoch 4, Batch 1300, Loss: 4.4678
+2024-08-29 16:29:09,208 - INFO - Epoch 4, Batch 1400, Loss: 4.5752
+2024-08-29 16:30:14,798 - INFO - Epoch 4, Batch 1500, Loss: 4.1788
+2024-08-29 16:31:20,171 - INFO - Epoch 4, Batch 1600, Loss: 4.4297
+2024-08-29 16:32:25,786 - INFO - Epoch 4, Batch 1700, Loss: 4.6992
+2024-08-29 16:32:42,388 - INFO - Epoch 4 completed. Average Loss: 4.6443
+2024-08-29 16:33:22,087 - INFO - Validation Loss: 4.2818
+2024-08-29 16:33:50,782 - INFO - Sample generated text:
+def main():
+   """
+        for:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 16:33:51,364 - INFO - Epoch 5, Batch 0, Loss: 4.5560
+2024-08-29 16:34:57,208 - INFO - Epoch 5, Batch 100, Loss: 4.2910
+2024-08-29 16:36:02,873 - INFO - Epoch 5, Batch 200, Loss: 4.3780
+2024-08-29 16:37:08,607 - INFO - Epoch 5, Batch 300, Loss: 4.2666
+2024-08-29 16:38:14,580 - INFO - Epoch 5, Batch 400, Loss: 4.2357
+2024-08-29 16:39:20,301 - INFO - Epoch 5, Batch 500, Loss: 4.6871
+2024-08-29 16:40:25,556 - INFO - Epoch 5, Batch 600, Loss: 4.3361
+2024-08-29 16:41:31,078 - INFO - Epoch 5, Batch 700, Loss: 4.1254
+2024-08-29 16:42:36,845 - INFO - Epoch 5, Batch 800, Loss: 4.4537
+2024-08-29 16:43:42,747 - INFO - Epoch 5, Batch 900, Loss: 4.1007
+2024-08-29 16:44:48,422 - INFO - Epoch 5, Batch 1000, Loss: 3.9553
+2024-08-29 16:45:53,970 - INFO - Epoch 5, Batch 1100, Loss: 4.4890
+2024-08-29 16:46:59,533 - INFO - Epoch 5, Batch 1200, Loss: 4.2323
+2024-08-29 16:48:05,409 - INFO - Epoch 5, Batch 1300, Loss: 3.8327
+2024-08-29 16:49:11,096 - INFO - Epoch 5, Batch 1400, Loss: 4.0170
+2024-08-29 16:50:16,643 - INFO - Epoch 5, Batch 1500, Loss: 3.9355
+2024-08-29 16:51:22,358 - INFO - Epoch 5, Batch 1600, Loss: 4.2372
+2024-08-29 16:52:27,853 - INFO - Epoch 5, Batch 1700, Loss: 4.2671
+2024-08-29 16:52:44,673 - INFO - Epoch 5 completed. Average Loss: 4.2820
+2024-08-29 16:53:24,427 - INFO - Validation Loss: 3.9641
+2024-08-29 16:53:53,377 - INFO - Sample generated text:
+def main():
+    """
+    """
+    def __init(self, self_CON, pos_None_request, Group):
+        self.add_config = Qt=
+        self.assert_ = []
+        self.append = []
+        self.assert_Char_CLASS =        self.assert__test =
+        self.set('.ext_dir =
+        self.found = self.command_tools_name(self.path,
+        self.add.E.API(self_xml)
+        self.utils = self.comp_argument()
+        self.add.optim_run = '.path.path_get()
+        self.add_item = self.path_model.(_name_user, self.path.next_url_list.self_column)
+        self.add_requires = []
+        self.add_id = get.dir_mode(self)
+        self.src_is_0_': = self.task.get_parse_key(self.get,)
+
+    def ____(self, self,],_name, **_max, max,
+            return
+                                                                                                                                   </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 16:53:54,345 - INFO - Epoch 6, Batch 0, Loss: 4.4154
+2024-08-29 16:55:00,863 - INFO - Epoch 6, Batch 100, Loss: 4.1506
+2024-08-29 16:56:07,001 - INFO - Epoch 6, Batch 200, Loss: 4.2764
+2024-08-29 16:57:13,028 - INFO - Epoch 6, Batch 300, Loss: 3.8830
+2024-08-29 16:58:19,059 - INFO - Epoch 6, Batch 400, Loss: 4.2595
+2024-08-29 16:59:25,135 - INFO - Epoch 6, Batch 500, Loss: 3.8843
+2024-08-29 17:00:31,148 - INFO - Epoch 6, Batch 600, Loss: 4.1552
+2024-08-29 17:01:37,204 - INFO - Epoch 6, Batch 700, Loss: 4.1454
+2024-08-29 17:02:43,203 - INFO - Epoch 6, Batch 800, Loss: 3.8010
+2024-08-29 17:03:49,306 - INFO - Epoch 6, Batch 900, Loss: 4.1529
+2024-08-29 17:04:55,405 - INFO - Epoch 6, Batch 1000, Loss: 3.5780
+2024-08-29 17:06:01,508 - INFO - Epoch 6, Batch 1100, Loss: 3.9216
+2024-08-29 17:07:07,848 - INFO - Epoch 6, Batch 1200, Loss: 4.1124
+2024-08-29 17:08:13,641 - INFO - Epoch 6, Batch 1300, Loss: 3.9521
+2024-08-29 17:09:19,618 - INFO - Epoch 6, Batch 1400, Loss: 3.8639
+2024-08-29 17:10:25,134 - INFO - Epoch 6, Batch 1500, Loss: 3.9268
+2024-08-29 17:11:30,906 - INFO - Epoch 6, Batch 1600, Loss: 3.6291
+2024-08-29 17:12:36,329 - INFO - Epoch 6, Batch 1700, Loss: 4.2354
+2024-08-29 17:12:53,031 - INFO - Epoch 6 completed. Average Loss: 4.0321
+2024-08-29 17:13:32,823 - INFO - Validation Loss: 3.7677
+2024-08-29 17:14:01,764 - INFO - Sample generated text:
+def main():
+    :: not of not                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 17:14:02,342 - INFO - Epoch 7, Batch 0, Loss: 3.7534
+2024-08-29 17:15:07,926 - INFO - Epoch 7, Batch 100, Loss: 3.9279
+2024-08-29 17:16:13,564 - INFO - Epoch 7, Batch 200, Loss: 4.0715
+2024-08-29 17:17:19,544 - INFO - Epoch 7, Batch 300, Loss: 3.7160
+2024-08-29 17:18:25,352 - INFO - Epoch 7, Batch 400, Loss: 3.8138
+2024-08-29 17:19:31,426 - INFO - Epoch 7, Batch 500, Loss: 4.1729
+2024-08-29 17:20:37,791 - INFO - Epoch 7, Batch 600, Loss: 3.8205
+2024-08-29 17:21:43,771 - INFO - Epoch 7, Batch 700, Loss: 3.7974
+2024-08-29 17:22:49,651 - INFO - Epoch 7, Batch 800, Loss: 3.6269
+2024-08-29 17:23:55,179 - INFO - Epoch 7, Batch 900, Loss: 3.9810
+2024-08-29 17:25:01,368 - INFO - Epoch 7, Batch 1000, Loss: 3.8360
+2024-08-29 17:26:08,069 - INFO - Epoch 7, Batch 1100, Loss: 3.7569
+2024-08-29 17:27:15,666 - INFO - Epoch 7, Batch 1200, Loss: 3.6946
+2024-08-29 17:28:22,966 - INFO - Epoch 7, Batch 1300, Loss: 3.6759
+2024-08-29 17:29:30,256 - INFO - Epoch 7, Batch 1400, Loss: 3.7309
+2024-08-29 17:30:37,692 - INFO - Epoch 7, Batch 1500, Loss: 3.5729
+2024-08-29 17:31:45,866 - INFO - Epoch 7, Batch 1600, Loss: 3.7930
+2024-08-29 17:32:53,458 - INFO - Epoch 7, Batch 1700, Loss: 3.8213
+2024-08-29 17:33:10,641 - INFO - Epoch 7 completed. Average Loss: 3.8634
+2024-08-29 17:33:52,907 - INFO - Validation Loss: 3.6294
+2024-08-29 17:34:22,550 - INFO - Sample generated text:
+def main()::
+        """
+    """
+    if raise_name ==
+        if config(message)
+            return = None("x', #"., # in m}
+            print
+            for range[_name:
+                if f.append ==
+            if                                                            os.input_type(0, '2-right.1.0.9
+                                                                                                                                                                                                                                                                                       </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 17:34:23,167 - INFO - Epoch 8, Batch 0, Loss: 4.1468
+2024-08-29 17:35:32,721 - INFO - Epoch 8, Batch 100, Loss: 3.6408
+2024-08-29 17:36:42,082 - INFO - Epoch 8, Batch 200, Loss: 3.8111
+2024-08-29 17:37:51,590 - INFO - Epoch 8, Batch 300, Loss: 3.8644
+2024-08-29 17:38:59,234 - INFO - Epoch 8, Batch 400, Loss: 3.6820
+2024-08-29 17:40:05,417 - INFO - Epoch 8, Batch 500, Loss: 3.7778
+2024-08-29 17:41:11,579 - INFO - Epoch 8, Batch 600, Loss: 3.8718
+2024-08-29 17:42:19,545 - INFO - Epoch 8, Batch 700, Loss: 4.0791
+2024-08-29 17:43:42,714 - INFO - Epoch 8, Batch 800, Loss: 3.3584
+2024-08-29 17:45:13,793 - INFO - Epoch 8, Batch 900, Loss: 3.8014
+2024-08-29 17:46:48,043 - INFO - Epoch 8, Batch 1000, Loss: 3.8330
+2024-08-29 17:48:19,378 - INFO - Epoch 8, Batch 1100, Loss: 3.6341
+2024-08-29 17:49:56,135 - INFO - Epoch 8, Batch 1200, Loss: 3.6531
+2024-08-29 17:51:34,488 - INFO - Epoch 8, Batch 1300, Loss: 3.8618
+2024-08-29 17:53:13,600 - INFO - Epoch 8, Batch 1400, Loss: 3.4838
+2024-08-29 17:54:45,814 - INFO - Epoch 8, Batch 1500, Loss: 3.7161
+2024-08-29 17:56:15,164 - INFO - Epoch 8, Batch 1600, Loss: 3.8536
+2024-08-29 17:57:40,696 - INFO - Epoch 8, Batch 1700, Loss: 3.8327
+2024-08-29 17:58:02,622 - INFO - Epoch 8 completed. Average Loss: 3.7392
+2024-08-29 17:58:47,321 - INFO - Validation Loss: 3.5198
+2024-08-29 17:59:17,255 - INFO - Sample generated text:
+def main():(t, len_code=x, line_l, x_ Island)
+    if i:
+            return line(x, 1)
+            if x[(len, t, __, f, None):
+                if not str, self.___append(self, n, 0, 1kw0,
+                                                                                                                                                                                                                                                                                                                                                                                         </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 17:59:17,881 - INFO - Epoch 9, Batch 0, Loss: 3.7255
+2024-08-29 18:00:31,736 - INFO - Epoch 9, Batch 100, Loss: 3.5718
+2024-08-29 18:01:45,445 - INFO - Epoch 9, Batch 200, Loss: 3.6678
+2024-08-29 18:02:59,116 - INFO - Epoch 9, Batch 300, Loss: 3.8059
+2024-08-29 18:04:12,720 - INFO - Epoch 9, Batch 400, Loss: 3.8578
+2024-08-29 18:05:25,815 - INFO - Epoch 9, Batch 500, Loss: 3.7462
+2024-08-29 18:06:39,097 - INFO - Epoch 9, Batch 600, Loss: 3.7139
+2024-08-29 18:07:52,357 - INFO - Epoch 9, Batch 700, Loss: 3.7488
+2024-08-29 18:09:05,772 - INFO - Epoch 9, Batch 800, Loss: 3.5496
+2024-08-29 18:10:19,140 - INFO - Epoch 9, Batch 900, Loss: 3.7905
+2024-08-29 18:11:31,168 - INFO - Epoch 9, Batch 1000, Loss: 3.5893
+2024-08-29 18:12:43,587 - INFO - Epoch 9, Batch 1100, Loss: 3.5924
+2024-08-29 18:13:53,150 - INFO - Epoch 9, Batch 1200, Loss: 3.6651
+2024-08-29 18:15:03,513 - INFO - Epoch 9, Batch 1300, Loss: 3.3612
+2024-08-29 18:16:13,227 - INFO - Epoch 9, Batch 1400, Loss: 3.6948
+2024-08-29 18:17:24,699 - INFO - Epoch 9, Batch 1500, Loss: 3.8838
+2024-08-29 18:18:35,950 - INFO - Epoch 9, Batch 1600, Loss: 3.6939
+2024-08-29 18:19:44,376 - INFO - Epoch 9, Batch 1700, Loss: 3.5143
+2024-08-29 18:20:01,441 - INFO - Epoch 9 completed. Average Loss: 3.6404
+2024-08-29 18:20:42,462 - INFO - Validation Loss: 3.4343
+2024-08-29 18:21:12,357 - INFO - Sample generated text:
+def main():
+    pass
+    if not os.comp.get('ith', "dj')
+
+
+@py.set("as_client('i'
+    try = [
+        'name', '--'
+        'name': '''
+        {
+            'title': 'it',
+            'create': 'http',
+            'USER': 'v': 'A',
+            'length': 'data',
+            'S_app', '''':
+            'date': 't',
+            'description': 'Code', 'H',
+            'date': 'pro': 'type',
+            'bool': 'open': p.3',
+            's': 't': '8',
+            '''': ':
+            '.id'
+
+        if {': 'id': 'files': 'f', 'pl': 'styles': '1',
+            'header': 'date': 'in',
+            'name': 'g_database',
+            'DIR':
+            'post': ''': #
+            '''': '2t_bus':
+            'ids': 'n',
+                'type': 'ex',
+       </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 18:21:12,972 - INFO - Epoch 10, Batch 0, Loss: 3.6914
+2024-08-29 18:22:21,219 - INFO - Epoch 10, Batch 100, Loss: 3.5097
+2024-08-29 18:23:28,860 - INFO - Epoch 10, Batch 200, Loss: 3.4452
+2024-08-29 18:24:36,455 - INFO - Epoch 10, Batch 300, Loss: 3.6139
+2024-08-29 18:25:44,134 - INFO - Epoch 10, Batch 400, Loss: 3.3309
+2024-08-29 18:26:51,663 - INFO - Epoch 10, Batch 500, Loss: 3.6598
+2024-08-29 18:27:59,167 - INFO - Epoch 10, Batch 600, Loss: 3.8744
+2024-08-29 18:29:06,683 - INFO - Epoch 10, Batch 700, Loss: 3.5666
+2024-08-29 18:30:14,266 - INFO - Epoch 10, Batch 800, Loss: 3.5210
+2024-08-29 18:31:21,780 - INFO - Epoch 10, Batch 900, Loss: 3.3627
+2024-08-29 18:32:29,299 - INFO - Epoch 10, Batch 1000, Loss: 3.7330
+2024-08-29 18:33:36,759 - INFO - Epoch 10, Batch 1100, Loss: 3.5199
+2024-08-29 18:34:44,261 - INFO - Epoch 10, Batch 1200, Loss: 3.9048
+2024-08-29 18:35:51,737 - INFO - Epoch 10, Batch 1300, Loss: 3.6225
+2024-08-29 18:36:59,216 - INFO - Epoch 10, Batch 1400, Loss: 4.1210
+2024-08-29 18:38:06,698 - INFO - Epoch 10, Batch 1500, Loss: 3.5436
+2024-08-29 18:39:14,197 - INFO - Epoch 10, Batch 1600, Loss: 3.6159
+2024-08-29 18:40:21,656 - INFO - Epoch 10, Batch 1700, Loss: 3.4607
+2024-08-29 18:40:38,680 - INFO - Epoch 10 completed. Average Loss: 3.5584
+2024-08-29 18:41:18,728 - INFO - Validation Loss: 3.3630
+2024-08-29 18:41:47,441 - INFO - Sample generated text:
+def main(): = None
+    Client = 2.rand()
+    return m(-[1]
+    print = []
+    for i in range(name):
+        if "%, '--" type:
+            return len(i)
+
+
+if split:
+    return sys.get + None
+    ret = s.split()
+    return subN.append(t)
+    for in range, c:
+        return pfile.get(
+            2=1, 1.0.0, "],
+                return
+                    "2',
+                   
+                                "account":
+                        "count":
+                        "n": "id":
+                        "2":
+                        "title": "["", "float.0", "j":
+                            "test": "o", "2/id",
+                        "global": "8":
+                    (""": "p":
+        </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 18:41:48,029 - INFO - Epoch 11, Batch 0, Loss: 3.3391
+2024-08-29 18:42:55,575 - INFO - Epoch 11, Batch 100, Loss: 3.4507
+2024-08-29 18:44:03,089 - INFO - Epoch 11, Batch 200, Loss: 3.6032
+2024-08-29 18:45:10,638 - INFO - Epoch 11, Batch 300, Loss: 3.4312
+2024-08-29 18:46:18,199 - INFO - Epoch 11, Batch 400, Loss: 3.4518
+2024-08-29 18:47:25,691 - INFO - Epoch 11, Batch 500, Loss: 3.5978
+2024-08-29 18:48:33,326 - INFO - Epoch 11, Batch 600, Loss: 3.2964
+2024-08-29 18:49:40,857 - INFO - Epoch 11, Batch 700, Loss: 3.7983
+2024-08-29 18:50:48,475 - INFO - Epoch 11, Batch 800, Loss: 3.2550
+2024-08-29 18:51:56,013 - INFO - Epoch 11, Batch 900, Loss: 3.5403
+2024-08-29 18:53:03,535 - INFO - Epoch 11, Batch 1000, Loss: 3.2428
+2024-08-29 18:54:11,060 - INFO - Epoch 11, Batch 1100, Loss: 3.3260
+2024-08-29 18:55:18,642 - INFO - Epoch 11, Batch 1200, Loss: 3.6671
+2024-08-29 18:56:26,148 - INFO - Epoch 11, Batch 1300, Loss: 3.5439
+2024-08-29 18:57:33,626 - INFO - Epoch 11, Batch 1400, Loss: 3.5983
+2024-08-29 18:58:41,065 - INFO - Epoch 11, Batch 1500, Loss: 3.4014
+2024-08-29 18:59:48,626 - INFO - Epoch 11, Batch 1600, Loss: 3.3531
+2024-08-29 19:00:56,163 - INFO - Epoch 11, Batch 1700, Loss: 3.4607
+2024-08-29 19:01:13,190 - INFO - Epoch 11 completed. Average Loss: 3.4892
+2024-08-29 19:01:53,215 - INFO - Validation Loss: 3.3010
+2024-08-29 19:02:21,959 - INFO - Sample generated text:
+def main():
+    assert False
+
+    def __init__(self, request):
+        self.session = get_list = True
+        self.ext_connection = None
+        self.data = None
+        self.obj = self.items_start_name
+
+    def __log__(self, *args, returnkwargs):
+        self.content = event.get()
+        self.h_equal = self.read.get(cl_data)
+
+        self.assertE_res(self.args_password, 'id')
+
+    def _call_status(self, self, item):
+        return self.assertname_id
+
+        self.assertEqu_step_team(self.data)
+        return self.get_url
+        self.name = None
+        self.args(self.request_map)
+        self.os_root = self.s_id
+        self.assertEqual(self.path.getname(self.entity)
+
+    def test_l_video(self):
+        self.assertregister(self.get_url(self.user)
+
+    def tear(self, title):
+        return self._user(self.parent, self.__name))
+
+    def __find__(self, name, **kwargs):
+        self.switch = self.get_info
+
+    def add_valid_stock(self, *, None, hidden_length=None):
+        self.__filename = 'dist_api_first'
+        self.log_connect = self.assert_column_cmd(self.s.</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 19:02:22,540 - INFO - Epoch 12, Batch 0, Loss: 3.5500
+2024-08-29 19:03:30,135 - INFO - Epoch 12, Batch 100, Loss: 3.5231
+2024-08-29 19:04:37,564 - INFO - Epoch 12, Batch 200, Loss: 3.2893
+2024-08-29 19:05:45,172 - INFO - Epoch 12, Batch 300, Loss: 3.3801
+2024-08-29 19:06:52,793 - INFO - Epoch 12, Batch 400, Loss: 3.5888
+2024-08-29 19:08:00,348 - INFO - Epoch 12, Batch 500, Loss: 3.6641
+2024-08-29 19:09:07,937 - INFO - Epoch 12, Batch 600, Loss: 3.4917
+2024-08-29 19:10:15,485 - INFO - Epoch 12, Batch 700, Loss: 3.6472
+2024-08-29 19:11:23,074 - INFO - Epoch 12, Batch 800, Loss: 3.5990
+2024-08-29 19:12:30,607 - INFO - Epoch 12, Batch 900, Loss: 3.3430
+2024-08-29 19:13:38,120 - INFO - Epoch 12, Batch 1000, Loss: 3.3705
+2024-08-29 19:14:45,692 - INFO - Epoch 12, Batch 1100, Loss: 3.5166
+2024-08-29 19:15:53,261 - INFO - Epoch 12, Batch 1200, Loss: 3.5202
+2024-08-29 19:17:00,817 - INFO - Epoch 12, Batch 1300, Loss: 3.1898
+2024-08-29 19:18:08,374 - INFO - Epoch 12, Batch 1400, Loss: 3.2760
+2024-08-29 19:19:15,928 - INFO - Epoch 12, Batch 1500, Loss: 3.5257
+2024-08-29 19:20:23,412 - INFO - Epoch 12, Batch 1600, Loss: 3.6820
+2024-08-29 19:21:30,953 - INFO - Epoch 12, Batch 1700, Loss: 3.5085
+2024-08-29 19:21:48,017 - INFO - Epoch 12 completed. Average Loss: 3.4291
+2024-08-29 19:22:28,064 - INFO - Validation Loss: 3.2475
+2024-08-29 19:22:56,843 - INFO - Sample generated text:
+def main():_objects:
+    return None
+
+
+class setup(object):
+    def __init__(self, *_msg, dests):
+        self.assertEqual(&.session, self.args
+        self.assertE(self.name)
+        self.on.connect(self, l)
+        self.assertqual(self.0, 1.0, 0)
+        self._size = pypro.connect
+
+        self.method = 0
+        self.h = np.ui(x)
+        self.r_info = {}
+        self.assertEqual(self.driver)
+        self.mask = self.y2.self.y3.start(self.sign, 0_2)
+        self.dom = ''
+
+    def __init__(self):
+        self.tE = self.set
+
+        self.run = (
+            '1.0',
+            'order',
+            '2',
+            '9',
+            public=0,
+            3_id=0,
+            n_c=1,
+            data=None,
+            "type": 255,
+            self.size,
+           ["_type=0,
+            self.size=0,
+    </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 19:22:57,423 - INFO - Epoch 13, Batch 0, Loss: 3.0886
+2024-08-29 19:24:05,048 - INFO - Epoch 13, Batch 100, Loss: 3.4943
+2024-08-29 19:25:12,559 - INFO - Epoch 13, Batch 200, Loss: 3.5046
+2024-08-29 19:26:20,146 - INFO - Epoch 13, Batch 300, Loss: 3.1374
+2024-08-29 19:27:27,765 - INFO - Epoch 13, Batch 400, Loss: 3.5978
+2024-08-29 19:28:35,406 - INFO - Epoch 13, Batch 500, Loss: 3.2179
+2024-08-29 19:29:43,069 - INFO - Epoch 13, Batch 600, Loss: 3.0938
+2024-08-29 19:30:50,684 - INFO - Epoch 13, Batch 700, Loss: 3.3883
+2024-08-29 19:31:58,408 - INFO - Epoch 13, Batch 800, Loss: 3.6987
+2024-08-29 19:33:06,682 - INFO - Epoch 13, Batch 900, Loss: 3.1636
+2024-08-29 19:34:14,726 - INFO - Epoch 13, Batch 1000, Loss: 3.2239
+2024-08-29 19:35:26,284 - INFO - Epoch 13, Batch 1100, Loss: 3.5584
+2024-08-29 19:36:35,280 - INFO - Epoch 13, Batch 1200, Loss: 3.5478
+2024-08-29 19:37:45,124 - INFO - Epoch 13, Batch 1300, Loss: 3.3615
+2024-08-29 19:38:54,500 - INFO - Epoch 13, Batch 1400, Loss: 3.2039
+2024-08-29 19:40:03,740 - INFO - Epoch 13, Batch 1500, Loss: 3.1806
+2024-08-29 19:41:12,902 - INFO - Epoch 13, Batch 1600, Loss: 3.0683
+2024-08-29 19:42:20,521 - INFO - Epoch 13, Batch 1700, Loss: 3.5364
+2024-08-29 19:42:37,596 - INFO - Epoch 13 completed. Average Loss: 3.3761
+2024-08-29 19:43:17,535 - INFO - Validation Loss: 3.2026
+2024-08-29 19:43:46,204 - INFO - Sample generated text:
+def main():=1):
+    return conn(t)
+    return (1, y)
+    else:
+        return mprint
+
+def get_t_center(m, args):
+    return True
+
+def compare_list_list(ur_name):
+    return (x)
+    assert True(d.t[':,d']])
+
+def __(name, b, x, data, y, pk=None, cp=False):
+    p.add_f()
+    col = pyetime.array(1, 0),
+                                                                                                                                                                                                                                                                                                                                                </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 19:43:46,786 - INFO - Epoch 14, Batch 0, Loss: 3.4799
+2024-08-29 19:44:54,431 - INFO - Epoch 14, Batch 100, Loss: 3.4059
+2024-08-29 19:46:01,902 - INFO - Epoch 14, Batch 200, Loss: 3.5213
+2024-08-29 19:47:09,384 - INFO - Epoch 14, Batch 300, Loss: 3.1899
+2024-08-29 19:48:16,925 - INFO - Epoch 14, Batch 400, Loss: 3.3849
+2024-08-29 19:49:24,480 - INFO - Epoch 14, Batch 500, Loss: 3.0571
+2024-08-29 19:50:32,009 - INFO - Epoch 14, Batch 600, Loss: 3.4861
+2024-08-29 19:51:39,532 - INFO - Epoch 14, Batch 700, Loss: 3.2765
+2024-08-29 19:52:47,056 - INFO - Epoch 14, Batch 800, Loss: 3.4192
+2024-08-29 19:53:54,756 - INFO - Epoch 14, Batch 900, Loss: 3.1258
+2024-08-29 19:55:02,240 - INFO - Epoch 14, Batch 1000, Loss: 2.8068
+2024-08-29 19:56:09,683 - INFO - Epoch 14, Batch 1100, Loss: 3.1309
+2024-08-29 19:57:17,206 - INFO - Epoch 14, Batch 1200, Loss: 3.3262
+2024-08-29 19:58:24,631 - INFO - Epoch 14, Batch 1300, Loss: 3.5633
+2024-08-29 19:59:32,142 - INFO - Epoch 14, Batch 1400, Loss: 3.2360
+2024-08-29 20:00:39,688 - INFO - Epoch 14, Batch 1500, Loss: 3.0273
+2024-08-29 20:01:47,258 - INFO - Epoch 14, Batch 1600, Loss: 3.0271
+2024-08-29 20:02:54,784 - INFO - Epoch 14, Batch 1700, Loss: 3.0450
+2024-08-29 20:03:11,803 - INFO - Epoch 14 completed. Average Loss: 3.3297
+2024-08-29 20:03:51,739 - INFO - Validation Loss: 3.1588
+2024-08-29 20:04:20,638 - INFO - Sample generated text:
+def main():_url:
+        if isinstance(client:
+            return
+        if not None:
+            raiseif iter(r, 'status'))
+    if len(str(128.status):
+            if len(obj) == 0
+                s[i] = 1
+            else:
+                line = u[0]
+                if line: 1:
+                    list = []
+                    result.append(string)
+            else:
+                raise Value("iab')
+            else:
+                return line
+        elif 'right': '%'
+        else:
+            return line
+    else:
+            return numbers
+    for data in line:
+            assert len(c)
+        if list: %
+            self.exit = False
+        else:
+            raise ValueError
+        except Value:
+            return False
+    elif (sys) == 2:
+           </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 20:04:21,218 - INFO - Epoch 15, Batch 0, Loss: 3.2570
+2024-08-29 20:05:28,836 - INFO - Epoch 15, Batch 100, Loss: 3.3440
+2024-08-29 20:06:36,344 - INFO - Epoch 15, Batch 200, Loss: 3.1114
+2024-08-29 20:07:43,822 - INFO - Epoch 15, Batch 300, Loss: 3.2506
+2024-08-29 20:08:51,370 - INFO - Epoch 15, Batch 400, Loss: 3.0276
+2024-08-29 20:09:58,792 - INFO - Epoch 15, Batch 500, Loss: 3.3707
+2024-08-29 20:11:06,263 - INFO - Epoch 15, Batch 600, Loss: 3.3920
+2024-08-29 20:12:13,744 - INFO - Epoch 15, Batch 700, Loss: 3.4709
+2024-08-29 20:13:21,302 - INFO - Epoch 15, Batch 800, Loss: 3.2773
+2024-08-29 20:14:28,764 - INFO - Epoch 15, Batch 900, Loss: 3.5592
+2024-08-29 20:15:36,241 - INFO - Epoch 15, Batch 1000, Loss: 3.2846
+2024-08-29 20:16:43,659 - INFO - Epoch 15, Batch 1100, Loss: 3.3525
+2024-08-29 20:17:51,091 - INFO - Epoch 15, Batch 1200, Loss: 3.0770
+2024-08-29 20:18:58,568 - INFO - Epoch 15, Batch 1300, Loss: 3.4282
+2024-08-29 20:20:05,996 - INFO - Epoch 15, Batch 1400, Loss: 3.1867
+2024-08-29 20:21:13,437 - INFO - Epoch 15, Batch 1500, Loss: 3.2657
+2024-08-29 20:22:20,929 - INFO - Epoch 15, Batch 1600, Loss: 3.2422
+2024-08-29 20:23:28,397 - INFO - Epoch 15, Batch 1700, Loss: 3.2384
+2024-08-29 20:23:45,417 - INFO - Epoch 15 completed. Average Loss: 3.2877
+2024-08-29 20:24:25,317 - INFO - Validation Loss: 3.1231
+2024-08-29 20:24:53,973 - INFO - Sample generated text:
+def main():(str):
+    return sum(up)
+
+def get_valid(err, n):
+    return '%':
+    return len(name, len, 'x) + (
+        '',
+        'p'
+        'n'
+            '-n-3',
+       
+    'container')
+    return (
+        't/',
+        'title',
+        'spawn_name',
+        'b',
+        '''
+        'download',
+        '''
+        'test'
+        '
+        '2',
+        '--d',
+        'name='n',
+        'test',
+        'margin_1,
+        '1',
+        'type',
+        'x',
+        'cat',
+        'input',
+        'd',
+        'data',
+        '*',
+        'p',
+        'tmod',
+        'to_NULL',
+        'n',
+        'con',
+        'c',
+        'lproc',
+        'n',
+        'size',
+        '</s>',
+    </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 20:24:54,551 - INFO - Epoch 16, Batch 0, Loss: 3.2261
+2024-08-29 20:26:02,114 - INFO - Epoch 16, Batch 100, Loss: 3.2259
+2024-08-29 20:27:09,535 - INFO - Epoch 16, Batch 200, Loss: 3.3703
+2024-08-29 20:28:16,980 - INFO - Epoch 16, Batch 300, Loss: 3.5603
+2024-08-29 20:29:24,480 - INFO - Epoch 16, Batch 400, Loss: 3.1703
+2024-08-29 20:30:31,901 - INFO - Epoch 16, Batch 500, Loss: 3.0483
+2024-08-29 20:31:39,270 - INFO - Epoch 16, Batch 600, Loss: 2.9458
+2024-08-29 20:32:46,656 - INFO - Epoch 16, Batch 700, Loss: 3.1260
+2024-08-29 20:33:54,125 - INFO - Epoch 16, Batch 800, Loss: 3.3993
+2024-08-29 20:35:01,483 - INFO - Epoch 16, Batch 900, Loss: 2.7758
+2024-08-29 20:36:08,804 - INFO - Epoch 16, Batch 1000, Loss: 3.1403
+2024-08-29 20:37:16,155 - INFO - Epoch 16, Batch 1100, Loss: 3.3567
+2024-08-29 20:38:23,565 - INFO - Epoch 16, Batch 1200, Loss: 3.3506
+2024-08-29 20:39:30,919 - INFO - Epoch 16, Batch 1300, Loss: 3.1296
+2024-08-29 20:40:38,298 - INFO - Epoch 16, Batch 1400, Loss: 3.1841
+2024-08-29 20:41:45,691 - INFO - Epoch 16, Batch 1500, Loss: 3.1670
+2024-08-29 20:42:53,075 - INFO - Epoch 16, Batch 1600, Loss: 3.3267
+2024-08-29 20:44:00,531 - INFO - Epoch 16, Batch 1700, Loss: 3.1548
+2024-08-29 20:44:17,526 - INFO - Epoch 16 completed. Average Loss: 3.2500
+2024-08-29 20:44:57,400 - INFO - Validation Loss: 3.0879
+2024-08-29 20:45:26,244 - INFO - Sample generated text:
+def main():(width, 1):
+		data = spfromy[1]
+		return = 0
+	print
+		if i == os.argv[0]
+			if len == 0:
+					print "\\x"
+							f += 1
+																											  										#																	  																											# 																										#	print
+																											"</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 20:45:26,826 - INFO - Epoch 17, Batch 0, Loss: 3.0310
+2024-08-29 20:46:34,266 - INFO - Epoch 17, Batch 100, Loss: 3.2051
+2024-08-29 20:47:41,600 - INFO - Epoch 17, Batch 200, Loss: 3.0308
+2024-08-29 20:48:48,955 - INFO - Epoch 17, Batch 300, Loss: 3.1632
+2024-08-29 20:49:56,457 - INFO - Epoch 17, Batch 400, Loss: 3.3357
+2024-08-29 20:51:03,892 - INFO - Epoch 17, Batch 500, Loss: 2.9023
+2024-08-29 20:52:11,291 - INFO - Epoch 17, Batch 600, Loss: 3.2736
+2024-08-29 20:53:18,639 - INFO - Epoch 17, Batch 700, Loss: 2.9807
+2024-08-29 20:54:26,017 - INFO - Epoch 17, Batch 800, Loss: 3.2128
+2024-08-29 20:55:33,415 - INFO - Epoch 17, Batch 900, Loss: 3.3140
+2024-08-29 20:56:40,896 - INFO - Epoch 17, Batch 1000, Loss: 2.7858
+2024-08-29 20:57:48,283 - INFO - Epoch 17, Batch 1100, Loss: 3.6512
+2024-08-29 20:58:55,775 - INFO - Epoch 17, Batch 1200, Loss: 3.3342
+2024-08-29 21:00:03,134 - INFO - Epoch 17, Batch 1300, Loss: 3.1592
+2024-08-29 21:01:10,551 - INFO - Epoch 17, Batch 1400, Loss: 2.9911
+2024-08-29 21:02:18,103 - INFO - Epoch 17, Batch 1500, Loss: 3.2492
+2024-08-29 21:03:25,613 - INFO - Epoch 17, Batch 1600, Loss: 3.2355
+2024-08-29 21:04:33,064 - INFO - Epoch 17, Batch 1700, Loss: 3.1495
+2024-08-29 21:04:50,066 - INFO - Epoch 17 completed. Average Loss: 3.2151
+2024-08-29 21:05:29,968 - INFO - Validation Loss: 3.0570
+2024-08-29 21:05:58,629 - INFO - Sample generated text:
+def main():()
+	return row(output)
+		if not type:
+			print
+		if "\ == 1 ==
+				if " <": 1:
+						[i] = 1
+				else:
+						if "==": 1
+							return "line and the a continue is the e of the line in remove:
+					else:
+												if 0.exit(data)
+								print[k]
+																			if "v",
+																											##																											## 																											## (c)													 														</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 21:05:59,208 - INFO - Epoch 18, Batch 0, Loss: 3.4560
+2024-08-29 21:07:06,768 - INFO - Epoch 18, Batch 100, Loss: 3.1438
+2024-08-29 21:08:14,592 - INFO - Epoch 18, Batch 200, Loss: 3.2461
+2024-08-29 21:09:22,628 - INFO - Epoch 18, Batch 300, Loss: 3.2046
+2024-08-29 21:10:31,055 - INFO - Epoch 18, Batch 400, Loss: 2.9972
+2024-08-29 21:11:38,792 - INFO - Epoch 18, Batch 500, Loss: 2.8841
+2024-08-29 21:12:46,265 - INFO - Epoch 18, Batch 600, Loss: 3.0401
+2024-08-29 21:13:53,723 - INFO - Epoch 18, Batch 700, Loss: 3.2340
+2024-08-29 21:15:01,174 - INFO - Epoch 18, Batch 800, Loss: 3.2501
+2024-08-29 21:16:08,603 - INFO - Epoch 18, Batch 900, Loss: 3.0926
+2024-08-29 21:17:15,976 - INFO - Epoch 18, Batch 1000, Loss: 3.2871
+2024-08-29 21:18:23,630 - INFO - Epoch 18, Batch 1100, Loss: 3.0490
+2024-08-29 21:19:31,235 - INFO - Epoch 18, Batch 1200, Loss: 3.3339
+2024-08-29 21:20:38,675 - INFO - Epoch 18, Batch 1300, Loss: 3.0140
+2024-08-29 21:21:46,164 - INFO - Epoch 18, Batch 1400, Loss: 3.0087
+2024-08-29 21:22:53,502 - INFO - Epoch 18, Batch 1500, Loss: 3.0638
+2024-08-29 21:24:00,973 - INFO - Epoch 18, Batch 1600, Loss: 3.3714
+2024-08-29 21:25:08,350 - INFO - Epoch 18, Batch 1700, Loss: 3.1572
+2024-08-29 21:25:25,345 - INFO - Epoch 18 completed. Average Loss: 3.1829
+2024-08-29 21:26:05,196 - INFO - Validation Loss: 3.0281
+2024-08-29 21:26:33,886 - INFO - Sample generated text:
+def main():(f):
+	for i in range(len(i) == (1): text)
+	return i in 1
+	return i[0]
+	return counts[n]
+	w[0]
+	print i in i(1):
+		for i in range(array,ta, 0):
+			if open(0, 3)
+			#
+		result = y.y[0]
+
+			if not in range(jn:
+				b = l[0]
+					
+			elif line in range(i, '1'):
+					else(n)
+			#
+			print(x,1)
+					#T = 1
+					data = c[:,0,0]
+					if len(1) > len(path) == (2[0] <1[1]]:
+					print (2)
+					print("string
+					output(5)
+				if i == 0:
+												if i[1].split_index(0):
+								for i in range(x,i) - 0):
+					print("\1:n".+(2)
+				if r" + 0:
+						if c ".:
+					return
+						if x in 'a',
+										lumpy = 1
+													else:
+								start += 1
+								print(a(1)
+							if i == 1:
+								print len(1)
+			for i in range(len(0, len):
+																	</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 21:26:34,461 - INFO - Epoch 19, Batch 0, Loss: 2.9455
+2024-08-29 21:27:41,895 - INFO - Epoch 19, Batch 100, Loss: 3.2834
+2024-08-29 21:28:49,175 - INFO - Epoch 19, Batch 200, Loss: 3.3312
+2024-08-29 21:29:56,612 - INFO - Epoch 19, Batch 300, Loss: 2.9673
+2024-08-29 21:31:03,993 - INFO - Epoch 19, Batch 400, Loss: 3.0776
+2024-08-29 21:32:11,427 - INFO - Epoch 19, Batch 500, Loss: 2.9133
+2024-08-29 21:33:18,883 - INFO - Epoch 19, Batch 600, Loss: 3.1558
+2024-08-29 21:34:26,557 - INFO - Epoch 19, Batch 700, Loss: 3.3340
+2024-08-29 21:35:43,306 - INFO - Epoch 19, Batch 800, Loss: 2.8919
+2024-08-29 21:37:06,349 - INFO - Epoch 19, Batch 900, Loss: 3.1396
+2024-08-29 21:38:30,716 - INFO - Epoch 19, Batch 1000, Loss: 3.1416
+2024-08-29 21:39:58,070 - INFO - Epoch 19, Batch 1100, Loss: 3.2341
+2024-08-29 21:41:23,823 - INFO - Epoch 19, Batch 1200, Loss: 3.0004
+2024-08-29 21:42:54,161 - INFO - Epoch 19, Batch 1300, Loss: 3.2532
+2024-08-29 21:44:26,768 - INFO - Epoch 19, Batch 1400, Loss: 3.2041
+2024-08-29 21:46:00,420 - INFO - Epoch 19, Batch 1500, Loss: 3.1709
+2024-08-29 21:47:35,756 - INFO - Epoch 19, Batch 1600, Loss: 3.1668
+2024-08-29 21:49:10,581 - INFO - Epoch 19, Batch 1700, Loss: 3.0868
+2024-08-29 21:49:34,290 - INFO - Epoch 19 completed. Average Loss: 3.1537
+2024-08-29 21:50:36,695 - INFO - Validation Loss: 3.0019
+2024-08-29 21:51:12,402 - INFO - Sample generated text:
+def main():(str.get_dict):
+		return("n.html", module.lower()
+	
+	#
+	def __reinit__(self, host):
+		self.stop = self.socket.get_len(self.name)
+		self.assert_check()
+		self.get_set()
+
+	def create_bor(self, user):
+		self.in = self.session.get_by_type(self_key)
+		self.ed = current_filter(self.user_in_id)
+		self.last = self.api.extra.get_create_name(request.content)
+		self.service = self.get_url_json(user)
+		self.image = models.post.get_user(db.id)
+		self.category = self.get_attribute_get('user')
+		self.user = event.get_create_by()
+		self.user = app.user.get_url_if(self.p)
+
+		self.session.dayers(self.headers.get('j.ne')
+		self.exDATA.update(self.get_user)
+
+
+def test_json_group(self):
+	return r.get_tables(self.name)
+
+
+def get_should_app(request):
+		if "username": width_id:
+			print "{%p.format" % (key, id)
+
+		class(self.method_form, self.response.get_meta, self.end, **kwargs)
+		self.contasks_id = self.config.get_user(self.request_name)
+		self.user = self.db.get_count
+		if self.links.is_token == self.get_user('url')
+		self.request = self.user.get_model_group()
+		return self.request.user.objects.get_id()
+		self.assertend(self.name, self.l1,
+		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 21:51:13,245 - INFO - Epoch 20, Batch 0, Loss: 3.1175
+2024-08-29 21:52:49,850 - INFO - Epoch 20, Batch 100, Loss: 3.1442
+2024-08-29 21:54:20,851 - INFO - Epoch 20, Batch 200, Loss: 3.1789
+2024-08-29 21:55:50,810 - INFO - Epoch 20, Batch 300, Loss: 3.1380
+2024-08-29 21:57:20,126 - INFO - Epoch 20, Batch 400, Loss: 3.0477
+2024-08-29 21:58:46,401 - INFO - Epoch 20, Batch 500, Loss: 3.3089
+2024-08-29 22:00:06,424 - INFO - Epoch 20, Batch 600, Loss: 3.3666
+2024-08-29 22:01:33,534 - INFO - Epoch 20, Batch 700, Loss: 3.1406
+2024-08-29 22:03:04,245 - INFO - Epoch 20, Batch 800, Loss: 2.9875
+2024-08-29 22:04:41,069 - INFO - Epoch 20, Batch 900, Loss: 3.0244
+2024-08-29 22:06:16,873 - INFO - Epoch 20, Batch 1000, Loss: 2.9892
+2024-08-29 22:07:54,143 - INFO - Epoch 20, Batch 1100, Loss: 3.0492
+2024-08-29 22:09:29,829 - INFO - Epoch 20, Batch 1200, Loss: 3.2785
+2024-08-29 22:11:08,767 - INFO - Epoch 20, Batch 1300, Loss: 3.1268
+2024-08-29 22:12:47,535 - INFO - Epoch 20, Batch 1400, Loss: 3.3436
+2024-08-29 22:14:25,398 - INFO - Epoch 20, Batch 1500, Loss: 3.1334
+2024-08-29 22:16:04,489 - INFO - Epoch 20, Batch 1600, Loss: 3.4761
+2024-08-29 22:17:43,963 - INFO - Epoch 20, Batch 1700, Loss: 3.0569
+2024-08-29 22:18:09,407 - INFO - Epoch 20 completed. Average Loss: 3.1266
+2024-08-29 22:19:07,486 - INFO - Validation Loss: 2.9795
+2024-08-29 22:19:39,330 - INFO - Sample generated text:
+def main():_values:
+	return str:
+		if "%":
+		f = list(x)
+	while i:
+			if i == 1:
+					if len(Render[1[0] ==1:
+							return "[b]
+				else:
+					else:
+							if (a[i]!= 0.0:
+					return ":
+						el[a N]
+																		
+																											
+																											##                                                                                                                  	                            </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 22:19:40,047 - INFO - Epoch 21, Batch 0, Loss: 2.9280
+2024-08-29 22:21:04,986 - INFO - Epoch 21, Batch 100, Loss: 3.1432
+2024-08-29 22:22:43,675 - INFO - Epoch 21, Batch 200, Loss: 3.2584
+2024-08-29 22:24:18,421 - INFO - Epoch 21, Batch 300, Loss: 3.3015
+2024-08-29 22:25:51,768 - INFO - Epoch 21, Batch 400, Loss: 3.2319
+2024-08-29 22:27:16,081 - INFO - Epoch 21, Batch 500, Loss: 3.1581
+2024-08-29 22:28:53,812 - INFO - Epoch 21, Batch 600, Loss: 3.1953
+2024-08-29 22:30:33,729 - INFO - Epoch 21, Batch 700, Loss: 3.1131
+2024-08-29 22:32:01,227 - INFO - Epoch 21, Batch 800, Loss: 3.3015
+2024-08-29 22:33:36,082 - INFO - Epoch 21, Batch 900, Loss: 2.9696
+2024-08-29 22:35:14,710 - INFO - Epoch 21, Batch 1000, Loss: 3.3415
+2024-08-29 22:36:53,441 - INFO - Epoch 21, Batch 1100, Loss: 3.1634
+2024-08-29 22:38:26,950 - INFO - Epoch 21, Batch 1200, Loss: 3.1808
+2024-08-29 22:40:04,253 - INFO - Epoch 21, Batch 1300, Loss: 3.0851
+2024-08-29 22:41:41,135 - INFO - Epoch 21, Batch 1400, Loss: 2.9973
+2024-08-29 22:43:10,923 - INFO - Epoch 21, Batch 1500, Loss: 3.1961
+2024-08-29 22:44:41,175 - INFO - Epoch 21, Batch 1600, Loss: 2.9240
+2024-08-29 22:46:10,751 - INFO - Epoch 21, Batch 1700, Loss: 3.0022
+2024-08-29 22:46:33,559 - INFO - Epoch 21 completed. Average Loss: 3.1008
+2024-08-29 22:47:29,948 - INFO - Validation Loss: 2.9581
+2024-08-29 22:48:04,239 - INFO - Sample generated text:
+def main():(args, '1', 'g', 'igma', 'str', 'radio', 's': 'td', 'r', 'CD', 'f', '2', '0', '2', 'dc',
+                       ' 'id', 'c', 'b', 'N', '9', '2', '2, 'R', 'n', '4', 'k', 'T', 'O', 'R', '', '8', '--n', 'a', 'diff', 't', 'f', 'p', 'f', '1', 'g', '3', '-', 'H', '0', 'B', 'b', '8', 'b', '2', 'f', 'y', '-', '--4', 'Co', '-2', '*', '10', 'j', 'f', '1', '', 'f', 'c', 'e', 'f', '4', 'b', 'txt', '1', '2', '2', '', '2', 'd', 'csv', 'src', '', '', 'x', '1', ' '', 'H', '', 'pl', '8', 'w', 'd', 'image', '2', '--', 'D', 'range', 'css', 'Y', 'sub', '1-2', '', '', '', 'g', '--', '--', '-8', '_verb-d', '---op', 'python', 't', 'r', '2', '3', 'status', '', '', '--', '1', '3', '-',
+                         'int', '--', '2', '2', 'GLE', '2', 'sy', 'O', 'M', 'utf', 'G', 't', 'get', '-', 'utf', '-')
+
+def test_info(x, s_ep):
+    """
+
+           </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 22:48:05,047 - INFO - Epoch 22, Batch 0, Loss: 3.1851
+2024-08-29 22:49:37,372 - INFO - Epoch 22, Batch 100, Loss: 3.2428
+2024-08-29 22:51:07,632 - INFO - Epoch 22, Batch 200, Loss: 3.0912
+2024-08-29 22:52:36,005 - INFO - Epoch 22, Batch 300, Loss: 2.9873
+2024-08-29 22:54:02,681 - INFO - Epoch 22, Batch 400, Loss: 3.3131
+2024-08-29 22:55:26,237 - INFO - Epoch 22, Batch 500, Loss: 2.9626
+2024-08-29 22:56:46,892 - INFO - Epoch 22, Batch 600, Loss: 3.0697
+2024-08-29 22:58:08,407 - INFO - Epoch 22, Batch 700, Loss: 3.2295
+2024-08-29 22:59:28,614 - INFO - Epoch 22, Batch 800, Loss: 2.9499
+2024-08-29 23:00:54,211 - INFO - Epoch 22, Batch 900, Loss: 3.1277
+2024-08-29 23:02:19,314 - INFO - Epoch 22, Batch 1000, Loss: 3.1258
+2024-08-29 23:03:47,272 - INFO - Epoch 22, Batch 1100, Loss: 3.0829
+2024-08-29 23:05:23,309 - INFO - Epoch 22, Batch 1200, Loss: 3.2328
+2024-08-29 23:06:50,413 - INFO - Epoch 22, Batch 1300, Loss: 3.0622
+2024-08-29 23:08:11,896 - INFO - Epoch 22, Batch 1400, Loss: 3.1383
+2024-08-29 23:09:34,610 - INFO - Epoch 22, Batch 1500, Loss: 2.6579
+2024-08-29 23:11:02,667 - INFO - Epoch 22, Batch 1600, Loss: 2.9793
+2024-08-29 23:12:30,975 - INFO - Epoch 22, Batch 1700, Loss: 3.2695
+2024-08-29 23:12:53,225 - INFO - Epoch 22 completed. Average Loss: 3.0786
+2024-08-29 23:13:48,231 - INFO - Validation Loss: 2.9382
+2024-08-29 23:14:22,271 - INFO - Sample generated text:
+def main():s:
+	return '''
+	# <setux</+:%+td> :
+			\=l)
+			return True
+		if raw == 0:
+					if m == 1:
+					if i == 0:
+								else += 2, "n": 1
+										n += 1
+																		#									#                                                                                                															##                                                                    #          	                      </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 23:14:23,080 - INFO - Epoch 23, Batch 0, Loss: 3.0906
+2024-08-29 23:15:51,404 - INFO - Epoch 23, Batch 100, Loss: 3.0283
+2024-08-29 23:17:21,809 - INFO - Epoch 23, Batch 200, Loss: 2.9553
+2024-08-29 23:18:54,644 - INFO - Epoch 23, Batch 300, Loss: 2.8494
+2024-08-29 23:20:27,279 - INFO - Epoch 23, Batch 400, Loss: 3.3334
+2024-08-29 23:21:55,800 - INFO - Epoch 23, Batch 500, Loss: 2.8445
+2024-08-29 23:23:19,709 - INFO - Epoch 23, Batch 600, Loss: 2.8162
+2024-08-29 23:24:44,671 - INFO - Epoch 23, Batch 700, Loss: 2.7776
+2024-08-29 23:26:23,977 - INFO - Epoch 23, Batch 800, Loss: 3.0785
+2024-08-29 23:28:02,430 - INFO - Epoch 23, Batch 900, Loss: 3.1677
+2024-08-29 23:29:38,174 - INFO - Epoch 23, Batch 1000, Loss: 3.2213
+2024-08-29 23:31:15,714 - INFO - Epoch 23, Batch 1100, Loss: 3.2958
+2024-08-29 23:32:55,640 - INFO - Epoch 23, Batch 1200, Loss: 2.8089
+2024-08-29 23:34:29,892 - INFO - Epoch 23, Batch 1300, Loss: 3.2101
+2024-08-29 23:35:52,778 - INFO - Epoch 23, Batch 1400, Loss: 2.9707
+2024-08-29 23:37:15,833 - INFO - Epoch 23, Batch 1500, Loss: 3.1999
+2024-08-29 23:38:42,148 - INFO - Epoch 23, Batch 1600, Loss: 3.0389
+2024-08-29 23:40:20,224 - INFO - Epoch 23, Batch 1700, Loss: 3.1544
+2024-08-29 23:40:45,420 - INFO - Epoch 23 completed. Average Loss: 3.0557
+2024-08-29 23:41:45,533 - INFO - Validation Loss: 2.9183
+2024-08-29 23:42:19,631 - INFO - Sample generated text:
+def main():(f):
+	end = ['1', '1', 'w', '-', b', '1', 'w', '', 'collection', '2', '1', '000', 'm', 'start', 'w', 'st', 'a'])
+	if 'test', 'join', 'volume', 'q', '32', 'aut', '-', 'r'):
+		return 's', 'f', '0', '1', 'd', 'a', 'd', '1', '', 'l1', 'r', '', 'ch', 'r', '</s>', 'd', '1', '2', 'f', '8', 'e', 'd', 'f', '(1, '', 'r', '2', '', '', 'n', '', 'c', 'c',
+                'batch-pret', 'duration', '0', 'min', '--', '-8', '', 'CC', 'MY', '', 'T', 'r', '', '', '__', 'ext', '', '', 'n', 'fo', 'type', 'str', '', '', ''',
+              '', '', 'input', ': '', '', 'x', '', 'A', '(y', 'b', 'r', 'w', 'name', '', 'content', '__', '__')
+                 ' + '*', ' + ' [1}
+          '[1'               'j of '1', '1', ' + ' + 'dn', '[2]
+                   ' + '2'. + '{n', '<\}', 'd', 'r', '', '''
+             '<'
+        </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-29 23:42:20,411 - INFO - Epoch 24, Batch 0, Loss: 2.8926
+2024-08-29 23:43:49,536 - INFO - Epoch 24, Batch 100, Loss: 2.9689
+2024-08-29 23:45:17,725 - INFO - Epoch 24, Batch 200, Loss: 2.9850
+2024-08-29 23:46:46,120 - INFO - Epoch 24, Batch 300, Loss: 3.1684
+2024-08-29 23:48:09,291 - INFO - Epoch 24, Batch 400, Loss: 2.8207
+2024-08-29 23:49:35,876 - INFO - Epoch 24, Batch 500, Loss: 2.9380
+2024-08-29 23:51:05,827 - INFO - Epoch 24, Batch 600, Loss: 2.8672
+2024-08-29 23:52:31,535 - INFO - Epoch 24, Batch 700, Loss: 2.9611
+2024-08-29 23:53:55,693 - INFO - Epoch 24, Batch 800, Loss: 3.1598
+2024-08-29 23:55:21,796 - INFO - Epoch 24, Batch 900, Loss: 2.9377
+2024-08-29 23:56:50,186 - INFO - Epoch 24, Batch 1000, Loss: 3.0145
+2024-08-29 23:58:19,237 - INFO - Epoch 24, Batch 1100, Loss: 3.3124
+2024-08-29 23:59:49,490 - INFO - Epoch 24, Batch 1200, Loss: 3.0761
+2024-08-30 00:01:15,935 - INFO - Epoch 24, Batch 1300, Loss: 2.6862
+2024-08-30 00:02:46,868 - INFO - Epoch 24, Batch 1400, Loss: 3.0828
+2024-08-30 00:04:21,822 - INFO - Epoch 24, Batch 1500, Loss: 3.2811
+2024-08-30 00:05:56,504 - INFO - Epoch 24, Batch 1600, Loss: 3.0025
+2024-08-30 00:07:30,148 - INFO - Epoch 24, Batch 1700, Loss: 2.9547
+2024-08-30 00:07:54,577 - INFO - Epoch 24 completed. Average Loss: 3.0355
+2024-08-30 00:08:54,417 - INFO - Validation Loss: 2.8987
+2024-08-30 00:09:29,346 - INFO - Sample generated text:
+def main():(row):
+    return False
+
+
+def main(f):
+    return '(s + '\n'
+  return (len(string)
+
+ 
+def _value(params, type):
+    return {
+        '': '\' * (n[1]+( (0, 1)
+    else:
+        return (self.ysquare(i[x], x)[0]) * 0 + 1
+    return (left, 1) + (3, 1)
+    return "(line)
+
+def load(value):
+    return '%n: %s" % (i,s: %s.url)
+
+
+def run_mets(conn, list, **kwargs):
+    if not arg:
+        return '%' % (d)
+    else:
+        return None
+    return _state
+
+
+def get_mode(context):
+    return str(value)
+
+def get_trWD(func, **kwargs):
+    """
+    Returns a string of the given of a given.
+
+    Returns:
+        result:
+            The model a return.
+    """
+    if not isinstance.isd():
+        return 'title'
+    else:
+        return True
+    if key == None:
+        return True
+
+    return False
+
+
+@route
+def get_utils(f):
+    return key
+    return {
+        'message': {
+            'queue': '{',
+            'type': {'key': 'key', 'type'}
+    }
+
+
+def _get_to_compatible(value):
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 00:09:30,245 - INFO - Epoch 25, Batch 0, Loss: 2.8934
+2024-08-30 00:11:00,537 - INFO - Epoch 25, Batch 100, Loss: 3.4417
+2024-08-30 00:12:31,829 - INFO - Epoch 25, Batch 200, Loss: 3.1122
+2024-08-30 00:14:03,416 - INFO - Epoch 25, Batch 300, Loss: 2.8995
+2024-08-30 00:15:35,133 - INFO - Epoch 25, Batch 400, Loss: 2.9424
+2024-08-30 00:17:07,109 - INFO - Epoch 25, Batch 500, Loss: 3.3381
+2024-08-30 00:18:37,903 - INFO - Epoch 25, Batch 600, Loss: 2.9807
+2024-08-30 00:20:06,375 - INFO - Epoch 25, Batch 700, Loss: 3.0698
+2024-08-30 00:21:37,498 - INFO - Epoch 25, Batch 800, Loss: 3.0649
+2024-08-30 00:23:17,758 - INFO - Epoch 25, Batch 900, Loss: 3.0315
+2024-08-30 00:25:00,590 - INFO - Epoch 25, Batch 1000, Loss: 2.8143
+2024-08-30 00:26:42,797 - INFO - Epoch 25, Batch 1100, Loss: 3.2050
+2024-08-30 00:28:24,175 - INFO - Epoch 25, Batch 1200, Loss: 3.0065
+2024-08-30 00:30:05,364 - INFO - Epoch 25, Batch 1300, Loss: 2.9243
+2024-08-30 00:31:41,498 - INFO - Epoch 25, Batch 1400, Loss: 2.9906
+2024-08-30 00:33:09,535 - INFO - Epoch 25, Batch 1500, Loss: 3.2256
+2024-08-30 00:34:25,541 - INFO - Epoch 25, Batch 1600, Loss: 3.1250
+2024-08-30 00:35:36,237 - INFO - Epoch 25, Batch 1700, Loss: 2.9666
+2024-08-30 00:35:53,991 - INFO - Epoch 25 completed. Average Loss: 3.0165
+2024-08-30 00:36:34,251 - INFO - Validation Loss: 2.8821
+2024-08-30 00:37:02,868 - INFO - Sample generated text:
+def main(): = str(filename).split(line))
+  return result:
+	for i in range(len(n[1]):
+		return solution.append(0):
+				s[i] = struct[1].split("[1] + 1) + 0)
+			if len(x) > len(letter) < 2:
+						print "(row)
+			return node[1]
+			for i in range(b[1:2]):
+					return float
+
+			if i in range(n[i):
+						print(i)
+						tx = 1
+						#
+					# i += time[2]
+					if bn > 1:
+										# (x)
+						print(1)
+				for1 in the i:
+										.write(
+																											# (nta 1} and next(0) + (n[i] + "> + 1)
+																											#           																								#     		# 																											</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 00:37:03,449 - INFO - Epoch 26, Batch 0, Loss: 2.9571
+2024-08-30 00:38:14,889 - INFO - Epoch 26, Batch 100, Loss: 2.9390
+2024-08-30 00:39:30,303 - INFO - Epoch 26, Batch 200, Loss: 2.9533
+2024-08-30 00:40:45,258 - INFO - Epoch 26, Batch 300, Loss: 2.6427
+2024-08-30 00:41:59,307 - INFO - Epoch 26, Batch 400, Loss: 3.0192
+2024-08-30 00:43:13,858 - INFO - Epoch 26, Batch 500, Loss: 2.9831
+2024-08-30 00:44:28,387 - INFO - Epoch 26, Batch 600, Loss: 2.9909
+2024-08-30 00:45:42,580 - INFO - Epoch 26, Batch 700, Loss: 3.0885
+2024-08-30 00:46:56,483 - INFO - Epoch 26, Batch 800, Loss: 2.8608
+2024-08-30 00:48:09,580 - INFO - Epoch 26, Batch 900, Loss: 3.1340
+2024-08-30 00:49:23,203 - INFO - Epoch 26, Batch 1000, Loss: 3.1178
+2024-08-30 00:50:36,979 - INFO - Epoch 26, Batch 1100, Loss: 2.9810
+2024-08-30 00:51:50,820 - INFO - Epoch 26, Batch 1200, Loss: 2.9307
+2024-08-30 00:53:05,006 - INFO - Epoch 26, Batch 1300, Loss: 2.9353
+2024-08-30 00:54:19,868 - INFO - Epoch 26, Batch 1400, Loss: 3.1297
+2024-08-30 00:55:34,104 - INFO - Epoch 26, Batch 1500, Loss: 2.8398
+2024-08-30 00:56:47,934 - INFO - Epoch 26, Batch 1600, Loss: 2.8220
+2024-08-30 00:58:02,478 - INFO - Epoch 26, Batch 1700, Loss: 3.1990
+2024-08-30 00:58:21,038 - INFO - Epoch 26 completed. Average Loss: 2.9987
+2024-08-30 00:59:02,677 - INFO - Validation Loss: 2.8654
+2024-08-30 00:59:31,676 - INFO - Sample generated text:
+def main():(str(time)[i:i[1])
+
+def rTest(len, dec):
+	print "(t + 1, 1)
+	print("This 1, e.y)
+
+print(x)
+
+def nD_1( np):
+    y = np.random(x.int)
+    for i in range(0,0], (2):
+        x[i] = 1
+        if i[0] == 0:
+            return int
+        return i
+
+
+def on_max_country(y, x):
+    """
+    for (n, repeat, c) <0, n1, 0, y,ta):
+        """
+        if ( position in X[0,1]):
+                return [x, 2]
+                for i in range(0, 1):
+                    if x[len(1,0) > 1, 1):
+                        ret[i] = y
+                    if (x: 0, 0)
+                        n = 1x1
+                elif 1:
+                        x_pos = 0
+                        if n_id[a] = 1
+                </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 00:59:32,293 - INFO - Epoch 27, Batch 0, Loss: 2.7904
+2024-08-30 01:00:42,376 - INFO - Epoch 27, Batch 100, Loss: 3.0884
+2024-08-30 01:01:53,210 - INFO - Epoch 27, Batch 200, Loss: 3.4089
+2024-08-30 01:03:04,933 - INFO - Epoch 27, Batch 300, Loss: 3.0413
+2024-08-30 01:04:16,651 - INFO - Epoch 27, Batch 400, Loss: 3.1440
+2024-08-30 01:05:27,579 - INFO - Epoch 27, Batch 500, Loss: 3.2414
+2024-08-30 01:06:38,322 - INFO - Epoch 27, Batch 600, Loss: 3.4607
+2024-08-30 01:07:48,723 - INFO - Epoch 27, Batch 700, Loss: 2.9104
+2024-08-30 01:08:59,558 - INFO - Epoch 27, Batch 800, Loss: 2.7993
+2024-08-30 01:10:11,186 - INFO - Epoch 27, Batch 900, Loss: 2.9859
+2024-08-30 01:11:22,134 - INFO - Epoch 27, Batch 1000, Loss: 3.2219
+2024-08-30 01:12:33,308 - INFO - Epoch 27, Batch 1100, Loss: 2.8808
+2024-08-30 01:13:43,845 - INFO - Epoch 27, Batch 1200, Loss: 2.7352
+2024-08-30 01:14:54,879 - INFO - Epoch 27, Batch 1300, Loss: 2.9569
+2024-08-30 01:16:06,245 - INFO - Epoch 27, Batch 1400, Loss: 3.0314
+2024-08-30 01:17:16,559 - INFO - Epoch 27, Batch 1500, Loss: 2.9720
+2024-08-30 01:18:27,437 - INFO - Epoch 27, Batch 1600, Loss: 3.1241
+2024-08-30 01:19:37,467 - INFO - Epoch 27, Batch 1700, Loss: 2.9926
+2024-08-30 01:19:55,221 - INFO - Epoch 27 completed. Average Loss: 2.9824
+2024-08-30 01:20:35,137 - INFO - Validation Loss: 2.8514
+2024-08-30 01:21:03,804 - INFO - Sample generated text:
+def main():_import(super_info):
+	return "\n" > un
+# TODO:
+	f.close(sy)
+IP = []
+
+log = open(sys.path.dirname(__file__))
+
+# Note the directory of the following options
+f = open(os.path.join(os.path.dirname(__file__)))
+# Quick.start(sys.path.join(os.path.join(os.path.abspath(os.path.abspath(__file__), '..'))
+
+# Quick for the project lines, relative filener to the documentation
+# See os.path.abspath(os.path.abspath(os.path.abspath(__file__))
+
+# Quick-start development developmentitable - unsuitable for production
+# See https://docs.djangoproject.com/en/dj.de/ref/deployment.de
+
+# SECURITY: keep key used in secret turned in production!
+SECRET_KEY = 'st'
+
+# SECURITY WARNING: don: don! secret in production secret!
+SECRET = 'utf-8-9-9-9-8'
+
+# SECURITY WARNING: don't debug in production turned!
+DEBUG = True
+
+ALLOW_KEY = 'https://github.admin.com/al/2.0'
+
+# SECURITY WARNING: don't debug in production turned!!
+SECRET = 'django.com.com'
+
+# The master info for the project.
+master = u'^'
+
+# The version version for production.
+project = 'en'
+copyright = 'rz--mensions'
+
+# The short| version:
+#source = '1.1'
+
+# The full info for the project as replacement filames.
+master = '0'
+
+# The master of the project.
+source = 'index'
+
+# The master of the project're.
+master = 'r'
+
+# General information about the project.
+project = 'st',
+version = 'st-8'
+</s> = '</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 01:21:04,386 - INFO - Epoch 28, Batch 0, Loss: 3.0239
+2024-08-30 01:22:15,705 - INFO - Epoch 28, Batch 100, Loss: 2.7461
+2024-08-30 01:23:27,167 - INFO - Epoch 28, Batch 200, Loss: 3.3071
+2024-08-30 01:24:37,649 - INFO - Epoch 28, Batch 300, Loss: 2.8349
+2024-08-30 01:25:48,166 - INFO - Epoch 28, Batch 400, Loss: 2.9421
+2024-08-30 01:26:58,345 - INFO - Epoch 28, Batch 500, Loss: 3.2927
+2024-08-30 01:28:09,346 - INFO - Epoch 28, Batch 600, Loss: 2.8878
+2024-08-30 01:29:19,092 - INFO - Epoch 28, Batch 700, Loss: 2.8618
+2024-08-30 01:30:29,241 - INFO - Epoch 28, Batch 800, Loss: 2.7690
+2024-08-30 01:31:39,321 - INFO - Epoch 28, Batch 900, Loss: 2.8521
+2024-08-30 01:32:49,847 - INFO - Epoch 28, Batch 1000, Loss: 2.8955
+2024-08-30 01:34:00,205 - INFO - Epoch 28, Batch 1100, Loss: 2.9465
+2024-08-30 01:35:10,724 - INFO - Epoch 28, Batch 1200, Loss: 2.7487
+2024-08-30 01:36:21,080 - INFO - Epoch 28, Batch 1300, Loss: 2.9616
+2024-08-30 01:37:31,376 - INFO - Epoch 28, Batch 1400, Loss: 3.0255
+2024-08-30 01:38:41,739 - INFO - Epoch 28, Batch 1500, Loss: 2.9598
+2024-08-30 01:39:52,216 - INFO - Epoch 28, Batch 1600, Loss: 2.8528
+2024-08-30 01:41:02,963 - INFO - Epoch 28, Batch 1700, Loss: 2.8503
+2024-08-30 01:41:20,891 - INFO - Epoch 28 completed. Average Loss: 2.9659
+2024-08-30 01:42:00,707 - INFO - Validation Loss: 2.8386
+2024-08-30 01:42:29,377 - INFO - Sample generated text:
+def main():(str):
+	return str(str(self.inter.shape())
+
+
+def _re0(0,1,1,1,1,1,0,0,2,0,0,1,0,0,0)
+	'''
+	'''
+	init(r)
+		if x not 0.1 + 1  '1.1' and i in range(0,1)
+		return np.5(0)
+
+		#
+		if arr1:
+			print("\n, v1S.y")
+			f.grid(k)
+			if l == 1:
+				v = rx.0
+				if(r[0]) in x2.0:
+							a.p.append(x)
+						#
+					if 1[0] == 1:
+									#
+						if i.append(0.0) > 2:
+																											##																											##																											# 	 																										</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 01:42:29,959 - INFO - Epoch 29, Batch 0, Loss: 3.0945
+2024-08-30 01:43:40,872 - INFO - Epoch 29, Batch 100, Loss: 3.2672
+2024-08-30 01:44:52,421 - INFO - Epoch 29, Batch 200, Loss: 2.9311
+2024-08-30 01:46:03,499 - INFO - Epoch 29, Batch 300, Loss: 3.0438
+2024-08-30 01:47:14,303 - INFO - Epoch 29, Batch 400, Loss: 2.8532
+2024-08-30 01:48:24,440 - INFO - Epoch 29, Batch 500, Loss: 2.5470
+2024-08-30 01:49:34,104 - INFO - Epoch 29, Batch 600, Loss: 3.0119
+2024-08-30 01:50:44,507 - INFO - Epoch 29, Batch 700, Loss: 2.8487
+2024-08-30 01:51:55,611 - INFO - Epoch 29, Batch 800, Loss: 2.9196
+2024-08-30 01:53:06,908 - INFO - Epoch 29, Batch 900, Loss: 2.9795
+2024-08-30 01:54:17,895 - INFO - Epoch 29, Batch 1000, Loss: 2.9765
+2024-08-30 01:55:28,246 - INFO - Epoch 29, Batch 1100, Loss: 3.1381
+2024-08-30 01:56:39,026 - INFO - Epoch 29, Batch 1200, Loss: 2.8624
+2024-08-30 01:57:49,776 - INFO - Epoch 29, Batch 1300, Loss: 3.0823
+2024-08-30 01:59:00,365 - INFO - Epoch 29, Batch 1400, Loss: 3.0190
+2024-08-30 02:00:11,282 - INFO - Epoch 29, Batch 1500, Loss: 3.0297
+2024-08-30 02:01:21,719 - INFO - Epoch 29, Batch 1600, Loss: 3.0856
+2024-08-30 02:02:31,495 - INFO - Epoch 29, Batch 1700, Loss: 2.9299
+2024-08-30 02:02:49,149 - INFO - Epoch 29 completed. Average Loss: 2.9502
+2024-08-30 02:03:29,017 - INFO - Validation Loss: 2.8264
+2024-08-30 02:03:57,678 - INFO - Sample generated text:
+def main():(filename=None):
+	fs.set(
+				"=1 of the
+				", "#",
+																											  												  															':																											
+																											
+																											 </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 02:03:58,257 - INFO - Epoch 30, Batch 0, Loss: 2.7688
+2024-08-30 02:05:07,964 - INFO - Epoch 30, Batch 100, Loss: 3.1016
+2024-08-30 02:06:18,920 - INFO - Epoch 30, Batch 200, Loss: 2.8864
+2024-08-30 02:07:29,024 - INFO - Epoch 30, Batch 300, Loss: 3.0583
+2024-08-30 02:08:39,043 - INFO - Epoch 30, Batch 400, Loss: 2.8046
+2024-08-30 02:09:50,648 - INFO - Epoch 30, Batch 500, Loss: 2.8939
+2024-08-30 02:11:01,118 - INFO - Epoch 30, Batch 600, Loss: 2.5868
+2024-08-30 02:12:11,099 - INFO - Epoch 30, Batch 700, Loss: 2.7238
+2024-08-30 02:13:20,931 - INFO - Epoch 30, Batch 800, Loss: 2.7786
+2024-08-30 02:14:31,189 - INFO - Epoch 30, Batch 900, Loss: 2.6825
+2024-08-30 02:15:41,212 - INFO - Epoch 30, Batch 1000, Loss: 2.9553
+2024-08-30 02:16:52,359 - INFO - Epoch 30, Batch 1100, Loss: 3.0855
+2024-08-30 02:18:03,424 - INFO - Epoch 30, Batch 1200, Loss: 2.7629
+2024-08-30 02:19:13,201 - INFO - Epoch 30, Batch 1300, Loss: 3.0872
+2024-08-30 02:20:24,107 - INFO - Epoch 30, Batch 1400, Loss: 2.9343
+2024-08-30 02:21:34,690 - INFO - Epoch 30, Batch 1500, Loss: 3.1284
+2024-08-30 02:22:45,038 - INFO - Epoch 30, Batch 1600, Loss: 2.8937
+2024-08-30 02:23:55,766 - INFO - Epoch 30, Batch 1700, Loss: 2.9164
+2024-08-30 02:24:13,707 - INFO - Epoch 30 completed. Average Loss: 2.9367
+2024-08-30 02:24:53,473 - INFO - Validation Loss: 2.8135
+2024-08-30 02:25:22,111 - INFO - Sample generated text:
+def main():(int=1.0,1):
+	for i in range(1,0,1):
+		o_i = []
+		print("-" the i, ",2)
+		el = np.array(new(x), xtype(1))
+		print("
+			for num in range(1, 1):
+				if n == 0:
+						p = 1
+				def(1, 1):
+									
+								continue,
+										 								x,
+																											##							
+								
+																											
+							# 																				##																					#						##																											   																											</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 02:25:22,692 - INFO - Epoch 31, Batch 0, Loss: 3.0678
+2024-08-30 02:26:33,268 - INFO - Epoch 31, Batch 100, Loss: 3.1780
+2024-08-30 02:27:43,554 - INFO - Epoch 31, Batch 200, Loss: 2.8076
+2024-08-30 02:28:54,395 - INFO - Epoch 31, Batch 300, Loss: 2.8708
+2024-08-30 02:30:06,001 - INFO - Epoch 31, Batch 400, Loss: 2.9675
+2024-08-30 02:31:15,293 - INFO - Epoch 31, Batch 500, Loss: 2.7918
+2024-08-30 02:32:25,313 - INFO - Epoch 31, Batch 600, Loss: 2.6687
+2024-08-30 02:33:34,825 - INFO - Epoch 31, Batch 700, Loss: 3.3438
+2024-08-30 02:34:44,390 - INFO - Epoch 31, Batch 800, Loss: 3.1890
+2024-08-30 02:35:53,791 - INFO - Epoch 31, Batch 900, Loss: 2.8362
+2024-08-30 02:37:03,272 - INFO - Epoch 31, Batch 1000, Loss: 3.2647
+2024-08-30 02:38:12,703 - INFO - Epoch 31, Batch 1100, Loss: 3.0961
+2024-08-30 02:39:22,203 - INFO - Epoch 31, Batch 1200, Loss: 2.8636
+2024-08-30 02:40:31,643 - INFO - Epoch 31, Batch 1300, Loss: 2.7927
+2024-08-30 02:41:41,192 - INFO - Epoch 31, Batch 1400, Loss: 3.1249
+2024-08-30 02:42:50,019 - INFO - Epoch 31, Batch 1500, Loss: 3.0034
+2024-08-30 02:43:58,990 - INFO - Epoch 31, Batch 1600, Loss: 2.8478
+2024-08-30 02:45:09,480 - INFO - Epoch 31, Batch 1700, Loss: 2.9556
+2024-08-30 02:45:27,072 - INFO - Epoch 31 completed. Average Loss: 2.9235
+2024-08-30 02:46:07,018 - INFO - Validation Loss: 2.8006
+2024-08-30 02:46:35,699 - INFO - Sample generated text:
+def main()::
+	try:
+		print("code: ", " + " + " + str( "")
+		if """
+		print("------------------------:
+			print("Error:
+				print "\ as node
+		except:
+			print "?" <-- + len(filename)-1)
+		
+		else:
+			print("\n: %)
+
+		return "No: 
+		print("\":", "(self.arg[1])
+		print "\n\n: %s" % str(q)
+		print "
+	print("<song:\n\n+\n\n\2\n\n\<\n\n\5\n\n\n\n\n\n\n\x\n\0\0x23\x\n\n\n\x00\n\x\x\n\n\x00\x\2\2\x00\3\
+    "\0\0\5.1\x1\x\x\00\x\x\x\x\x\xx\x\00\x\x8\x3\x00\x\xx\xxx4\xx\x\x00\xx\x\x\x\x04\x000\x\x\x\4\x\x4\xx\x01\x01\x\x\x1\x12\x\x\x\08\x\x\x\00\x\x\x\x3\xx\x\x5\x08\xx\x01\x\x00\b\x\x00\x00\x00\xx\x00\x\xb\x\x00\x00\x00\xx\x\x00\x\x\x\xx\x78\x00\x0\xx\xFFFF\x\x00\x\x00\x0\x00\x\x</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 02:46:36,280 - INFO - Epoch 32, Batch 0, Loss: 2.8418
+2024-08-30 02:47:45,607 - INFO - Epoch 32, Batch 100, Loss: 2.5656
+2024-08-30 02:48:54,532 - INFO - Epoch 32, Batch 200, Loss: 2.7938
+2024-08-30 02:50:03,352 - INFO - Epoch 32, Batch 300, Loss: 2.9277
+2024-08-30 02:51:12,229 - INFO - Epoch 32, Batch 400, Loss: 2.9995
+2024-08-30 02:52:21,090 - INFO - Epoch 32, Batch 500, Loss: 3.0207
+2024-08-30 02:53:29,784 - INFO - Epoch 32, Batch 600, Loss: 2.6969
+2024-08-30 02:54:38,548 - INFO - Epoch 32, Batch 700, Loss: 2.6378
+2024-08-30 02:55:47,413 - INFO - Epoch 32, Batch 800, Loss: 3.0184
+2024-08-30 02:56:56,160 - INFO - Epoch 32, Batch 900, Loss: 2.6329
+2024-08-30 02:58:04,921 - INFO - Epoch 32, Batch 1000, Loss: 2.7770
+2024-08-30 02:59:13,744 - INFO - Epoch 32, Batch 1100, Loss: 2.8254
+2024-08-30 03:00:22,679 - INFO - Epoch 32, Batch 1200, Loss: 3.2861
+2024-08-30 03:01:31,444 - INFO - Epoch 32, Batch 1300, Loss: 3.0633
+2024-08-30 03:02:40,145 - INFO - Epoch 32, Batch 1400, Loss: 2.7924
+2024-08-30 03:03:48,925 - INFO - Epoch 32, Batch 1500, Loss: 2.7535
+2024-08-30 03:04:57,714 - INFO - Epoch 32, Batch 1600, Loss: 3.1345
+2024-08-30 03:06:06,456 - INFO - Epoch 32, Batch 1700, Loss: 3.0037
+2024-08-30 03:06:23,788 - INFO - Epoch 32 completed. Average Loss: 2.9104
+2024-08-30 03:07:03,661 - INFO - Validation Loss: 2.7908
+2024-08-30 03:07:32,354 - INFO - Sample generated text:
+def main():(str(options))):
+	return (a, n)
+
+return duple(percent, y)
+
+# from.i
+
+# <th enter>
+
+# Class between a original of the dict of the series
+# 4conmbol for the mat line with the list of the
+# range of the containing.
+#
+# The first to quite for index that of them in the 1
+# first in the trailing of a file, which are cutoff
+# four of the number of the first, a
+# number of the last conversion of the file, graph of the new.
+# 
+# Number:
+#                                                                                                                     #
+#                                                                     #
+#                                                                         #
+#                                                                           </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 03:07:32,935 - INFO - Epoch 33, Batch 0, Loss: 2.7405
+2024-08-30 03:08:42,040 - INFO - Epoch 33, Batch 100, Loss: 2.8594
+2024-08-30 03:09:50,994 - INFO - Epoch 33, Batch 200, Loss: 3.1395
+2024-08-30 03:10:59,806 - INFO - Epoch 33, Batch 300, Loss: 2.8039
+2024-08-30 03:12:08,672 - INFO - Epoch 33, Batch 400, Loss: 2.9803
+2024-08-30 03:13:17,477 - INFO - Epoch 33, Batch 500, Loss: 2.6602
+2024-08-30 03:14:26,211 - INFO - Epoch 33, Batch 600, Loss: 2.6757
+2024-08-30 03:15:35,030 - INFO - Epoch 33, Batch 700, Loss: 2.6671
+2024-08-30 03:16:43,888 - INFO - Epoch 33, Batch 800, Loss: 2.8516
+2024-08-30 03:17:52,695 - INFO - Epoch 33, Batch 900, Loss: 3.2267
+2024-08-30 03:19:01,559 - INFO - Epoch 33, Batch 1000, Loss: 3.1107
+2024-08-30 03:20:10,330 - INFO - Epoch 33, Batch 1100, Loss: 2.5576
+2024-08-30 03:21:19,231 - INFO - Epoch 33, Batch 1200, Loss: 2.8612
+2024-08-30 03:22:27,995 - INFO - Epoch 33, Batch 1300, Loss: 3.0415
+2024-08-30 03:23:36,738 - INFO - Epoch 33, Batch 1400, Loss: 3.0022
+2024-08-30 03:24:45,487 - INFO - Epoch 33, Batch 1500, Loss: 3.0933
+2024-08-30 03:25:54,362 - INFO - Epoch 33, Batch 1600, Loss: 2.9259
+2024-08-30 03:27:03,256 - INFO - Epoch 33, Batch 1700, Loss: 2.9573
+2024-08-30 03:27:20,609 - INFO - Epoch 33 completed. Average Loss: 2.8986
+2024-08-30 03:28:00,500 - INFO - Validation Loss: 2.7797
+2024-08-30 03:28:29,243 - INFO - Sample generated text:
+def main():=str:
+	"""
+	return (data)
+	return len(arg)
+	return e
+
+def get_v( y, n):
+	return l1
+
+
+def parse_tains(t, data):
+    return n - np.random(s)
+
+
+def get_pts_depth(co, d):
+    """
+    Parameters
+    example=tast.min
+                                                                                                                                                                                                                                                                                                                                                                                           </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 03:28:29,825 - INFO - Epoch 34, Batch 0, Loss: 2.9579
+2024-08-30 03:29:39,126 - INFO - Epoch 34, Batch 100, Loss: 2.8532
+2024-08-30 03:30:48,300 - INFO - Epoch 34, Batch 200, Loss: 2.8111
+2024-08-30 03:31:57,160 - INFO - Epoch 34, Batch 300, Loss: 2.9594
+2024-08-30 03:33:06,015 - INFO - Epoch 34, Batch 400, Loss: 2.9044
+2024-08-30 03:34:14,861 - INFO - Epoch 34, Batch 500, Loss: 2.5230
+2024-08-30 03:35:23,714 - INFO - Epoch 34, Batch 600, Loss: 3.1360
+2024-08-30 03:36:32,549 - INFO - Epoch 34, Batch 700, Loss: 2.5716
+2024-08-30 03:37:41,580 - INFO - Epoch 34, Batch 800, Loss: 2.9108
+2024-08-30 03:38:50,391 - INFO - Epoch 34, Batch 900, Loss: 2.9152
+2024-08-30 03:39:59,249 - INFO - Epoch 34, Batch 1000, Loss: 2.6804
+2024-08-30 03:41:08,169 - INFO - Epoch 34, Batch 1100, Loss: 2.7602
+2024-08-30 03:42:17,204 - INFO - Epoch 34, Batch 1200, Loss: 2.8051
+2024-08-30 03:43:25,992 - INFO - Epoch 34, Batch 1300, Loss: 2.9522
+2024-08-30 03:44:34,822 - INFO - Epoch 34, Batch 1400, Loss: 2.6776
+2024-08-30 03:45:43,744 - INFO - Epoch 34, Batch 1500, Loss: 3.0443
+2024-08-30 03:46:52,657 - INFO - Epoch 34, Batch 1600, Loss: 2.7765
+2024-08-30 03:48:01,550 - INFO - Epoch 34, Batch 1700, Loss: 2.7613
+2024-08-30 03:48:18,930 - INFO - Epoch 34 completed. Average Loss: 2.8871
+2024-08-30 03:48:58,873 - INFO - Validation Loss: 2.7708
+2024-08-30 03:49:27,633 - INFO - Sample generated text:
+def main():(str,size, len(value, int(1):
+		b = math(b)
+	for i in range(i,6):
+			for val in range(0, num(i):
+				#('-' the i=1,2, x)
+					print(e,2, b+1,p])
+					continue:
+									#
+									p.close(x[1)
+							print(i -1)
+						if index == 0:
+								cor[x] = 1
+									#					z[1]
+						#
+										#
+						if l[1, 1] == 1:
+								x[i] = 0.5
+											#2 t
+						if c[1] == 0:
+											if (x[i, y):
+															
+							# += ' + 0 + 2 + 1
+												# += 0
+						if i[i][1] and i[i][1] + (1):
+							x += s[i]
+							#_0 += 1
+								# return 1
+													# -= i
+													=
+																	
+								p = [];2.1
+															</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 03:49:28,216 - INFO - Epoch 35, Batch 0, Loss: 3.0009
+2024-08-30 03:50:37,442 - INFO - Epoch 35, Batch 100, Loss: 2.9260
+2024-08-30 03:51:46,447 - INFO - Epoch 35, Batch 200, Loss: 2.6972
+2024-08-30 03:52:55,398 - INFO - Epoch 35, Batch 300, Loss: 2.5338
+2024-08-30 03:54:04,537 - INFO - Epoch 35, Batch 400, Loss: 3.1371
+2024-08-30 03:55:13,474 - INFO - Epoch 35, Batch 500, Loss: 2.9029
+2024-08-30 03:56:22,422 - INFO - Epoch 35, Batch 600, Loss: 2.7701
+2024-08-30 03:57:31,409 - INFO - Epoch 35, Batch 700, Loss: 2.9117
+2024-08-30 03:58:40,372 - INFO - Epoch 35, Batch 800, Loss: 2.9852
+2024-08-30 03:59:49,322 - INFO - Epoch 35, Batch 900, Loss: 3.0621
+2024-08-30 04:00:58,181 - INFO - Epoch 35, Batch 1000, Loss: 2.8198
+2024-08-30 04:02:07,180 - INFO - Epoch 35, Batch 1100, Loss: 2.6844
+2024-08-30 04:03:16,182 - INFO - Epoch 35, Batch 1200, Loss: 2.8364
+2024-08-30 04:04:25,105 - INFO - Epoch 35, Batch 1300, Loss: 2.5105
+2024-08-30 04:05:34,093 - INFO - Epoch 35, Batch 1400, Loss: 2.6560
+2024-08-30 04:06:43,094 - INFO - Epoch 35, Batch 1500, Loss: 2.8271
+2024-08-30 04:07:52,044 - INFO - Epoch 35, Batch 1600, Loss: 2.7112
+2024-08-30 04:09:00,975 - INFO - Epoch 35, Batch 1700, Loss: 2.9373
+2024-08-30 04:09:18,326 - INFO - Epoch 35 completed. Average Loss: 2.8766
+2024-08-30 04:09:58,269 - INFO - Validation Loss: 2.7606
+2024-08-30 04:10:26,998 - INFO - Sample generated text:
+def main():_tands:
+    return True
+
+def get_great_to_line_over(int):
+    """
+    Return a new 2 of the new.
+
+    Returns:
+        Output: List: List
+        tuple: integer
+        """
+        if val.data:
+            return True
+    else:
+        return func.date(shape)
+    return 0
+
+def get_resource(i, name):
+    """Creatize the given of the table.
+    """
+    if name > 'failed':
+        return True
+    return next(value, 1)
+
+def not_value_string(text, **kwargs):
+    """Return the string of the given search."""
+    if value is None:
+        if wrapper.is_name is None:
+            if val not None:
+                return False
+        elif key:
+            return (
+                'n-%s and %s' % (data, self.name, index)
+            return ".")
+    return tuple
+
+
+def _get_kys_to_true(at):
+    """Return the model specified of the time.
+
+    :param timeout:
+        The a-count or the name of the target.
+
+        Returns:
+            samples: the list of the few file.
+    """
+    return n_type
+
+
+def get_length(array):
+    self.</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 04:10:27,578 - INFO - Epoch 36, Batch 0, Loss: 2.8893
+2024-08-30 04:11:37,051 - INFO - Epoch 36, Batch 100, Loss: 2.6617
+2024-08-30 04:12:45,987 - INFO - Epoch 36, Batch 200, Loss: 2.5796
+2024-08-30 04:13:55,066 - INFO - Epoch 36, Batch 300, Loss: 2.9259
+2024-08-30 04:15:04,171 - INFO - Epoch 36, Batch 400, Loss: 2.7887
+2024-08-30 04:16:13,272 - INFO - Epoch 36, Batch 500, Loss: 2.7667
+2024-08-30 04:17:22,265 - INFO - Epoch 36, Batch 600, Loss: 2.9421
+2024-08-30 04:18:31,246 - INFO - Epoch 36, Batch 700, Loss: 3.1691
+2024-08-30 04:19:40,135 - INFO - Epoch 36, Batch 800, Loss: 2.5901
+2024-08-30 04:20:49,005 - INFO - Epoch 36, Batch 900, Loss: 3.0256
+2024-08-30 04:21:57,994 - INFO - Epoch 36, Batch 1000, Loss: 2.7622
+2024-08-30 04:23:06,889 - INFO - Epoch 36, Batch 1100, Loss: 2.8088
+2024-08-30 04:24:15,912 - INFO - Epoch 36, Batch 1200, Loss: 2.5902
+2024-08-30 04:25:24,825 - INFO - Epoch 36, Batch 1300, Loss: 2.9343
+2024-08-30 04:26:33,719 - INFO - Epoch 36, Batch 1400, Loss: 2.8312
+2024-08-30 04:27:42,698 - INFO - Epoch 36, Batch 1500, Loss: 2.9786
+2024-08-30 04:28:51,813 - INFO - Epoch 36, Batch 1600, Loss: 2.8725
+2024-08-30 04:30:00,724 - INFO - Epoch 36, Batch 1700, Loss: 2.7235
+2024-08-30 04:30:18,159 - INFO - Epoch 36 completed. Average Loss: 2.8667
+2024-08-30 04:30:58,126 - INFO - Validation Loss: 2.7519
+2024-08-30 04:31:26,842 - INFO - Sample generated text:
+def main():s:
+	if len(out) == 1:
+		return False
+	return None
+
+def load_cmd(x, c):
+	return True
+
+def get_param_len(s, d):
+	return tuple
+	if isinstance == None:
+		return i[0]
+		if len(n) == 2:
+			return True
+		if len(num[1]) == 1:
+			if ' <n:
+				if " is None:
+					if i:
+						return (x[4] == 1
+					return False
+					Key:
+							no[0] = arr[int][:-i]
+						else:
+								if len(max(col > -p) == 1:
+						elif (2x1 == 1):
+						'if n[i] == 1:
+								new[i[i] = 1
+						opl_b = np.array(x*1 + 1, 1)
+				else:
+						self.i_list = max_my[i]
+								#'
+							q = y1
+															# " + str(n)
+						if ' in range(i)):
+								#return a ', of input
+									print(c.next(x, 1), t.y)
+								k.append(line(b[0], '/p')
+						# 
+																j[1]
+																		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 04:31:27,425 - INFO - Epoch 37, Batch 0, Loss: 2.7925
+2024-08-30 04:32:36,805 - INFO - Epoch 37, Batch 100, Loss: 2.9837
+2024-08-30 04:33:45,971 - INFO - Epoch 37, Batch 200, Loss: 2.5432
+2024-08-30 04:34:54,825 - INFO - Epoch 37, Batch 300, Loss: 2.6402
+2024-08-30 04:36:03,853 - INFO - Epoch 37, Batch 400, Loss: 2.7700
+2024-08-30 04:37:12,718 - INFO - Epoch 37, Batch 500, Loss: 3.1635
+2024-08-30 04:38:21,601 - INFO - Epoch 37, Batch 600, Loss: 2.7988
+2024-08-30 04:39:30,515 - INFO - Epoch 37, Batch 700, Loss: 3.0607
+2024-08-30 04:40:39,613 - INFO - Epoch 37, Batch 800, Loss: 3.0674
+2024-08-30 04:41:48,529 - INFO - Epoch 37, Batch 900, Loss: 2.8013
+2024-08-30 04:42:57,591 - INFO - Epoch 37, Batch 1000, Loss: 2.8993
+2024-08-30 04:44:06,480 - INFO - Epoch 37, Batch 1100, Loss: 2.9453
+2024-08-30 04:45:15,448 - INFO - Epoch 37, Batch 1200, Loss: 2.9398
+2024-08-30 04:46:24,325 - INFO - Epoch 37, Batch 1300, Loss: 2.9999
+2024-08-30 04:47:33,215 - INFO - Epoch 37, Batch 1400, Loss: 3.0460
+2024-08-30 04:48:42,068 - INFO - Epoch 37, Batch 1500, Loss: 2.9011
+2024-08-30 04:49:50,929 - INFO - Epoch 37, Batch 1600, Loss: 3.0364
+2024-08-30 04:50:59,913 - INFO - Epoch 37, Batch 1700, Loss: 2.7001
+2024-08-30 04:51:17,275 - INFO - Epoch 37 completed. Average Loss: 2.8568
+2024-08-30 04:51:57,229 - INFO - Validation Loss: 2.7438
+2024-08-30 04:52:25,943 - INFO - Sample generated text:
+def main():=0, method=None, level):
+	if self.running[0] == 1:
+		if len(sys)!= len(1)!= 1:
+				return False
+
+	def __get__(self,args):
+		if len(self.start[0] < 0:
+				self.log.append(x)
+		if not self.is_frame:
+			self.text = self.args
+			self.set_item_str(self.index[0], self.num)
+
+
+def _get_find_cet(self, d):
+		return float(self.argv[1] * 0
+	def _stop_entry(self, n):
+		for i in range(data):
+			return (self.st) < self.rps.i_sum)
+		#
+		print "The [)/1 in 0}
+		self.assertTrue(1)
+
+	def __init__(self):
+		self.total = self.min.get_size(n)
+		self.n = 0
+		self.sex = 0
+		self.i_count = 0
+
+		self.index = 's'
+		self.pos = self.x_value
+		self.z_time = self.n
+		self.y = self.p
+		self.n = 0
+		self.rect = 0
+		self.max = 0
+		self.x = 0
+		self.num = 0
+		self.b = 0
+		self.type = 0
+		self.t = 0
+		g.set_value(0,0)
+		self.sc1 = 0
+		self.key = 0
+		self.x = 0
+		self.y1 = 0
+		self.d = 0
+		self.y = None
+		self.iam = 0
+		max = 0
+		self.min = 0
+		self.</s> = 1
+
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 04:52:26,524 - INFO - Epoch 38, Batch 0, Loss: 2.9941
+2024-08-30 04:53:35,663 - INFO - Epoch 38, Batch 100, Loss: 2.4745
+2024-08-30 04:54:44,842 - INFO - Epoch 38, Batch 200, Loss: 2.7635
+2024-08-30 04:55:53,689 - INFO - Epoch 38, Batch 300, Loss: 3.2613
+2024-08-30 04:57:02,579 - INFO - Epoch 38, Batch 400, Loss: 3.2320
+2024-08-30 04:58:11,528 - INFO - Epoch 38, Batch 500, Loss: 3.0171
+2024-08-30 04:59:20,379 - INFO - Epoch 38, Batch 600, Loss: 2.8680
+2024-08-30 05:00:29,369 - INFO - Epoch 38, Batch 700, Loss: 2.7935
+2024-08-30 05:01:38,193 - INFO - Epoch 38, Batch 800, Loss: 2.7294
+2024-08-30 05:02:47,041 - INFO - Epoch 38, Batch 900, Loss: 2.6470
+2024-08-30 05:03:55,883 - INFO - Epoch 38, Batch 1000, Loss: 2.8377
+2024-08-30 05:05:04,840 - INFO - Epoch 38, Batch 1100, Loss: 3.0103
+2024-08-30 05:06:13,788 - INFO - Epoch 38, Batch 1200, Loss: 2.8337
+2024-08-30 05:07:22,669 - INFO - Epoch 38, Batch 1300, Loss: 3.0408
+2024-08-30 05:08:31,489 - INFO - Epoch 38, Batch 1400, Loss: 3.0204
+2024-08-30 05:09:40,400 - INFO - Epoch 38, Batch 1500, Loss: 2.9611
+2024-08-30 05:10:49,337 - INFO - Epoch 38, Batch 1600, Loss: 3.0140
+2024-08-30 05:11:58,147 - INFO - Epoch 38, Batch 1700, Loss: 2.6874
+2024-08-30 05:12:15,494 - INFO - Epoch 38 completed. Average Loss: 2.8479
+2024-08-30 05:12:55,424 - INFO - Validation Loss: 2.7365
+2024-08-30 05:13:24,173 - INFO - Sample generated text:
+def main():(str(arg))):
+	for i in range(n)):
+		return "\w".join(str(arr))
+
+def output(x):
+	print("==\n")
+	for i in range(range(i):
+		continue[i] += (int(i) for i in distance in range(len(value))
+		p = x[i])
+	if len(n) == 1:
+		return 0
+
+def get_char(d, total):
+	if b >= 0:
+		return 2
+	return i
+
+def get_print_nlements(data):
+	return True
+
+def list_count_seq(list, line, t):
+	return a x in x
+	
+# Calcul.append(x)
+
+def index_data(l):
+    f = 1
+    for i in range(len(0):
+        if count[i] and 0:
+            return [3, 1, a, 0, 1]
+        return 0
+
+
+def get_data(node):
+    # x.append(r)
+    #print(2)
+    return 0
+
+def draw_thats(x, n, y):
+    start = 50
+    for i in range(4, row[30)]):
+        detail[i] = n[0]
+        for i in range(1]):
+            while i in range(int(n):
+                return self.month[i]
+            elif k[i][i] == len:
+                
+        return None
+
+
+def get_team(x, d):
+    return int(d</s>(</s>))</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 05:13:24,755 - INFO - Epoch 39, Batch 0, Loss: 2.7702
+2024-08-30 05:14:34,423 - INFO - Epoch 39, Batch 100, Loss: 2.9625
+2024-08-30 05:15:43,498 - INFO - Epoch 39, Batch 200, Loss: 2.8908
+2024-08-30 05:16:52,420 - INFO - Epoch 39, Batch 300, Loss: 3.0172
+2024-08-30 05:18:01,432 - INFO - Epoch 39, Batch 400, Loss: 3.0931
+2024-08-30 05:19:10,385 - INFO - Epoch 39, Batch 500, Loss: 2.6802
+2024-08-30 05:20:19,325 - INFO - Epoch 39, Batch 600, Loss: 2.8554
+2024-08-30 05:21:28,263 - INFO - Epoch 39, Batch 700, Loss: 3.0302
+2024-08-30 05:22:37,207 - INFO - Epoch 39, Batch 800, Loss: 2.7873
+2024-08-30 05:23:46,160 - INFO - Epoch 39, Batch 900, Loss: 2.7561
+2024-08-30 05:24:55,019 - INFO - Epoch 39, Batch 1000, Loss: 2.9644
+2024-08-30 05:26:03,941 - INFO - Epoch 39, Batch 1100, Loss: 2.7846
+2024-08-30 05:27:12,861 - INFO - Epoch 39, Batch 1200, Loss: 2.7531
+2024-08-30 05:28:21,792 - INFO - Epoch 39, Batch 1300, Loss: 3.0520
+2024-08-30 05:29:30,732 - INFO - Epoch 39, Batch 1400, Loss: 2.9469
+2024-08-30 05:30:39,745 - INFO - Epoch 39, Batch 1500, Loss: 2.7951
+2024-08-30 05:31:48,709 - INFO - Epoch 39, Batch 1600, Loss: 2.4928
+2024-08-30 05:32:57,544 - INFO - Epoch 39, Batch 1700, Loss: 2.9797
+2024-08-30 05:33:14,926 - INFO - Epoch 39 completed. Average Loss: 2.8398
+2024-08-30 05:33:54,849 - INFO - Validation Loss: 2.7277
+2024-08-30 05:34:23,571 - INFO - Sample generated text:
+def main():(text, value, step):
+	return len(self.item)
+
+def get(id):
+	return self.get_target.query()
+
+def login_session(instance, session, password, company):
+	def handle(self):
+		user = request.request.get("account")
+		return render(text_id)
+	def get_response(request, view, request, response):
+		user = get_user_url(request, service, url)
+		if not redirect:
+				 redirect.request = request_url
+				return redirect
+		except Exception:
+				user = user.objects.url(user=url)
+				url(request)
+				return render_response
+				elurl=user.urlcode
+					user = request.POST
+					serial.write(request.body, port)
+					return response, request.GET.url
+
+		elif db.POST.get('username': 'POST', 'POST': 'POST'):
+				print 'ly_name' in request.user['request'].user
+					# framework your request.route('f', url, 'login'))
+						#print User:
+									
+									post_id = request.get('http://localhost.json.txt')
+						#print(url)
+						return url
+									req.execute(404) 
+							raise(password, url)
+									
+					eljson.seek('post').getout(message)
+
+						print '
+																							# w.				##		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 05:34:24,151 - INFO - Epoch 40, Batch 0, Loss: 2.6873
+2024-08-30 05:35:33,158 - INFO - Epoch 40, Batch 100, Loss: 2.9865
+2024-08-30 05:36:42,178 - INFO - Epoch 40, Batch 200, Loss: 2.7456
+2024-08-30 05:37:51,185 - INFO - Epoch 40, Batch 300, Loss: 2.7442
+2024-08-30 05:39:00,248 - INFO - Epoch 40, Batch 400, Loss: 2.7716
+2024-08-30 05:40:09,177 - INFO - Epoch 40, Batch 500, Loss: 2.5742
+2024-08-30 05:41:18,247 - INFO - Epoch 40, Batch 600, Loss: 2.7982
+2024-08-30 05:42:27,083 - INFO - Epoch 40, Batch 700, Loss: 2.9313
+2024-08-30 05:43:36,043 - INFO - Epoch 40, Batch 800, Loss: 2.8428
+2024-08-30 05:44:44,898 - INFO - Epoch 40, Batch 900, Loss: 2.8967
+2024-08-30 05:45:53,703 - INFO - Epoch 40, Batch 1000, Loss: 2.6766
+2024-08-30 05:47:02,591 - INFO - Epoch 40, Batch 1100, Loss: 2.7080
+2024-08-30 05:48:11,519 - INFO - Epoch 40, Batch 1200, Loss: 2.6746
+2024-08-30 05:49:20,445 - INFO - Epoch 40, Batch 1300, Loss: 2.7053
+2024-08-30 05:50:29,304 - INFO - Epoch 40, Batch 1400, Loss: 2.8625
+2024-08-30 05:51:38,128 - INFO - Epoch 40, Batch 1500, Loss: 2.3417
+2024-08-30 05:52:46,979 - INFO - Epoch 40, Batch 1600, Loss: 2.7789
+2024-08-30 05:53:55,866 - INFO - Epoch 40, Batch 1700, Loss: 2.9367
+2024-08-30 05:54:13,246 - INFO - Epoch 40 completed. Average Loss: 2.8316
+2024-08-30 05:54:53,165 - INFO - Validation Loss: 2.7219
+2024-08-30 05:55:22,115 - INFO - Sample generated text:
+def main():_file:
+	f_dir = line.read("utf")
+	with open(f_file) as f:
+		print(new_file)
+	if len(v) > 3:
+		print(args)
+		if line.startswith('/sl') or 4:
+			out.close("/ + " + python).split("\n")
+		except:
+			if isinstance(t):
+				print("No-write: %s" % f.strip()
+				print(i)
+except:
+			print(" \(' + re.join(r'\n")
+	except:
+		print("\n\n(f))
+	
+	p2_l = re.compile('\n+) | ' + re.split(f[0=1-4]
+	print('\n')
+	print(r\n\n\n\n\n\n\n\n\n\x\04\n\n\n\n\x0\n\x\n\n\t\n60\2\3\n\\n\n\n\x0\t\v\t\2\r\t\t+r\n\n\x\1\x9\x\t\t\n\n\x\n\x\x\n\n\d\00\x3\x\x\n\x19\x\5\x\x\x80\x\x\00\x\x00\x\x\x\x\2\x\x\n\x\x\x\x\4\x00\x\x\x6\x\x\\00\x\x\x\x04\x00\x00\x00\x\x\x\2\x\x\x\x\x\\\x\x00\x06\x12\x\x\1\x1\x\x\x\x\x\xff\</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 05:55:22,700 - INFO - Epoch 41, Batch 0, Loss: 2.9348
+2024-08-30 05:56:32,118 - INFO - Epoch 41, Batch 100, Loss: 2.8364
+2024-08-30 05:57:41,560 - INFO - Epoch 41, Batch 200, Loss: 2.9156
+2024-08-30 05:58:50,608 - INFO - Epoch 41, Batch 300, Loss: 2.6175
+2024-08-30 05:59:59,681 - INFO - Epoch 41, Batch 400, Loss: 2.6117
+2024-08-30 06:01:08,692 - INFO - Epoch 41, Batch 500, Loss: 2.8491
+2024-08-30 06:02:17,669 - INFO - Epoch 41, Batch 600, Loss: 2.7380
+2024-08-30 06:03:26,636 - INFO - Epoch 41, Batch 700, Loss: 2.8802
+2024-08-30 06:04:35,632 - INFO - Epoch 41, Batch 800, Loss: 3.1141
+2024-08-30 06:05:44,569 - INFO - Epoch 41, Batch 900, Loss: 2.8836
+2024-08-30 06:06:53,525 - INFO - Epoch 41, Batch 1000, Loss: 2.8378
+2024-08-30 06:08:02,462 - INFO - Epoch 41, Batch 1100, Loss: 2.9486
+2024-08-30 06:09:11,422 - INFO - Epoch 41, Batch 1200, Loss: 2.5788
+2024-08-30 06:10:20,317 - INFO - Epoch 41, Batch 1300, Loss: 2.9616
+2024-08-30 06:11:29,259 - INFO - Epoch 41, Batch 1400, Loss: 2.7716
+2024-08-30 06:12:38,145 - INFO - Epoch 41, Batch 1500, Loss: 2.7398
+2024-08-30 06:13:47,153 - INFO - Epoch 41, Batch 1600, Loss: 2.8188
+2024-08-30 06:14:56,007 - INFO - Epoch 41, Batch 1700, Loss: 2.7485
+2024-08-30 06:15:13,425 - INFO - Epoch 41 completed. Average Loss: 2.8239
+2024-08-30 06:15:53,387 - INFO - Validation Loss: 2.7157
+2024-08-30 06:16:22,144 - INFO - Sample generated text:
+def main():_list=[]
+	for line in get_list:
+		for chunk in range:
+			for i in range(6, 1):
+				break:
+						char[i].append(int( \s[3].keys().split(1)
+						print('http://ph.c.read/1.0.1")
+							print(int(word) + '\n' + 0
+					p.write('\n')
+
+	elif '\n" in rx:
+			if line == " & in lines":
+					print("\n\n#\n\n\n\n\n\n\n\n\n\n\n")
+				print "\\n\n
+					if i in "/"):
+						
+						print "No ", str(object, x))
+					return out
+				
+			loc = 0
+				print("\n\n\n\n)
+			elprint(node)
+				if [" "w" in items:
+						print (c)
+						if sys.exit:
+						print("Test line in the line on install "+n" % line)
+							print("Done: " + str(arg))
+		except:
+					return "\
+			p = argparse.join()
+	with gwn.open(r) as f:
+			print "Bad "\n...": ", line
+		out = open(f)
+		while fob:
+			print("top file: ',:n"
+			else:
+				print("The file: "+}".format(n), "d", "--")
+			print("
+				</s>:
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 06:16:22,724 - INFO - Epoch 42, Batch 0, Loss: 2.7237
+2024-08-30 06:17:31,875 - INFO - Epoch 42, Batch 100, Loss: 2.8419
+2024-08-30 06:18:40,917 - INFO - Epoch 42, Batch 200, Loss: 2.6236
+2024-08-30 06:19:50,055 - INFO - Epoch 42, Batch 300, Loss: 2.7477
+2024-08-30 06:20:59,084 - INFO - Epoch 42, Batch 400, Loss: 2.7838
+2024-08-30 06:22:08,087 - INFO - Epoch 42, Batch 500, Loss: 2.5408
+2024-08-30 06:23:17,015 - INFO - Epoch 42, Batch 600, Loss: 2.6162
+2024-08-30 06:24:25,888 - INFO - Epoch 42, Batch 700, Loss: 3.1654
+2024-08-30 06:25:34,916 - INFO - Epoch 42, Batch 800, Loss: 2.9714
+2024-08-30 06:26:43,831 - INFO - Epoch 42, Batch 900, Loss: 2.7032
+2024-08-30 06:27:52,823 - INFO - Epoch 42, Batch 1000, Loss: 2.6023
+2024-08-30 06:29:01,864 - INFO - Epoch 42, Batch 1100, Loss: 2.7207
+2024-08-30 06:30:10,764 - INFO - Epoch 42, Batch 1200, Loss: 2.7497
+2024-08-30 06:31:19,660 - INFO - Epoch 42, Batch 1300, Loss: 2.8277
+2024-08-30 06:32:28,546 - INFO - Epoch 42, Batch 1400, Loss: 2.9532
+2024-08-30 06:33:37,407 - INFO - Epoch 42, Batch 1500, Loss: 2.8392
+2024-08-30 06:34:46,413 - INFO - Epoch 42, Batch 1600, Loss: 2.6359
+2024-08-30 06:35:55,349 - INFO - Epoch 42, Batch 1700, Loss: 2.6484
+2024-08-30 06:36:12,725 - INFO - Epoch 42 completed. Average Loss: 2.8167
+2024-08-30 06:36:52,660 - INFO - Validation Loss: 2.7090
+2024-08-30 06:37:21,392 - INFO - Sample generated text:
+def main():(str):
+	if len(value) >= 1:
+		return 2
+
+
+def find_nums( text, y):
+	if len(i[0]) == 1):
+		for i in range(range(x)):
+			return 1
+		for i in range(str(i)):
+				if len(i[1] >= 1:
+					next1 += 1
+							t = new(j)
+							else:
+ 							s = (i[i] * s + 1)
+				elif m == host:
+								if i == 3:
+							print('+ias)
+						if ch < 3:
+							if 2 == 0:
+								t[i] = 2
+							if j in s:
+								line = i
+						if i == 1:
+										print("\n + 1
+								 end[i] = 1
+			else:
+						else:
+								if i == 1:
+										
+							return
+																											
+						continue
+					else:
+														print True
+						#if 0.0.1
+		else:
+							from numpy.narray(x1, c)
+							max_cases_char = int(2</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 06:37:21,977 - INFO - Epoch 43, Batch 0, Loss: 2.7660
+2024-08-30 06:38:31,911 - INFO - Epoch 43, Batch 100, Loss: 3.0178
+2024-08-30 06:39:40,888 - INFO - Epoch 43, Batch 200, Loss: 2.9425
+2024-08-30 06:40:49,837 - INFO - Epoch 43, Batch 300, Loss: 2.8577
+2024-08-30 06:41:58,722 - INFO - Epoch 43, Batch 400, Loss: 2.6070
+2024-08-30 06:43:07,644 - INFO - Epoch 43, Batch 500, Loss: 2.8796
+2024-08-30 06:44:16,581 - INFO - Epoch 43, Batch 600, Loss: 2.6166
+2024-08-30 06:45:25,481 - INFO - Epoch 43, Batch 700, Loss: 2.7382
+2024-08-30 06:46:34,401 - INFO - Epoch 43, Batch 800, Loss: 2.9980
+2024-08-30 06:47:43,380 - INFO - Epoch 43, Batch 900, Loss: 2.5510
+2024-08-30 06:48:52,332 - INFO - Epoch 43, Batch 1000, Loss: 2.8341
+2024-08-30 06:50:01,314 - INFO - Epoch 43, Batch 1100, Loss: 2.9276
+2024-08-30 06:51:10,201 - INFO - Epoch 43, Batch 1200, Loss: 2.7840
+2024-08-30 06:52:19,090 - INFO - Epoch 43, Batch 1300, Loss: 2.7294
+2024-08-30 06:53:28,081 - INFO - Epoch 43, Batch 1400, Loss: 2.8135
+2024-08-30 06:54:37,011 - INFO - Epoch 43, Batch 1500, Loss: 2.7566
+2024-08-30 06:55:46,003 - INFO - Epoch 43, Batch 1600, Loss: 2.7888
+2024-08-30 06:56:54,912 - INFO - Epoch 43, Batch 1700, Loss: 2.8022
+2024-08-30 06:57:12,337 - INFO - Epoch 43 completed. Average Loss: 2.8101
+2024-08-30 06:57:52,246 - INFO - Validation Loss: 2.7046
+2024-08-30 06:58:21,058 - INFO - Sample generated text:
+def main():Process=[]
+	p=[]
+	for line in lines:
+		lines(p)
+	if len(x) < 16:
+		p[i] = 1
+	for i in range(len(x[0) <n:
+		print " - str(i)
+		print "f: %s" % str(h[i], ";""))
+	if len(c) > 2:
+		if "\n" in ",line:
+			try:
+				return True
+		else:
+				(x,float)
+			print(line)
+
+def _unpack(filename, raw:
+		m = f[1]
+	if not line:
+		return "\n"x"
+	else:
+		print "Ex.close is not a file: %s"
+		print("\n\n", "")
+	
+
+	if not x in range(2, "):
+		return " ".join(s)
+	elif len(value) > 1:
+		seq = unic.split()
+
+		if line == """:
+			print(int(3)
+		else:
+				print("The must found to be the valid"
+			if len(du) == str.split('\1:', 1)):
+				print " + str(re) + " + str(output[i])
+			words = line
+
+			p += line
+			print "
+			print "
+			eltype.append("\n")
+
+		print "then: ", (" + str(len(data[0]), 1)
+		if use in indent:
+			print(" "+n")
+		else:
+			return r1
+
+def size_papping(l):
+	print "[F: %t" % sys.argv[1]
+
+def create_float(code):
+	return True
+</s> = []
+</s> = [</s>,</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 06:58:21,640 - INFO - Epoch 44, Batch 0, Loss: 2.7228
+2024-08-30 06:59:30,818 - INFO - Epoch 44, Batch 100, Loss: 2.6162
+2024-08-30 07:00:40,090 - INFO - Epoch 44, Batch 200, Loss: 2.7276
+2024-08-30 07:01:49,122 - INFO - Epoch 44, Batch 300, Loss: 2.7287
+2024-08-30 07:02:58,256 - INFO - Epoch 44, Batch 400, Loss: 2.5752
+2024-08-30 07:04:07,251 - INFO - Epoch 44, Batch 500, Loss: 2.8744
+2024-08-30 07:05:16,184 - INFO - Epoch 44, Batch 600, Loss: 2.7937
+2024-08-30 07:06:25,203 - INFO - Epoch 44, Batch 700, Loss: 2.6370
+2024-08-30 07:07:34,275 - INFO - Epoch 44, Batch 800, Loss: 3.0409
+2024-08-30 07:08:43,229 - INFO - Epoch 44, Batch 900, Loss: 2.5092
+2024-08-30 07:09:52,161 - INFO - Epoch 44, Batch 1000, Loss: 2.7652
+2024-08-30 07:11:01,070 - INFO - Epoch 44, Batch 1100, Loss: 2.6450
+2024-08-30 07:12:10,167 - INFO - Epoch 44, Batch 1200, Loss: 2.7834
+2024-08-30 07:13:19,087 - INFO - Epoch 44, Batch 1300, Loss: 2.7627
+2024-08-30 07:14:29,039 - INFO - Epoch 44, Batch 1400, Loss: 2.7085
+2024-08-30 07:15:39,356 - INFO - Epoch 44, Batch 1500, Loss: 2.7219
+2024-08-30 07:16:50,204 - INFO - Epoch 44, Batch 1600, Loss: 2.9268
+2024-08-30 07:18:02,024 - INFO - Epoch 44, Batch 1700, Loss: 2.9261
+2024-08-30 07:18:19,989 - INFO - Epoch 44 completed. Average Loss: 2.8035
+2024-08-30 07:19:02,157 - INFO - Validation Loss: 2.6993
+2024-08-30 07:19:31,113 - INFO - Sample generated text:
+def main(): = '{n_h_'
+	if len(a) == (0):
+		print(line, len(len(tag)
+	return v
+
+def __iter_names(line):
+	if len(r) < 1:
+		return ' + p + ' + ' + str(
+			 '%s' % (i,1, ') + (a)
+			return '\n + ' + str(lines)
+		return (line)
+
+
+# ar of a dict to lower/
+def update_dep_d(es(name):
+	return 1
+    def get_string(x, x, i):
+    
+    return open(x); for x in range(x)
+
+def get_fn_items(data):
+    return len(datetime.time())
+	if i == 0:
+		if self.st.is_ccode(1, 0):
+			return 1
+		else:
+			return False
+
+
+def _get_fac_data(f):
+	def get_str(str, i):
+		print(str(lines) for obj in range(n)]
+		print(i[0,3])))
+	print 1
+
+def test_x(time_line, count):
+	print("Error: " + [n, 1]
+
+def get_p_p(r):
+	for i, x in enumerate(j):
+		return '{n]
+		if i == 1:
+			print(
+				a[1]
+			return False
+		return
+
+	return '#
+	def iter_s(a,t):
+		return d
+
+def test_new_tables():
+	def test_name(self):
+		return pd.read()
+		return self.__s as self.station
+		return self
+
+
+def test_del_time(a, y):
+    return np.time(</s>,</s>.</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 07:19:31,699 - INFO - Epoch 45, Batch 0, Loss: 2.7841
+2024-08-30 07:20:40,756 - INFO - Epoch 45, Batch 100, Loss: 2.8258
+2024-08-30 07:21:49,559 - INFO - Epoch 45, Batch 200, Loss: 2.7951
+2024-08-30 07:22:58,307 - INFO - Epoch 45, Batch 300, Loss: 2.3845
+2024-08-30 07:24:07,339 - INFO - Epoch 45, Batch 400, Loss: 3.0057
+2024-08-30 07:25:16,280 - INFO - Epoch 45, Batch 500, Loss: 2.7347
+2024-08-30 07:26:25,502 - INFO - Epoch 45, Batch 600, Loss: 2.9138
+2024-08-30 07:27:34,364 - INFO - Epoch 45, Batch 700, Loss: 3.0596
+2024-08-30 07:28:43,155 - INFO - Epoch 45, Batch 800, Loss: 2.8853
+2024-08-30 07:29:52,005 - INFO - Epoch 45, Batch 900, Loss: 2.7563
+2024-08-30 07:31:00,696 - INFO - Epoch 45, Batch 1000, Loss: 2.9445
+2024-08-30 07:32:09,440 - INFO - Epoch 45, Batch 1100, Loss: 2.8938
+2024-08-30 07:33:18,276 - INFO - Epoch 45, Batch 1200, Loss: 2.7707
+2024-08-30 07:34:27,099 - INFO - Epoch 45, Batch 1300, Loss: 2.7949
+2024-08-30 07:35:35,896 - INFO - Epoch 45, Batch 1400, Loss: 2.4563
+2024-08-30 07:36:44,700 - INFO - Epoch 45, Batch 1500, Loss: 2.7531
+2024-08-30 07:37:53,517 - INFO - Epoch 45, Batch 1600, Loss: 2.5776
+2024-08-30 07:39:02,416 - INFO - Epoch 45, Batch 1700, Loss: 2.7900
+2024-08-30 07:39:19,732 - INFO - Epoch 45 completed. Average Loss: 2.7975
+2024-08-30 07:39:59,553 - INFO - Validation Loss: 2.6942
+2024-08-30 07:40:28,409 - INFO - Sample generated text:
+def main():=int):
+	return False
+	for i in range(len(len(data)):
+		a_new[i] = []
+		while line[i] > 2:]
+		return False
+	else:
+		else:
+			print("Error " + str(1) + 1
+			print "Weight: # " + str(err)
+			print(line) + "\n
+ 		else:
+			print "\Version: " + str(i)
+		else:
+				out = int(str(4)
+			except:
+				result = 0
+							if i < 7:
+									print "[ + 1]
+						continue:
+							if i.startswith("normal")):
+									print "You %s"
+							return "{}
+											print "\n"
+								return "\'"
+							print "This R!"
+															
+									
+						print " " + c.strip()
+					# print "�: ", " + str(line)
+							if i == e and i:
+								print("-line: CD.format(str(str(1)) + 1)
+								print " " % str(n) + "
+							print "\n\n
+									continue
+			else:
+								print(" "my: " + str(2)
+					#			
+								else:
+				</s>.</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 07:40:28,989 - INFO - Epoch 46, Batch 0, Loss: 2.9113
+2024-08-30 07:41:38,200 - INFO - Epoch 46, Batch 100, Loss: 3.1362
+2024-08-30 07:42:46,887 - INFO - Epoch 46, Batch 200, Loss: 2.6555
+2024-08-30 07:43:55,568 - INFO - Epoch 46, Batch 300, Loss: 3.0145
+2024-08-30 07:45:04,349 - INFO - Epoch 46, Batch 400, Loss: 2.7948
+2024-08-30 07:46:12,954 - INFO - Epoch 46, Batch 500, Loss: 2.6452
+2024-08-30 07:47:21,614 - INFO - Epoch 46, Batch 600, Loss: 2.7077
+2024-08-30 07:48:30,265 - INFO - Epoch 46, Batch 700, Loss: 2.8327
+2024-08-30 07:49:39,037 - INFO - Epoch 46, Batch 800, Loss: 2.7053
+2024-08-30 07:50:47,669 - INFO - Epoch 46, Batch 900, Loss: 2.5149
+2024-08-30 07:51:56,280 - INFO - Epoch 46, Batch 1000, Loss: 2.7912
+2024-08-30 07:53:04,819 - INFO - Epoch 46, Batch 1100, Loss: 2.8133
+2024-08-30 07:54:13,484 - INFO - Epoch 46, Batch 1200, Loss: 2.8235
+2024-08-30 07:55:22,027 - INFO - Epoch 46, Batch 1300, Loss: 2.7767
+2024-08-30 07:56:30,685 - INFO - Epoch 46, Batch 1400, Loss: 2.9498
+2024-08-30 07:57:39,267 - INFO - Epoch 46, Batch 1500, Loss: 3.0137
+2024-08-30 07:58:47,937 - INFO - Epoch 46, Batch 1600, Loss: 2.6401
+2024-08-30 07:59:56,535 - INFO - Epoch 46, Batch 1700, Loss: 2.6577
+2024-08-30 08:00:13,888 - INFO - Epoch 46 completed. Average Loss: 2.7921
+2024-08-30 08:00:53,714 - INFO - Validation Loss: 2.6894
+2024-08-30 08:01:22,362 - INFO - Sample generated text:
+def main():_dict:
+	"""
+		return z_to
+		return r[1]
+	
+
+
+class Show(e):
+	"""
+	"""
+				
+																											#
+																											
+																									-	  The get the current list to this way
+#																											 * subprocess.		
+																		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 08:01:22,940 - INFO - Epoch 47, Batch 0, Loss: 2.9428
+2024-08-30 08:02:32,610 - INFO - Epoch 47, Batch 100, Loss: 2.7343
+2024-08-30 08:03:41,295 - INFO - Epoch 47, Batch 200, Loss: 2.4309
+2024-08-30 08:04:50,060 - INFO - Epoch 47, Batch 300, Loss: 2.5871
+2024-08-30 08:05:58,757 - INFO - Epoch 47, Batch 400, Loss: 2.8084
+2024-08-30 08:07:07,535 - INFO - Epoch 47, Batch 500, Loss: 2.8405
+2024-08-30 08:08:16,278 - INFO - Epoch 47, Batch 600, Loss: 2.8536
+2024-08-30 08:09:25,052 - INFO - Epoch 47, Batch 700, Loss: 2.5567
+2024-08-30 08:10:35,455 - INFO - Epoch 47, Batch 800, Loss: 2.9809
+2024-08-30 08:11:45,185 - INFO - Epoch 47, Batch 900, Loss: 2.6115
+2024-08-30 08:12:53,871 - INFO - Epoch 47, Batch 1000, Loss: 3.0469
+2024-08-30 08:14:02,691 - INFO - Epoch 47, Batch 1100, Loss: 3.2394
+2024-08-30 08:15:11,356 - INFO - Epoch 47, Batch 1200, Loss: 2.7984
+2024-08-30 08:16:19,946 - INFO - Epoch 47, Batch 1300, Loss: 2.8752
+2024-08-30 08:17:28,558 - INFO - Epoch 47, Batch 1400, Loss: 2.4731
+2024-08-30 08:18:37,121 - INFO - Epoch 47, Batch 1500, Loss: 2.7490
+2024-08-30 08:19:45,713 - INFO - Epoch 47, Batch 1600, Loss: 2.7953
+2024-08-30 08:20:54,395 - INFO - Epoch 47, Batch 1700, Loss: 2.5039
+2024-08-30 08:21:11,701 - INFO - Epoch 47 completed. Average Loss: 2.7868
+2024-08-30 08:21:51,510 - INFO - Validation Loss: 2.6842
+2024-08-30 08:22:20,175 - INFO - Sample generated text:
+def main(): = None
+	print "The time into the cur " + str(target)
+	print " ")
+	print(" ", str(line) + 1: " + str(i)
+
+while True:
+	print("\n:n = 0)
+
+	for i in range(1, 1):
+		pok = 1
+		break[i] = "end " + str([1]
+		return len(p)
+
+def get_index(text, id):
+	if len(seq) > 2:
+		return str(line)
+	try:
+		return 1
+
+class ValueError:
+	def __init__(self, other, value):
+		return self.__value
+		self.col = other
+
+
+def get_value(cl, value):
+	"""
+		return str(str(self.n[1])
+
+
+def get_by_sh_id(x):
+	return numpy.choice(value[1], i[1].replace() for i in range(3)]
+
+def test_u_min_to_count(x):
+	return y_name, self.next_value[1]
+
+def _get_model_module(tim_str):
+    """
+    Attempt_sub2                                                                                                                                                                               </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 08:22:20,753 - INFO - Epoch 48, Batch 0, Loss: 2.8525
+2024-08-30 08:23:29,674 - INFO - Epoch 48, Batch 100, Loss: 2.7451
+2024-08-30 08:24:38,463 - INFO - Epoch 48, Batch 200, Loss: 2.8483
+2024-08-30 08:25:47,098 - INFO - Epoch 48, Batch 300, Loss: 2.7115
+2024-08-30 08:26:55,735 - INFO - Epoch 48, Batch 400, Loss: 2.5783
+2024-08-30 08:28:04,314 - INFO - Epoch 48, Batch 500, Loss: 3.0564
+2024-08-30 08:29:12,931 - INFO - Epoch 48, Batch 600, Loss: 2.5372
+2024-08-30 08:30:21,533 - INFO - Epoch 48, Batch 700, Loss: 2.7744
+2024-08-30 08:31:30,157 - INFO - Epoch 48, Batch 800, Loss: 3.0365
+2024-08-30 08:32:38,679 - INFO - Epoch 48, Batch 900, Loss: 2.7172
+2024-08-30 08:33:47,270 - INFO - Epoch 48, Batch 1000, Loss: 2.5529
+2024-08-30 08:34:55,888 - INFO - Epoch 48, Batch 1100, Loss: 2.6886
+2024-08-30 08:36:04,582 - INFO - Epoch 48, Batch 1200, Loss: 3.0819
+2024-08-30 08:37:13,134 - INFO - Epoch 48, Batch 1300, Loss: 2.9464
+2024-08-30 08:38:21,741 - INFO - Epoch 48, Batch 1400, Loss: 2.6956
+2024-08-30 08:39:30,247 - INFO - Epoch 48, Batch 1500, Loss: 2.7570
+2024-08-30 08:40:38,954 - INFO - Epoch 48, Batch 1600, Loss: 2.5690
+2024-08-30 08:41:47,597 - INFO - Epoch 48, Batch 1700, Loss: 2.6658
+2024-08-30 08:42:04,878 - INFO - Epoch 48 completed. Average Loss: 2.7822
+2024-08-30 08:42:44,819 - INFO - Validation Loss: 2.6812
+2024-08-30 08:43:13,728 - INFO - Sample generated text:
+def main()::
+		return "Could string."
+	print " + str(len(fil)[0]
+	print "\n"
+	print "n"
+	return "\n"
+
+def show_list(n, dpack):
+	for i in range(1, 1):
+		line[i] = dist[i]
+		for i in range(u):
+			print(l + len(i) + 1)
+		t[i] += 1
+		print(s)
+
+def test_size():
+	print "-" can have the time: %s" % (
+	print(1)
+
+
+def test_result(x):
+	print(" " " + str( x1) + " + str(x)
+	elif a int:
+		x_type(i)
+		print(i)
+
+def test_string(a):
+	print "Expected:%s" % (str(i, "3" % max(ch), 1), "%")
+
+def chunks_data(5):
+	return self.st[0][1]
+
+def find(x):
+	while len(input) > 1:
+		print("h- + x: ", " + str(p))
+	for i in range(1, len(3)]):
+		print "Error: ", str(n[2]
+		print("node: ", 1}
+	print(end(num + 2(2))
+	print "\
+
+def _get_length(n):
+	print("\n>
+	print( "\n\n")
+	print("Please enter a end to " + str(n)
+print(value)
+
+def write_input_version(name):
+	if "<main"] in s:
+		print("*")
+	return sys.argv[1]
+
+def get(f):
+	print "This is [-d"
+	def xicate(ind, start):
+		if len(value) > 0:
+			print(value)
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 08:43:14,308 - INFO - Epoch 49, Batch 0, Loss: 2.7639
+2024-08-30 08:44:32,842 - INFO - Epoch 49, Batch 100, Loss: 3.1598
+2024-08-30 08:46:06,191 - INFO - Epoch 49, Batch 200, Loss: 2.8444
+2024-08-30 08:47:38,401 - INFO - Epoch 49, Batch 300, Loss: 3.1353
+2024-08-30 08:49:12,433 - INFO - Epoch 49, Batch 400, Loss: 2.9339
+2024-08-30 08:50:51,972 - INFO - Epoch 49, Batch 500, Loss: 2.8412
+2024-08-30 08:52:25,401 - INFO - Epoch 49, Batch 600, Loss: 2.9679
+2024-08-30 08:53:56,136 - INFO - Epoch 49, Batch 700, Loss: 2.9667
+2024-08-30 08:55:31,950 - INFO - Epoch 49, Batch 800, Loss: 3.1025
+2024-08-30 08:57:05,066 - INFO - Epoch 49, Batch 900, Loss: 2.8885
+2024-08-30 08:58:30,378 - INFO - Epoch 49, Batch 1000, Loss: 2.8844
+2024-08-30 09:00:09,415 - INFO - Epoch 49, Batch 1100, Loss: 2.5487
+2024-08-30 09:01:39,219 - INFO - Epoch 49, Batch 1200, Loss: 2.7134
+2024-08-30 09:03:10,768 - INFO - Epoch 49, Batch 1300, Loss: 2.5952
+2024-08-30 09:04:48,807 - INFO - Epoch 49, Batch 1400, Loss: 2.5913
+2024-08-30 09:06:15,566 - INFO - Epoch 49, Batch 1500, Loss: 2.8216
+2024-08-30 09:07:43,766 - INFO - Epoch 49, Batch 1600, Loss: 2.6958
+2024-08-30 09:09:18,958 - INFO - Epoch 49, Batch 1700, Loss: 2.4999
+2024-08-30 09:09:44,314 - INFO - Epoch 49 completed. Average Loss: 2.7779
+2024-08-30 09:10:44,634 - INFO - Validation Loss: 2.6774
+2024-08-30 09:11:18,879 - INFO - Sample generated text:
+def main():=sys.argv:
+	if len(sys.argv[1]) == 2:
+		if pdu==[1] == 2:
+			print "K: %s" % (n)
+		eldata = sys.argv[1]
+		return line
+
+# read the line of the file, and the path.
+if sys.argv[2]==j[1] == "column" not in sys.argv:
+	if len(sys.argv[0]) == '0:
+		sys.exit(0)
+	if b == 'p':
+		if sys.argv[1] >= 1:
+			if "-mph-f-i" in sys.argv[0] == "1"
+			exit:
+			try:
+				print("Usage: %s" % (sys.argv[0])
+				exit:
+							print "\n %:
+						read= " c.r\n"
+									3:
+							print(0)
+					if not i:
+						print("Error: "r +s)
+								print(" ".mitted %s) % list(xml)
+									if line.lower() < 2:
+								if i == " 4":
+								if i[4] == ':
+								if "-0" in x.send(3):
+									if (sys.argv[0]) == '") > 'p':
+									# 
+						line += False
+				else:
+						css = False
+							return arg
+
+							else:
+		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 09:11:19,672 - INFO - Epoch 50, Batch 0, Loss: 2.3648
+2024-08-30 09:12:47,974 - INFO - Epoch 50, Batch 100, Loss: 2.6363
+2024-08-30 09:14:14,246 - INFO - Epoch 50, Batch 200, Loss: 2.4911
+2024-08-30 09:15:35,696 - INFO - Epoch 50, Batch 300, Loss: 3.0827
+2024-08-30 09:16:48,255 - INFO - Epoch 50, Batch 400, Loss: 2.7236
+2024-08-30 09:18:01,363 - INFO - Epoch 50, Batch 500, Loss: 2.9142
+2024-08-30 09:19:14,616 - INFO - Epoch 50, Batch 600, Loss: 2.7201
+2024-08-30 09:20:27,552 - INFO - Epoch 50, Batch 700, Loss: 2.6968
+2024-08-30 09:21:39,081 - INFO - Epoch 50, Batch 800, Loss: 2.7990
+2024-08-30 09:22:51,962 - INFO - Epoch 50, Batch 900, Loss: 2.9076
+2024-08-30 09:24:04,661 - INFO - Epoch 50, Batch 1000, Loss: 2.6052
+2024-08-30 09:25:16,329 - INFO - Epoch 50, Batch 1100, Loss: 2.7024
+2024-08-30 09:26:27,947 - INFO - Epoch 50, Batch 1200, Loss: 3.0198
+2024-08-30 09:27:37,164 - INFO - Epoch 50, Batch 1300, Loss: 2.6837
+2024-08-30 09:28:47,112 - INFO - Epoch 50, Batch 1400, Loss: 2.7139
+2024-08-30 09:29:56,782 - INFO - Epoch 50, Batch 1500, Loss: 2.4482
+2024-08-30 09:31:06,625 - INFO - Epoch 50, Batch 1600, Loss: 2.4745
+2024-08-30 09:32:15,263 - INFO - Epoch 50, Batch 1700, Loss: 2.7125
+2024-08-30 09:32:32,253 - INFO - Epoch 50 completed. Average Loss: 2.7735
+2024-08-30 09:33:12,216 - INFO - Validation Loss: 2.6743
+2024-08-30 09:33:41,021 - INFO - Sample generated text:
+def main():=None
+	if len(sys.argv) < 4:
+	return False
+	print "ERROR:
+	while True:
+	print(2.0)
+	try:
+		print('Error up word per')
+		print('Error: %s, ")
+		print(' ' + text + " + "\n\n")
+
+import urllib
+
+from. import assert_version
+from.version import print
+from. import *
+from.utils import from_str_narstext, __version__
+from. import Param_decode, _str_format
+
+import hashlib.py
+import urllib
+
+from. import is_command
+
+
+def get_password(db, context):
+    if request.method == 'POST':
+        return None
+    except:
+        return None
+    if not request.is_code:
+        if 'debug' in opt['id']:
+            return False
+    else:
+        return request.get('conf_id')
+    elif 'v_id' in request.get('assist_id'):
+        return True
+    return render_template
+
+def check_url():
+    return render(db, 'r%s/%s/%s/%s/%s' % (env, url, url)
+
+    return render_data
+
+
+@app.route('/')
+def get_url(request):
+    return render_template(config.POST, 'auth_id', 'GET'))
+
+def main_from_db():
+    """
+    Creat: A single to the client of the current destination
+    """
+    if request.method == 'POST':
+        return False
+    return None
+
+
+def get_exp_querploy_filter(</s>,</s>_</s>):
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 09:33:41,603 - INFO - Epoch 51, Batch 0, Loss: 3.0320
+2024-08-30 09:34:49,223 - INFO - Epoch 51, Batch 100, Loss: 3.0311
+2024-08-30 09:35:56,589 - INFO - Epoch 51, Batch 200, Loss: 2.4261
+2024-08-30 09:37:05,463 - INFO - Epoch 51, Batch 300, Loss: 2.9804
+2024-08-30 09:38:15,689 - INFO - Epoch 51, Batch 400, Loss: 3.0218
+2024-08-30 09:39:25,800 - INFO - Epoch 51, Batch 500, Loss: 2.8236
+2024-08-30 09:40:34,406 - INFO - Epoch 51, Batch 600, Loss: 3.0951
+2024-08-30 09:41:43,655 - INFO - Epoch 51, Batch 700, Loss: 3.0699
+2024-08-30 09:42:54,339 - INFO - Epoch 51, Batch 800, Loss: 2.8358
+2024-08-30 09:44:05,543 - INFO - Epoch 51, Batch 900, Loss: 2.8929
+2024-08-30 09:45:16,764 - INFO - Epoch 51, Batch 1000, Loss: 2.6561
+2024-08-30 09:46:29,555 - INFO - Epoch 51, Batch 1100, Loss: 2.7295
+2024-08-30 09:47:42,268 - INFO - Epoch 51, Batch 1200, Loss: 2.9715
+2024-08-30 09:48:54,173 - INFO - Epoch 51, Batch 1300, Loss: 2.6040
+2024-08-30 09:50:06,193 - INFO - Epoch 51, Batch 1400, Loss: 2.7491
+2024-08-30 09:51:18,274 - INFO - Epoch 51, Batch 1500, Loss: 2.6383
+2024-08-30 09:52:30,089 - INFO - Epoch 51, Batch 1600, Loss: 2.7538
+2024-08-30 09:53:41,259 - INFO - Epoch 51, Batch 1700, Loss: 2.8620
+2024-08-30 09:53:59,362 - INFO - Epoch 51 completed. Average Loss: 2.7700
+2024-08-30 09:54:41,420 - INFO - Validation Loss: 2.6711
+2024-08-30 09:55:11,263 - INFO - Sample generated text:
+def main():_main:
+	# list: list of "h] from run
+	report = "%s" % ("._name, line, value, " %(v, 0)
+	return set(s, (ret) for x in range(len(val) / 60 + '> + str(tag)
+
+def _btg(func, start, end):
+	return True
+
+def _items(a):
+	return True
+
+def is_type(func, value):
+	return '%s %s' % (
+		
+		{'key': '\"',
+		'('': '\}',
+		'string': 'Short'
+		'type': 'value'},
+		'type': '1'
+		}, 'keys': '1'
+		},
+			
+			{'name': 'c'},
+				'label': {
+					'name': '%s' % (
+					'reddit': 'value'},
+					'(update': '%s', 'type': 'Number'},
+					'type': '%s' % (
+					   'type':'id': '{},
+						'user': '('last', 'type': 'string'},
+					'name': '1'
+						'type': 'None' :
+							'name': 'name',
+								}, (field_type, 'is_name', 'return_item', 'not_text']
+						content_name = 'string'
+							'author': 'timetch_type_id'
+								'type_details': 'field/id',
+								'text': 'name',
+									'm2': 'address',
+				</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 09:55:11,876 - INFO - Epoch 52, Batch 0, Loss: 2.9614
+2024-08-30 09:56:24,192 - INFO - Epoch 52, Batch 100, Loss: 2.9270
+2024-08-30 09:57:34,259 - INFO - Epoch 52, Batch 200, Loss: 2.8686
+2024-08-30 09:58:42,972 - INFO - Epoch 52, Batch 300, Loss: 2.7972
+2024-08-30 09:59:51,692 - INFO - Epoch 52, Batch 400, Loss: 2.8618
+2024-08-30 10:01:00,589 - INFO - Epoch 52, Batch 500, Loss: 2.8002
+2024-08-30 10:02:13,430 - INFO - Epoch 52, Batch 600, Loss: 2.8699
+2024-08-30 10:03:28,342 - INFO - Epoch 52, Batch 700, Loss: 3.1019
+2024-08-30 10:04:42,689 - INFO - Epoch 52, Batch 800, Loss: 2.7481
+2024-08-30 10:05:57,427 - INFO - Epoch 52, Batch 900, Loss: 3.0594
+2024-08-30 10:07:12,212 - INFO - Epoch 52, Batch 1000, Loss: 2.6413
+2024-08-30 10:08:27,388 - INFO - Epoch 52, Batch 1100, Loss: 2.9734
+2024-08-30 10:09:41,936 - INFO - Epoch 52, Batch 1200, Loss: 2.7796
+2024-08-30 10:10:56,601 - INFO - Epoch 52, Batch 1300, Loss: 2.8426
+2024-08-30 10:12:11,269 - INFO - Epoch 52, Batch 1400, Loss: 2.7658
+2024-08-30 10:13:26,550 - INFO - Epoch 52, Batch 1500, Loss: 2.8080
+2024-08-30 10:14:39,743 - INFO - Epoch 52, Batch 1600, Loss: 2.7479
+2024-08-30 10:15:52,705 - INFO - Epoch 52, Batch 1700, Loss: 2.7865
+2024-08-30 10:16:11,188 - INFO - Epoch 52 completed. Average Loss: 2.7671
+2024-08-30 10:16:53,821 - INFO - Validation Loss: 2.6683
+2024-08-30 10:17:23,749 - INFO - Sample generated text:
+def main():=''
+	return 'At'
+	hash=[]
+	
+	def __init__(self, name):
+		self.words = '\n'
+		self.__sw = 1
+		self.__percent = v.01
+		self.B = 0
+		self.x = self.x
+		self.r = self.y
+		self.right = 0
+	def cd(self):
+		self.p = 0
+		self.left = self.pre_y
+	
+	def is(self):
+		self.num = self.px
+		self.data = 0
+		self.x = 0
+		self.b = 0
+		self.x = 0
+		self.x = 0
+		self.y = 0
+		self.width = 0
+		self.right = 0
+		self.line = 0
+		self.y = 0
+
+	def remove_move(self):
+		y = []
+		self.tag = self.width
+		self.right = self.m.get_font()
+		self.parent = self.weight
+		self.for.total = self.x.1
+		self.total = self.y
+		self.random.display
+		self.value = self.x
+		self.y = self.keep
+		self.left = self.output
+		self.pb = self.x
+		self.rect = self.y
+		self.date = self.x
+		self.left = self.y
+		self.c = self.y, self.x
+		self.y = 2
+		self.return = 0
+		self.l = w.x
+		self.y = self.x
+		self.c = 0
+		self.x = self.y
+		self.disc = self.y
+		self.y = self.y
+		self.mom = 0
+		</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 10:17:24,369 - INFO - Epoch 53, Batch 0, Loss: 2.8031
+2024-08-30 10:18:36,409 - INFO - Epoch 53, Batch 100, Loss: 3.1159
+2024-08-30 10:19:48,319 - INFO - Epoch 53, Batch 200, Loss: 2.8766
+2024-08-30 10:21:11,659 - INFO - Epoch 53, Batch 300, Loss: 2.8489
+2024-08-30 10:22:39,500 - INFO - Epoch 53, Batch 400, Loss: 2.7433
+2024-08-30 10:24:05,146 - INFO - Epoch 53, Batch 500, Loss: 2.6260
+2024-08-30 10:25:30,840 - INFO - Epoch 53, Batch 600, Loss: 2.8266
+2024-08-30 10:26:57,931 - INFO - Epoch 53, Batch 700, Loss: 2.9133
+2024-08-30 10:28:32,900 - INFO - Epoch 53, Batch 800, Loss: 2.8196
+2024-08-30 10:30:00,190 - INFO - Epoch 53, Batch 900, Loss: 2.6993
+2024-08-30 10:31:12,429 - INFO - Epoch 53, Batch 1000, Loss: 2.9162
+2024-08-30 10:32:24,986 - INFO - Epoch 53, Batch 1100, Loss: 2.7587
+2024-08-30 10:33:37,317 - INFO - Epoch 53, Batch 1200, Loss: 2.7966
+2024-08-30 10:34:48,222 - INFO - Epoch 53, Batch 1300, Loss: 2.7198
+2024-08-30 10:35:59,082 - INFO - Epoch 53, Batch 1400, Loss: 2.6189
+2024-08-30 10:37:10,420 - INFO - Epoch 53, Batch 1500, Loss: 2.5070
+2024-08-30 10:38:21,390 - INFO - Epoch 53, Batch 1600, Loss: 2.6866
+2024-08-30 10:39:32,201 - INFO - Epoch 53, Batch 1700, Loss: 2.9252
+2024-08-30 10:39:50,146 - INFO - Epoch 53 completed. Average Loss: 2.7639
+2024-08-30 10:40:31,594 - INFO - Validation Loss: 2.6655
+2024-08-30 10:41:00,887 - INFO - Sample generated text:
+def main():(args):
+	try:
+		if len(args) == 1:
+			exit(day)
+		return False
+
+def random():
+	print >>:" 
+	print("Please a %s) % (str(0, 23,h))
+	else:
+		print("Error: %s\n %s.join(v)
+	if not splcode:
+		exception("In do wrong to be sublist.d, "")
+	else:
+		raise("Error line: %s" % (1, len(v), (1)
+		return False
+
+
+def get_add_print(string, default=False):
+	return "Please case in the comment"
+	import config
+
+def get_set_lines(key):
+    """
+    Returns:
+            path or URL, the path, not path
+                in the string is attribute for a result as a file file
+                                                is the configuration is not name.
+    Example:
+                                                                                                    -
+                                                                     </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 10:41:01,484 - INFO - Epoch 54, Batch 0, Loss: 2.6515
+2024-08-30 10:42:13,077 - INFO - Epoch 54, Batch 100, Loss: 2.3717
+2024-08-30 10:43:24,258 - INFO - Epoch 54, Batch 200, Loss: 2.6545
+2024-08-30 10:44:37,307 - INFO - Epoch 54, Batch 300, Loss: 2.9548
+2024-08-30 10:45:48,590 - INFO - Epoch 54, Batch 400, Loss: 2.7376
+2024-08-30 10:47:00,679 - INFO - Epoch 54, Batch 500, Loss: 2.6457
+2024-08-30 10:48:12,997 - INFO - Epoch 54, Batch 600, Loss: 2.7780
+2024-08-30 10:49:24,829 - INFO - Epoch 54, Batch 700, Loss: 2.8067
+2024-08-30 10:50:37,187 - INFO - Epoch 54, Batch 800, Loss: 2.4921
+2024-08-30 10:51:48,593 - INFO - Epoch 54, Batch 900, Loss: 2.7663
+2024-08-30 10:52:59,868 - INFO - Epoch 54, Batch 1000, Loss: 2.6259
+2024-08-30 10:54:11,267 - INFO - Epoch 54, Batch 1100, Loss: 2.8878
+2024-08-30 10:55:24,583 - INFO - Epoch 54, Batch 1200, Loss: 2.7561
+2024-08-30 10:56:35,336 - INFO - Epoch 54, Batch 1300, Loss: 2.5647
+2024-08-30 10:57:46,503 - INFO - Epoch 54, Batch 1400, Loss: 2.8614
+2024-08-30 10:58:58,563 - INFO - Epoch 54, Batch 1500, Loss: 2.8495
+2024-08-30 11:00:12,200 - INFO - Epoch 54, Batch 1600, Loss: 2.7928
+2024-08-30 11:01:23,855 - INFO - Epoch 54, Batch 1700, Loss: 2.7731
+2024-08-30 11:01:41,988 - INFO - Epoch 54 completed. Average Loss: 2.7614
+2024-08-30 11:02:22,830 - INFO - Validation Loss: 2.6644
+2024-08-30 11:02:52,006 - INFO - Sample generated text:
+def main(): = datetime.datetime[str]
+
+def get_time_rand(bok):
+  Returns_str = int(date_bumer_data)
+  for i in range(in_location):
+    if max_1:
+      if row_list[1][x] > 0:
+        if len(v) > 1:
+            end_pos[i] = max_f[j_size] + 1
+        return time_fm[1] + 1
+    else:
+        
+    if len(a_shape) <= max_list:
+        return 0
+    return tuple_count
+
+
+def get_str_list(num, start):
+    end_start = []
+    for i in range(num_list_list):
+        co_index += 1
+        if not value:
+            if len(len(i)):
+                time.split(0[0][1] + 1)
+            node.append(line[1]
+        else:
+            if re_head == 0):
+                break
+        return num_count(x[0] + 1) + []
+    return True
+
+def get_name_string(n):
+    """
+    Returns that a given list of the value.
+    """
+    if not p_now:
+        return True
+    return None
+
+
+def get_current_tictionary(lines, data):
+    """
+    Param a array as a state</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 11:02:52,608 - INFO - Epoch 55, Batch 0, Loss: 2.7519
+2024-08-30 11:04:02,921 - INFO - Epoch 55, Batch 100, Loss: 2.6714
+2024-08-30 11:05:14,844 - INFO - Epoch 55, Batch 200, Loss: 2.6343
+2024-08-30 11:06:28,364 - INFO - Epoch 55, Batch 300, Loss: 2.5540
+2024-08-30 11:07:41,980 - INFO - Epoch 55, Batch 400, Loss: 2.8039
+2024-08-30 11:08:55,242 - INFO - Epoch 55, Batch 500, Loss: 2.5106
+2024-08-30 11:10:08,715 - INFO - Epoch 55, Batch 600, Loss: 2.5166
+2024-08-30 11:11:22,335 - INFO - Epoch 55, Batch 700, Loss: 3.0333
+2024-08-30 11:12:35,882 - INFO - Epoch 55, Batch 800, Loss: 2.6759
+2024-08-30 11:13:46,671 - INFO - Epoch 55, Batch 900, Loss: 2.6623
+2024-08-30 11:14:56,103 - INFO - Epoch 55, Batch 1000, Loss: 3.2276
+2024-08-30 11:16:05,562 - INFO - Epoch 55, Batch 1100, Loss: 2.7742
+2024-08-30 11:17:15,070 - INFO - Epoch 55, Batch 1200, Loss: 2.6527
+2024-08-30 11:18:24,494 - INFO - Epoch 55, Batch 1300, Loss: 2.7939
+2024-08-30 11:19:33,917 - INFO - Epoch 55, Batch 1400, Loss: 3.0475
+2024-08-30 11:20:43,312 - INFO - Epoch 55, Batch 1500, Loss: 2.4059
+2024-08-30 11:21:52,763 - INFO - Epoch 55, Batch 1600, Loss: 2.8609
+2024-08-30 11:23:02,205 - INFO - Epoch 55, Batch 1700, Loss: 2.7556
+2024-08-30 11:23:19,721 - INFO - Epoch 55 completed. Average Loss: 2.7587
+2024-08-30 11:23:59,635 - INFO - Validation Loss: 2.6620
+2024-08-30 11:24:28,296 - INFO - Sample generated text:
+def main(): = c.get(color)
+	hick = list.load()
+	 = data.number(i)
+	t.append(y)
+	for i in range(len(len(x)-i))):
+		data = np.array(n + 1)
+		for i in range(len(i):
+			for i in range(images(u+1):
+				print(i[i] + i)
+			rows = np.all(i)
+				#print(i)
+					print(tumpy + x[1], 0, 1)
+						#(i)
+					#	print(a[i1] = 0
+				print(a)
+					print ":
+				def i(i, y):
+					if i[3:n] = "f or not the j, " + " + " + "
+					if (i[0] == "X":
+							if "1:):
+								#
+						if j == "1":
+										print (1[1] + "")
+		else:
+									print(" + " + str( "")
+							print("\n")
+							if len(y) == "1:
+								row = ci.start(line)
+					else:
+										+= = len(c)
+							return False
+							print "Error: "t" + value
+						return True
+
+					else:
+								print(i)
+
+				else:
+								raise
+	</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 11:24:28,875 - INFO - Epoch 56, Batch 0, Loss: 2.7933
+2024-08-30 11:25:38,552 - INFO - Epoch 56, Batch 100, Loss: 3.0388
+2024-08-30 11:26:47,960 - INFO - Epoch 56, Batch 200, Loss: 2.6060
+2024-08-30 11:27:57,458 - INFO - Epoch 56, Batch 300, Loss: 2.4579
+2024-08-30 11:29:06,898 - INFO - Epoch 56, Batch 400, Loss: 2.7695
+2024-08-30 11:30:16,327 - INFO - Epoch 56, Batch 500, Loss: 2.5883
+2024-08-30 11:31:25,709 - INFO - Epoch 56, Batch 600, Loss: 2.7067
+2024-08-30 11:32:35,088 - INFO - Epoch 56, Batch 700, Loss: 2.7119
+2024-08-30 11:33:44,524 - INFO - Epoch 56, Batch 800, Loss: 2.7355
+2024-08-30 11:34:53,936 - INFO - Epoch 56, Batch 900, Loss: 2.7577
+2024-08-30 11:36:03,384 - INFO - Epoch 56, Batch 1000, Loss: 2.7740
+2024-08-30 11:37:12,844 - INFO - Epoch 56, Batch 1100, Loss: 2.3668
+2024-08-30 11:38:22,287 - INFO - Epoch 56, Batch 1200, Loss: 2.7009
+2024-08-30 11:39:31,645 - INFO - Epoch 56, Batch 1300, Loss: 2.9836
+2024-08-30 11:40:41,100 - INFO - Epoch 56, Batch 1400, Loss: 2.6281
+2024-08-30 11:41:50,441 - INFO - Epoch 56, Batch 1500, Loss: 2.8696
+2024-08-30 11:42:59,906 - INFO - Epoch 56, Batch 1600, Loss: 2.6929
+2024-08-30 11:44:10,062 - INFO - Epoch 56, Batch 1700, Loss: 2.7872
+2024-08-30 11:44:27,625 - INFO - Epoch 56 completed. Average Loss: 2.7569
+2024-08-30 11:45:08,544 - INFO - Validation Loss: 2.6605
+2024-08-30 11:45:37,716 - INFO - Sample generated text:
+def main():=None
+	key = bool(lambda key, _kwargs)
+	print('pass must 5 from add ' + str(k)
+
+
+# 
+# to a window of the node
+# for subject
+# in the *
+class Solution(int):
+    def __init__(self, name, length):
+        self.length = name
+        self.index = other
+        self.time = 0
+        self.d = []
+        self.n = 0
+
+    def __str__(self):
+        return '=s' % (self.new, self.x)
+
+
+class List(object):
+
+    def __init__(self, name):
+        self.title_file = datetime.time()
+        self.text = {
+            'text': '<t://1.%th>:%s> %(src.daset(%s:%s' % (self.name, self.__name__).__name__,
+            'An': self.__name__,
+            '__only': self.__name__,
+            'name': self.name,
+            'date': self.tim_value,
+            self.name, 'a': self.type,
+            'date': self.p['%s, self.params]
+        else:
+            self.name = '%s' % self.current_name
+        return '%s' % (self.__name__, self.__name__,</s>)</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 11:45:38,342 - INFO - Epoch 57, Batch 0, Loss: 2.6733
+2024-08-30 11:46:48,705 - INFO - Epoch 57, Batch 100, Loss: 2.6069
+2024-08-30 11:47:59,599 - INFO - Epoch 57, Batch 200, Loss: 2.9165
+2024-08-30 11:49:09,443 - INFO - Epoch 57, Batch 300, Loss: 2.6463
+2024-08-30 11:50:19,569 - INFO - Epoch 57, Batch 400, Loss: 3.2557
+2024-08-30 11:51:29,239 - INFO - Epoch 57, Batch 500, Loss: 2.8745
+2024-08-30 11:52:38,621 - INFO - Epoch 57, Batch 600, Loss: 2.7585
+2024-08-30 11:53:46,306 - INFO - Epoch 57, Batch 700, Loss: 3.0573
+2024-08-30 11:54:53,855 - INFO - Epoch 57, Batch 800, Loss: 2.7818
+2024-08-30 11:56:01,368 - INFO - Epoch 57, Batch 900, Loss: 2.4962
+2024-08-30 11:57:08,845 - INFO - Epoch 57, Batch 1000, Loss: 3.0687
+2024-08-30 11:58:16,329 - INFO - Epoch 57, Batch 1100, Loss: 2.8678
+2024-08-30 11:59:23,940 - INFO - Epoch 57, Batch 1200, Loss: 2.7641
+2024-08-30 12:00:31,455 - INFO - Epoch 57, Batch 1300, Loss: 2.8712
+2024-08-30 12:01:39,001 - INFO - Epoch 57, Batch 1400, Loss: 2.6816
+2024-08-30 12:02:46,519 - INFO - Epoch 57, Batch 1500, Loss: 2.8119
+2024-08-30 12:03:54,061 - INFO - Epoch 57, Batch 1600, Loss: 2.2163
+2024-08-30 12:05:01,625 - INFO - Epoch 57, Batch 1700, Loss: 2.8372
+2024-08-30 12:05:18,836 - INFO - Epoch 57 completed. Average Loss: 2.7549
+2024-08-30 12:06:01,870 - INFO - Validation Loss: 2.6592
+2024-08-30 12:06:34,368 - INFO - Sample generated text:
+def main():_type:
+    for s in pprint:
+        print False
+        while c]
+        if last == '2':
+            return True
+    return None
+
+
+@transest.info('<', 'https://f:')
+def get_to_url(request):
+    try:
+        if link_name and 'auth':
+            return response.render(host)
+    except:
+        return '%s/%s' % (url, users, url, url.id))
+    except KeyError:
+        return None
+
+
+def get_user():
+    for user in user.views:
+        if redirect.is_user():
+            return redirect.app.get_settings(login, user, 'auth_id'))
+        return render_response.get('Perose', 'w')
+
+        return render_user_urls
+
+    try:
+        #print name={
+            'user': 'user',
+            'log_page' : request.POST
+        }
+        return
+    return redirect
+def send_url_form(request, request):
+    return render_response('application/db/html/editor/scheis_login.html', user)
+
+def send_url_id(request):
+    """
+      Returns of a key-list of a resource of</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 12:06:35,227 - INFO - Epoch 58, Batch 0, Loss: 2.7956
+2024-08-30 12:08:05,429 - INFO - Epoch 58, Batch 100, Loss: 2.9782
+2024-08-30 12:09:40,932 - INFO - Epoch 58, Batch 200, Loss: 2.6370
+2024-08-30 12:11:05,831 - INFO - Epoch 58, Batch 300, Loss: 2.4778
+2024-08-30 12:12:33,988 - INFO - Epoch 58, Batch 400, Loss: 2.7609
+2024-08-30 12:14:09,291 - INFO - Epoch 58, Batch 500, Loss: 2.9002
+2024-08-30 12:15:50,180 - INFO - Epoch 58, Batch 600, Loss: 2.8293
+2024-08-30 12:17:20,076 - INFO - Epoch 58, Batch 700, Loss: 2.9018
+2024-08-30 12:18:50,279 - INFO - Epoch 58, Batch 800, Loss: 2.8125
+2024-08-30 12:20:15,611 - INFO - Epoch 58, Batch 900, Loss: 2.8157
+2024-08-30 12:21:45,535 - INFO - Epoch 58, Batch 1000, Loss: 3.0277
+2024-08-30 12:23:16,955 - INFO - Epoch 58, Batch 1100, Loss: 2.6698
+2024-08-30 12:24:46,548 - INFO - Epoch 58, Batch 1200, Loss: 3.0437
+2024-08-30 12:26:16,380 - INFO - Epoch 58, Batch 1300, Loss: 2.6247
+2024-08-30 12:27:28,111 - INFO - Epoch 58, Batch 1400, Loss: 2.9128
+2024-08-30 12:28:38,861 - INFO - Epoch 58, Batch 1500, Loss: 2.6632
+2024-08-30 12:29:49,508 - INFO - Epoch 58, Batch 1600, Loss: 2.5544
+2024-08-30 12:31:01,502 - INFO - Epoch 58, Batch 1700, Loss: 2.8217
+2024-08-30 12:31:19,564 - INFO - Epoch 58 completed. Average Loss: 2.7540
+2024-08-30 12:32:02,001 - INFO - Validation Loss: 2.6590
+2024-08-30 12:32:32,004 - INFO - Sample generated text:
+def main():(type):
+	return datetime
+
+import pygame
+
+from.models import (
+    Activity,
+    Dipient,
+    Project,
+    Region,
+    Multi,
+    M,
+    D,
+    Non,
+    T,
+    MIM_DATE,
+    TCENT,
+    TAND,
+    MCT,
+    PL,
+    TF,
+    T,
+    T,
+    DAT,
+    T,
+    DORT,
+    TY,
+    T,
+    T_UNING,
+    DKE_E_LITH,
+    T_UNORE_SITE,
+    AT_LOCK,
+    REC_FY_LMIN,
+    AT_TRAY,
+    CF_RUM_GED,
+    MAX_PER_DATA,
+    ATTR_F_VERSION,
+    STATE_REGAT_U,
+    OP_HIST,
+    AT_FAN_OF,
+)
+
+
+class TestTestCase(unittest.TestCase):
+    """Up for a test."""
+    def test_read_is_empty(self):
+        """Test the network of the time."""
+        s = Open.main()
+        self.assertIs(
+            '-j',
+            "192.0",
+            "0.0.0.0.0.0.0.1.0.0.0.0.0",
+            "1-1",
+   </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 12:32:32,631 - INFO - Epoch 59, Batch 0, Loss: 2.7792
+2024-08-30 12:33:45,145 - INFO - Epoch 59, Batch 100, Loss: 2.8905
+2024-08-30 12:34:56,976 - INFO - Epoch 59, Batch 200, Loss: 2.5830
+2024-08-30 12:36:09,210 - INFO - Epoch 59, Batch 300, Loss: 2.4241
+2024-08-30 12:37:21,320 - INFO - Epoch 59, Batch 400, Loss: 2.7554
+2024-08-30 12:38:33,276 - INFO - Epoch 59, Batch 500, Loss: 2.7375
+2024-08-30 12:39:45,195 - INFO - Epoch 59, Batch 600, Loss: 2.4350
+2024-08-30 12:40:57,032 - INFO - Epoch 59, Batch 700, Loss: 2.7358
+2024-08-30 12:42:08,967 - INFO - Epoch 59, Batch 800, Loss: 2.7907
+2024-08-30 12:43:20,979 - INFO - Epoch 59, Batch 900, Loss: 2.7673
+2024-08-30 12:44:32,906 - INFO - Epoch 59, Batch 1000, Loss: 2.4925
+2024-08-30 12:45:44,814 - INFO - Epoch 59, Batch 1100, Loss: 2.7808
+2024-08-30 12:46:56,814 - INFO - Epoch 59, Batch 1200, Loss: 2.7812
+2024-08-30 12:48:08,860 - INFO - Epoch 59, Batch 1300, Loss: 2.6239
+2024-08-30 12:49:20,657 - INFO - Epoch 59, Batch 1400, Loss: 2.9694
+2024-08-30 12:50:32,550 - INFO - Epoch 59, Batch 1500, Loss: 2.3784
+2024-08-30 12:51:44,580 - INFO - Epoch 59, Batch 1600, Loss: 2.9802
+2024-08-30 12:52:56,484 - INFO - Epoch 59, Batch 1700, Loss: 3.0534
+2024-08-30 12:53:14,538 - INFO - Epoch 59 completed. Average Loss: 2.7524
+2024-08-30 12:53:56,977 - INFO - Validation Loss: 2.6579
+2024-08-30 12:54:26,676 - INFO - Sample generated text:
+def main():=[]
+	return "%s" % (self.choice, name)
+
+
+def get_and_url(db):
+	if not subattr.is_authenticated(self.config, config.user):
+		# Get the request to be provided to use to this of the directory, and reload
+		html.site.exceptions("com: in %s: %s" % (self.url, self.app.login,
+					                                                                                                                                                                                                                                                                                                            #
+#                                                              </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 12:54:27,289 - INFO - Epoch 60, Batch 0, Loss: 2.7277
+2024-08-30 12:55:39,526 - INFO - Epoch 60, Batch 100, Loss: 2.9188
+2024-08-30 12:56:51,896 - INFO - Epoch 60, Batch 200, Loss: 2.6595
+2024-08-30 12:58:04,619 - INFO - Epoch 60, Batch 300, Loss: 2.5424
+2024-08-30 12:59:17,390 - INFO - Epoch 60, Batch 400, Loss: 2.8080
+2024-08-30 13:00:30,421 - INFO - Epoch 60, Batch 500, Loss: 2.7768
+2024-08-30 13:01:42,865 - INFO - Epoch 60, Batch 600, Loss: 2.7321
+2024-08-30 13:02:55,365 - INFO - Epoch 60, Batch 700, Loss: 2.6864
+2024-08-30 13:04:07,867 - INFO - Epoch 60, Batch 800, Loss: 2.7571
+2024-08-30 13:05:18,476 - INFO - Epoch 60, Batch 900, Loss: 2.7969
+2024-08-30 13:06:29,133 - INFO - Epoch 60, Batch 1000, Loss: 2.6269
+2024-08-30 13:07:38,172 - INFO - Epoch 60, Batch 1100, Loss: 2.7769
+2024-08-30 13:08:47,554 - INFO - Epoch 60, Batch 1200, Loss: 2.8280
+2024-08-30 13:09:56,831 - INFO - Epoch 60, Batch 1300, Loss: 2.7666
+2024-08-30 13:11:05,989 - INFO - Epoch 60, Batch 1400, Loss: 2.4619
+2024-08-30 13:12:15,012 - INFO - Epoch 60, Batch 1500, Loss: 2.7462
+2024-08-30 13:13:24,191 - INFO - Epoch 60, Batch 1600, Loss: 3.0133
+2024-08-30 13:14:33,208 - INFO - Epoch 60, Batch 1700, Loss: 2.7693
+2024-08-30 13:14:50,582 - INFO - Epoch 60 completed. Average Loss: 2.7523
+2024-08-30 13:15:30,643 - INFO - Validation Loss: 2.6578
+2024-08-30 13:15:59,275 - INFO - Sample generated text:
+def main(): = "\\" + " + " " + str(a)
+	print "\n\n"
+	print (" for line in xn + "\n +n + " + str(len(i))
+
+print "{n\n\n." + "-"" + "\ + str(len(len(i)) + "\n\n+n\n".format("n\n")
+print "\\n\n\n\n"
+print "\n\n"
+print "\t"
+print "\
+print "\\n"
+print "\\n\n%.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \
+
+print "\n"
+
+print(" ", " + str(n)
+print "\n + str(n + {x:n' + "\n\n\n\n\n\n\n\n")
+print "\n"
+print('\n\n\n\n\n\n\x\n\n+n\n\n+n\n[n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                         #
+# ex=n*p1.0                                     </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train.py:279: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('best_model.pth')
