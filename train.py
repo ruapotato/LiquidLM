@@ -186,7 +186,7 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
     try:
         for epoch in range(epochs):
             # Resample the dataset for each epoch
-            indices = torch.randperm(len(dataset)).tolist()[:50000]
+            indices = torch.randperm(len(dataset)).tolist()[:5000]
             epoch_dataset = Subset(dataset, indices)
             
             train_size = int(0.9 * len(epoch_dataset))
