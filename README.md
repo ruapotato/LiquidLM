@@ -41,6 +41,7 @@ To train the model:
 
 ```
 python train.py
+python train_stage2.py
 ```
 
 To generate text using a trained model:
