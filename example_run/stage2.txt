@@ -1,0 +1,1709 @@
+2024-08-30 14:11:25,802 - INFO - Total examples after filtering: 10000
+2024-08-30 14:11:34,834 - INFO - Epoch 1, Batch 0, Loss: 5.5995
+2024-08-30 14:12:57,411 - INFO - Epoch 1, Batch 100, Loss: 5.7419
+		2024-08-30 14:14:17,836 - INFO - Epoch 1, Batch 200, Loss: 5.5674
+2024-08-30 14:15:24,991 - INFO - Epoch 1 completed. Average Loss: 5.6525
+2024-08-30 14:15:33,858 - INFO - Validation Loss: 5.1515
+2024-08-30 14:16:08,318 - INFO - Sample generated text:
+How do I create a list in Python? (quest>" to not read the aquatic?
+input>[2] "\n>
+
+<a>
+"""
+# class the result of a first
+
+def test_datb(3, np):
+    r = x
+    assert b < c1.a1 is not a Min item:
+
+    t2.plot(a, text: str(s, 2)
+    ber = 2.x
+    return res.a
+
+class Solution(object):
+    def __init__(self):
+        self.next = 0
+        self.st2 =from self.x2.x
+        self.y = self.y.get(n - d)
+        self.mu(self.y)
+         
+    def __str__(self):
+        return self.n
+
+class Task:
+    def __init__(self):
+        return self.n
+
+
+class Nle(object):
+    def __init__(self, x, x, y):
+        self.a = x
+        self.n = head
+        self.co = 2
+        return 1
+
+    def __str__(self):
+        return '- + str(self.input)
+
+
+def p_str(self):
+    return "%."
+
+def extract_to_by(value):
+    """
+    Returns the random of a list of from a list of a column order, and the coins can be used.
+    """
+    return "{0}".format(len(self._str(value))
+
+
+# In the x
+def isinstance(Stream_1, x0):
+    """
+    Stores</s> to a</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:16:09,087 - INFO - Epoch 2, Batch 0, Loss: 5.4237
+2024-08-30 14:17:32,399 - INFO - Epoch 2, Batch 100, Loss: 5.4737
+2024-08-30 14:18:48,101 - INFO - Epoch 2, Batch 200, Loss: 5.2729
+2024-08-30 14:19:50,537 - INFO - Epoch 2 completed. Average Loss: 5.3204
+2024-08-30 14:19:59,489 - INFO - Validation Loss: 4.9030
+2024-08-30 14:20:31,674 - INFO - Sample generated text:
+How do I create a list in Python? and it can want to use the following of the same line, and the part of a list of all open of the value of the language that a tuple of the given is passed to a function of a particular of the given in the contents of the form of theids of the given is really of the list (wiki be not the same is your updated of the line for each you are created to be the first of an time by the table's the question of the lines of the end and the original of the content of the list of the same that as a i room of the more original to the following of the first of the file of the amount between the Python of the given to be used with the primary of more, form. This will be used in good than you do that have quite enough, but it to create a something of the following of the "data" in the "n" + "p>
+def a line, e :
+                         "<li>
+    return 1
+
+class hor(object):
+    def __init__(self, index):
+        if self.size[0] == 0:
+            return self.left)
+    def max_shape(self):
+        return time.distance_dict(self.x, 1)
+        return self.char.right
+
+    def read(self, data):
+        return self.output
+        return self.y)
+    def __repr__(self):
+        return self.__decode__(other, self.__class__)
+
+class Solution(object):
+    def __init__(self, name):
+        self.name = value
+        self.__data = str(other)
+</s>.pop_description(
+   </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:20:32,387 - INFO - Epoch 3, Batch 0, Loss: 5.1448
+2024-08-30 14:21:56,799 - INFO - Epoch 3, Batch 100, Loss: 5.0552
+2024-08-30 14:23:21,911 - INFO - Epoch 3, Batch 200, Loss: 5.1102
+2024-08-30 14:24:30,469 - INFO - Epoch 3 completed. Average Loss: 5.1150
+2024-08-30 14:24:40,020 - INFO - Validation Loss: 4.7369
+2024-08-30 14:25:13,581 - INFO - Sample generated text:
+How do I create a list in Python? for new so, but use what to all the assets and an language, but you want the for new there't proper to be by a particular of a virus one of the same of the title of the latest code and no the number of the block which in the variable of a <p>
+<b>
+<<>
+
+<p>
+<p>
+
+<python>${ a list of the creation:
+    <github> are a string of the following that have want to the following time?</p>
+    <p>
+
+<p>
+<>
+</o>
+'''
+
+def x(line):
+    return True
+
+def get_mrix():
+    return
+
+
+def get_str(mol):
+    """Return a function to the single.
+    """
+    return False
+
+def get_in_dict(x, data):
+    return d
+
+
+def resize(f):
+    return [0 for b in xrange(x)].split(count))
+
+def check_raw(x, value):
+    if len(obj) < 2:
+        return 8
+    return False
+
+def bb_a_len(x, x):
+    """
+    Print with a last to a list of the number of a Python. The example of the last of the sequence of the more.i.
+        - y is a number of each a list of weights. If function particle out that how be available by any dictionary of a edges of its object that not be used in.
+        the word of this use, but will be required to be enough
+        | -1 - 5),
+
+                                                         </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:25:14,354 - INFO - Epoch 4, Batch 0, Loss: 5.0542
+2024-08-30 14:26:37,971 - INFO - Epoch 4, Batch 100, Loss: 5.0423
+2024-08-30 14:28:01,894 - INFO - Epoch 4, Batch 200, Loss: 5.0981
+2024-08-30 14:29:10,225 - INFO - Epoch 4 completed. Average Loss: 4.9745
+2024-08-30 14:29:19,602 - INFO - Validation Loss: 4.6209
+2024-08-30 14:29:54,758 - INFO - Sample generated text:
+How do I create a list in Python? <p>
+
+<pe>
+<p>
+<p>
+<<>
+<a></>
+
+<title>
+
+<p>
+
+<author><p>
+<p></h>
+<<>>
+<p>
+</s>:
+<p>
+<>
+<p>
+<p>
+<b></p><code><lines></p>
+
+<2> This is an a class is placed as a probability of the page of the time.
+
+</p>
+</p>
+</code>
+</code>
+<h>
+
+<<a>
+<p>
+<p>
+<code>
+<p>
+<>
+<?>
+
+<p><xml>
+<a>
+<p>
+<p>
+<p>
+<p>
+</p>
+<p>
+<p>
+<p>
+<s>
+<append>return>
+
+<p></code>
+
+<code>
+<p>
+<p> / '
+</",
+    '<<>
+<p>
+<p>
+<p>
+'''
+
+
+<3>
+<t>
+<h>
+</')
+<p>
+<pre>
+
+<p>
+
+<p>
+
+</doc>
+</code>
+<name></p>
+
+<p>
+</p><a>
+<a></?>
+<td><>a</code>
+<p>
+<p>
+</s>:
+
+<p><p></p>
+
+<s></co>
+</p>
+
+<p>
+<<>><re>
+<p>
+<p>
+</p>
+
+<p>
+<a></code>
+<>
+<end>
+</s>:
+<<>>
+</s></s>>
+</tr>
+<</s>></td>
+</s></s></s></ind></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:29:55,575 - INFO - Epoch 5, Batch 0, Loss: 5.0766
+2024-08-30 14:31:23,384 - INFO - Epoch 5, Batch 100, Loss: 4.8157
+2024-08-30 14:32:47,481 - INFO - Epoch 5, Batch 200, Loss: 4.6466
+2024-08-30 14:33:55,532 - INFO - Epoch 5 completed. Average Loss: 4.8772
+2024-08-30 14:34:04,339 - INFO - Validation Loss: 4.5393
+2024-08-30 14:34:35,035 - INFO - Sample generated text:
+How do I create a list in Python?.  If is able:</p>
+
+<p>
+    noa>
+    <p>
+<test>
+<code></pack>
+<p></code>
+<</f>
+<p>
+<p>
+</p>
+</p>
+<p>
+<p>
+
+<p>
+<v>
+</code>
+</p>
+<p>
+<p>
+<p>
+
+<p>
+</s>:
+</code href</p>
+<r>
+</code>
+<p>
+</p>
+
+<p>
+<p>
+</p>
+
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+</p>
+<pre>
+<code>
+<<p>
+<p>
+"""
+<p>This is a good and with a new SQL.  
+<https://g>p.com/putorial/p">php/p?
+
+<p></code>
+<s></code>
+</code>
+<p>
+<p>
+<date>
+<p>
+<p></p>
+<p>
+<p>
+<p>text <p>
+</s>:
+</p>
+
+<script>
+<p>
+<p><div>
+<p>
+<p><p>
+<p>
+<code></p>
+
+<p>\n>
+</p>
+<p>
+
+<p>
+<p>
+<?:s></code>
+<p>
+<>
+a:
+<a>
+<foo></code></c>
+<p>
+</a>
+ href:
+<p>
+</>
+</p>
+
+<div>
+<p>
+<1></d>
+
+<p>
+<p>
+</s>:
+<general>p>
+</s>>
+</s></s></s></a>
+</s></s></s></s></</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:34:35,666 - INFO - Epoch 6, Batch 0, Loss: 4.8033
+2024-08-30 14:35:46,368 - INFO - Epoch 6, Batch 100, Loss: 4.8397
+2024-08-30 14:36:57,806 - INFO - Epoch 6, Batch 200, Loss: 4.6055
+2024-08-30 14:37:55,059 - INFO - Epoch 6 completed. Average Loss: 4.8057
+2024-08-30 14:38:01,881 - INFO - Validation Loss: 4.4824
+2024-08-30 14:38:30,939 - INFO - Sample generated text:
+How do I create a list in Python?.  The example of the data of the given element of me in a source of the text of the same line and only. The space has choice in the number of the same in the previous.
+
+<p>
+<a>+p</td>
+
+The: <p><nt> <center>
+
+<p><input>
+<p>/</p>
+
+<p><p>
+
+<p><p>
+<p>
+<p>
+
+<p>Returns tell the list of the string id:&p>
+</p>
+</s>:
+</code>
+<c>
+<a>
+<p>
+<p>
+<p>&p>
+
+<p>for the list of the number of the object.
+</code>
+
+<a></p>
+<p>
+<p>
+
+<p>
+<p></p>
+):
+
+<default>
+<p>1</code>
+<p>
+<p>
+<p>
+
+<p>
+<>
+<tr><c><v>
+<p>&>
+<p></p>
+
+<p>
+</s>!
+<p>
+
+<p>
+<p>
+<p>
+<p>
+
+<p>
+<p>
+<p>',
+    <p>
+    <p>
+   ...
+    </p>
+    </.p()
+
+<p>
+<p></code>
+<n>
+
+<p>
+The a script of the number of the list of the command that do the is this of the same is the same it to the integer that add the values of the first.</p href>
+
+<p>
+<p>
+<p>
+<code>
+
+<p>
+<p>
+<p>
+</p>
+
+<p>
+<code>
+<p>
+</p>
+
+<p>
+<p>
+</s>>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:38:31,567 - INFO - Epoch 7, Batch 0, Loss: 4.9627
+2024-08-30 14:39:42,040 - INFO - Epoch 7, Batch 100, Loss: 4.6058
+2024-08-30 14:40:52,905 - INFO - Epoch 7, Batch 200, Loss: 4.6190
+2024-08-30 14:41:49,771 - INFO - Epoch 7 completed. Average Loss: 4.7576
+2024-08-30 14:41:56,587 - INFO - Validation Loss: 4.4432
+2024-08-30 14:42:25,684 - INFO - Sample generated text:
+How do I create a list in Python? <p>
+
+<code></j>
+</><p>
+
+<p>
+
+<p>
+<p>
+<2>
+
+
+<p>'
+<n></p>
+
+<p> %('<p>', '</a>', 'a', 'a', 'a')}
+>>> 'p>
+
+<p>
+</code>
+p>
+<p>
+<p>
+<p>
+<a>&p>
+
+<p></p>
+
+<p> Just be a md, and a list of the same.  The <p>
+<p>users is distributed't
+</p>
+
+<p><p> <p>
+<p>When's <string> <p>>
+
+<p>I, and function be wish in your code, and would only between module, so may be able to this file, and each be match to use it to a variables of the user.
+
+<p>http://code.wikipedia.com/pcode/48map/7.0.html"
+
+</p>
+
+<p>
+<a></tim>
+<p>
+<p>
+<p>An is the same of Python minute which a comment, then a list of the latest and the string to the default, and there the other the site for the documentation page in a list of the new.
+</p>
+
+<p>
+<p><p>
+
+<`:</c>
+<a></code>
+
+<p>
+</s>:
+  <p>>
+  <p>
+
+<p>
+<p>
+<p>
+<br>
+<p>
+<p>The the number of the i, or in the same line, and you be need to is a text of the function for the list of the time.  I have the same of more two the <p>
+
+<p>
+<p>
+<p>
+</s>:
+<p>
+</s>: <p>
+</s>:
+</s>>
+</s>:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:42:26,314 - INFO - Epoch 8, Batch 0, Loss: 4.5918
+2024-08-30 14:43:36,972 - INFO - Epoch 8, Batch 100, Loss: 4.8014
+2024-08-30 14:44:47,313 - INFO - Epoch 8, Batch 200, Loss: 4.6627
+2024-08-30 14:45:44,062 - INFO - Epoch 8 completed. Average Loss: 4.7221
+2024-08-30 14:45:50,897 - INFO - Validation Loss: 4.4154
+2024-08-30 14:46:19,949 - INFO - Sample generated text:
+How do I create a list in Python?, -- I have the hit: is do possible, which is a number of both which and the algorithm languages into the way?
+</p>
+<p>
+
+<p>astate find it this from the same of this form as this. If the control in a list of the list of the field. If you downloaded you some this 3. I could not it could have the difference in the model of the list of 2.</p>
+
+<p>
+<p></v></code>
+
+<p>
+<p>Do to example?I't does be properly to use a new it of twop>
+</s>.Bains also have all more written from the client of the Cisco on the same like which is essentially to the same dictionary.
+
+<+><p>
+<p>
+*n>
+<p>
+<p>
+<br>
+ 
+<c><p>
+
+<a>
+<p>
+</p>
+if
+<p></p>
+
+<p>If using the list, it can be found in the same <p>
+  <p>### the best of the stack is not reading a 2 of the list functionting in a file.  The object would a current is the last list will this.   The call;
+</p>
+
+<p>
+  <p>
+<p>
+
+<p>
+<p>
+<p><p>
+
+<p>
+<a><bit> A choice for the first is the same reply in a binaries.</p>
+
+<p><p>
+
+<p>Try of the same might the local that be found to the project of the file are the more <p>
+
+<p>
+<python>
+</p>
+
+<p><p>
+<p>
+</s>:
+</p>
+:
+</s>:
+<p>|</p>
+
+<p>
+</code>
+<n>
+<p>
+
+<p>
+<p>^>
+<p>
+</s>:
+</s>:
+</s>:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:46:20,580 - INFO - Epoch 9, Batch 0, Loss: 4.7794
+2024-08-30 14:47:31,591 - INFO - Epoch 9, Batch 100, Loss: 4.7740
+2024-08-30 14:48:45,109 - INFO - Epoch 9, Batch 200, Loss: 4.5250
+2024-08-30 14:49:43,106 - INFO - Epoch 9 completed. Average Loss: 4.6990
+2024-08-30 14:49:49,945 - INFO - Validation Loss: 4.3980
+2024-08-30 14:50:19,669 - INFO - Sample generated text:
+How do I create a list in Python?.p>
+# - <p><ins> <t href> a list of the difference object for a list of the same:
+  <p>FI want is a net of the <p>
+
+<code>If can be technology, but are a list string?
+</p>
+
+<p>This the to this code that be similar in the link of the list
+"""
+
+<p>
+This is the example of example to this I for the full line in the file.  You have a same way to use a list of the line, and then the small that be used in the way of the same of the value of the same script on the same and the next.  If there have not the code about the state is want, but can would? a number of this script reduced. If print the same's found for integers, then the value as the line of the url is a value in the difference of the normal.  If there are the whole would in the return entity. If the file of faster of the string.
+
+<p><code></p>
+
+<p><p>
+
+<p>DAL ^ classes to a <p>
+
+<div><code>
+<p>
+
+<code>Number</code>
+
+<p>It is the second. You can be a underlying of the following name from the OS of the other is grid.   The you use an input problem of the column, I could use out the language of the integration.
+</s>:
+
+<p>The a file of the dictionary in a list of the correct of the database. After the but is a function. The example in the same way of the same of the list of the question.  If the list in the test that want start the solution of the node of the script's the focus is range in <p>
+
+<p>
+<p>return <<p>#Is can be a list of the string, but the "p>
+</s>: <code>
+<p>
+<p>
+
+
+
+<p>
+<p>mod you can use the class of the same of the</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 14:50:20,295 - INFO - Epoch 10, Batch 0, Loss: 4.5000
+2024-08-30 14:51:31,068 - INFO - Epoch 10, Batch 100, Loss: 4.7218
+2024-08-30 14:52:41,362 - INFO - Epoch 10, Batch 200, Loss: 4.7261
+2024-08-30 14:53:37,820 - INFO - Epoch 10 completed. Average Loss: 4.6857
+2024-08-30 14:53:44,775 - INFO - Validation Loss: 4.3903
+2024-08-30 14:54:13,974 - INFO - Sample generated text:
+How do I create a list in Python?1.8</p>
+</s> = <d>
+<p>
+<p><p>If the back is a list side to the end file in the <p>
+<p>
+
+<code></code>
+</s>ats</p>
+<p>
+
+<p>
+<p>
+<p>
+<List>I is a example of this you want so</p>
+
+<p>a is a list of the list of your range(a) of a list of a line, the that is the first string of the first but be match, but a but have a list of the average.
+
+<p>
+<p>left line, but in the case to write.
+
+<p>
+<p><p>
+
+<p>� can have the same results of the string, and the time is in your space of the text
+Pcode: A. <p>
+
+<p></p>
+
+<p><s>
+
+<a></p>
+
+<p>--------------- for this length is the such of range.  Using is called specified that can be a same so is that to check in a file (int your <a></p>
+
+<p>
+</p>
+<http://i.i.org/wiki/data/bin.com/05/lutorial-console.html-2012/pvsfo-of-pre-p-examples/p>
+</s>:
+    documentation1
+</f>
+
+<p>
+<p></a>
+</code>
+<p><p> A is the whole result to be a tuple to not it to have the example in the module manually.</p>
+
+<p>
+</p>
+
+<p>You need is a string in an module <code>
+</s>: <p>I would know it to anyone?p>
+<p>
+
+<p>  <p> <p></code>
+<p>li="n><a="n>
+</s>,</s>:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py:299: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  
+2024-08-30 14:57:41,997 - INFO - Generated text:
+How do I use a list comprehension in Python??</p>
+
+<p>
+
+<p>
+y> < r><H>
+
+<p><p>
+<p>
+<p>The time <p>
+<p>
+<p>
+<p>",
+
+</code>
+<p>
+<p>
+<p><code></code>
+<p>=n, using</d>
+
+<p></p>
+
+<p>
+
+<p><p>
+</p>
+
+<p>
+</code>
+
+<p>
+
+<p>><s>
+When: <p></code>
+
+<p>Example do were for the date?
+<p>
+
+<p>print you do a string, when it't it the same way as a list of the file and new the same for the data.
+
+
+<pre>
+
+<>This is a full list and empty lists to be able in.  In's this is a the list of the database of the same of the given in the id. I may be used to the list of the case. The example in the original method than the <p>
+
+<p>This is used around two one with a same in the command in this "a href" in the following "pd"
+  <p="You have a value of the format, this in I's the same of a desired is the closed of the given yield that you want to use a your way, and there are a number of the form for the dictionary</p>
+
+<p>
+</s>='p:
+
+<p>
+<h>
+<p>
+<sum>
+	<a><p>
+a:</p>
+<Drop>
+<p>
+</p>
+<p></code>
+<p> <p>
+</p>
+<code><p>
+<p>
+
+<p>class:
+<p>Tw can have the same of the same</p>
+
+<p></p>
+</s>:
+</s> = {
+</s>:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>command</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>param</s></s></s></s></s></s></s></s></s></s></s></s>s</s></s>name</s></s></s>__</s>brlabelcode'</s></s></s></s>''</s></s></s></s></s></s></s></s>w</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>utils</s>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+(pyenv) david@davidmain:/matrix/david/main_home_folder/myProjects/AI/LiquidLM$ 
+Display all 4309 possibilities? (y or n)
+(pyenv) david@davidmain:/matrix/david/main_home_folder/myProjects/AI/LiquidLM$ ls
+best_model_bk.pth  best_model_finetuned.pth  best_model.pth  generate.py  LICENSE  README.md  requirements.txt	stage2_model.pth  train.py  train_stage2.py
+(pyenv) david@davidmain:/matrix/david/main_home_folder/myProjects/AI/LiquidLM$ mv best_model_finetuned.pth ./best_model.pth 
+(pyenv) david@davidmain:/matrix/david/main_home_folder/myProjects/AI/LiquidLM$ python train_stage2.py 
+2024-08-30 14:58:35,389 - INFO - Using device: cuda
+/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py:289: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('best_model.pth', map_location=device)
+2024-08-30 14:58:53,077 - INFO - Pre-trained model loaded successfully.
+Filter:   0%|                                                                                                                                                                    | 0/493561 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (539 > 512). Running this sequence through the model will result in indexing errors
+Filter: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 493561/493561 [06:43<00:00, 1222.22 examples/s]
+2024-08-30 15:05:40,110 - INFO - Total examples after filtering: 248745
+2024-08-30 15:05:46,632 - ERROR - An error occurred during training: len() of a 0-d tensor
+2024-08-30 15:05:46,632 - ERROR - An unexpected error occurred: len() of a 0-d tensor
+Traceback (most recent call last):
+  File "/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py", line 298, in <module>
+    train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps)
+  File "/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py", line 181, in train
+    for batch_idx, data in enumerate(train_loader):
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/dataset.py", line 418, in __getitems__
+    return self.dataset.__getitems__([self.indices[idx] for idx in indices])  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py", line 107, in __getitem__
+    item = self.data[idx]
+           ~~~~~~~~~^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 2872, in __getitem__
+    return self._getitem(key)
+           ^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/datasets/arrow_dataset.py", line 2856, in _getitem
+    pa_subtable = query_table(self._data, key, indices=self._indices)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/datasets/formatting/formatting.py", line 593, in query_table
+    _check_valid_index_key(key, size)
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/datasets/formatting/formatting.py", line 542, in _check_valid_index_key
+    if len(key) > 0:
+       ^^^^^^^^
+  File "/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/torch/_tensor.py", line 1021, in __len__
+    raise TypeError("len() of a 0-d tensor")
+TypeError: len() of a 0-d tensor
+(pyenv) david@davidmain:/matrix/david/main_home_folder/myProjects/AI/LiquidLM$ python train_stage2.py 
+2024-08-30 15:08:06,093 - INFO - Using device: cuda
+/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/train_stage2.py:293: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('best_model.pth', map_location=device)
+2024-08-30 15:08:23,867 - INFO - Pre-trained model loaded successfully.
+Filter:   0%|                                                                                                                                                                    | 0/493561 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (539 > 512). Running this sequence through the model will result in indexing errors
+Filter: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 493561/493561 [06:48<00:00, 1206.87 examples/s]
+2024-08-30 15:15:15,472 - INFO - Total examples after filtering: 50000
+2024-08-30 15:15:23,192 - INFO - Epoch 1, Batch 0, Loss: 4.6518
+2024-08-30 15:16:29,564 - INFO - Epoch 1, Batch 100, Loss: 4.6153
+2024-08-30 15:17:36,343 - INFO - Epoch 1, Batch 200, Loss: 4.7281
+2024-08-30 15:18:44,371 - INFO - Epoch 1, Batch 300, Loss: 4.6673
+2024-08-30 15:19:52,462 - INFO - Epoch 1, Batch 400, Loss: 4.7727
+2024-08-30 15:21:02,149 - INFO - Epoch 1, Batch 500, Loss: 4.7935
+2024-08-30 15:22:13,000 - INFO - Epoch 1, Batch 600, Loss: 4.8413
+2024-08-30 15:23:23,854 - INFO - Epoch 1, Batch 700, Loss: 4.7432
+2024-08-30 15:24:34,790 - INFO - Epoch 1, Batch 800, Loss: 4.8410
+2024-08-30 15:25:45,727 - INFO - Epoch 1, Batch 900, Loss: 4.5569
+2024-08-30 15:26:56,707 - INFO - Epoch 1, Batch 1000, Loss: 4.4726
+2024-08-30 15:28:08,144 - INFO - Epoch 1, Batch 1100, Loss: 4.6134
+2024-08-30 15:29:20,183 - INFO - Epoch 1, Batch 1200, Loss: 4.7081
+2024-08-30 15:30:30,883 - INFO - Epoch 1, Batch 1300, Loss: 4.6117
+2024-08-30 15:31:39,311 - INFO - Epoch 1, Batch 1400, Loss: 4.5056
+2024-08-30 15:31:42,961 - INFO - Epoch 1 completed. Average Loss: 4.6620
+2024-08-30 15:32:16,907 - INFO - Validation Loss: 4.3863
+2024-08-30 15:32:46,246 - INFO - Sample generated text:
+How do I create a list in Python? for a list of the Base. For element or a it of the first of the b to make a list of the module to be some.  A works of your order? if to you want to child to be a key.</p>
+
+<p><p>
+
+<p><p>
+
+<p>
+<p></p>
+
+<p>
+<a>This program is used, and the first string etc (e> that your path.
+<p>
+<p>The'll is any of Python and the way of a list of the new.  Note is a more the string on the list of the code of the small in the form.
+
+<p>This is the single of this file, however in the following that like the string's the input of JSON:
+
+:::
+
+<p>
+</s>:
+  <p> Django from the file of the <a></p>
+
+<p>route you don't valid to the get questions of your you have represent to use the file.  If the directory (a is there by the good's the given work.</p>
+
+<p>
+
+<p>The two a look of a standard's to an Python.
+  <p>
+
+<p><p>
+<p>
+  <p>
+<p>
+<p>
+</code>
+
+<p>
+<pre>
+<p>Query of case of the string expected</p>
+
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+
+<code>
+<p>
+
+<p> A is have a list that use the re.
+
+<p>
+<p><code>
+
+<pre><it><a>
+</s>code = d
+
+<pre></code>
+<p>
+
+<a><code>char the followingPi (a></p>
+</s>>
+
+<p>When go is used on some to row to a dependency of little. Use that define source of 2</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 15:32:46,834 - INFO - Epoch 2, Batch 0, Loss: 4.5875
+2024-08-30 15:33:55,347 - INFO - Epoch 2, Batch 100, Loss: 4.5894
+2024-08-30 15:35:03,923 - INFO - Epoch 2, Batch 200, Loss: 4.4051
+2024-08-30 15:36:12,537 - INFO - Epoch 2, Batch 300, Loss: 4.5883
+2024-08-30 15:37:21,087 - INFO - Epoch 2, Batch 400, Loss: 4.4444
+2024-08-30 15:38:29,575 - INFO - Epoch 2, Batch 500, Loss: 4.8326
+2024-08-30 15:39:38,083 - INFO - Epoch 2, Batch 600, Loss: 4.6716
+2024-08-30 15:40:46,612 - INFO - Epoch 2, Batch 700, Loss: 4.6757
+2024-08-30 15:41:55,176 - INFO - Epoch 2, Batch 800, Loss: 4.5263
+2024-08-30 15:43:03,680 - INFO - Epoch 2, Batch 900, Loss: 4.6787
+2024-08-30 15:44:12,251 - INFO - Epoch 2, Batch 1000, Loss: 4.5321
+2024-08-30 15:45:20,808 - INFO - Epoch 2, Batch 1100, Loss: 4.4877
+2024-08-30 15:46:29,430 - INFO - Epoch 2, Batch 1200, Loss: 4.6532
+2024-08-30 15:47:37,968 - INFO - Epoch 2, Batch 1300, Loss: 4.8135
+2024-08-30 15:48:46,553 - INFO - Epoch 2, Batch 1400, Loss: 4.4888
+2024-08-30 15:48:50,216 - INFO - Epoch 2 completed. Average Loss: 4.6405
+2024-08-30 15:49:24,332 - INFO - Validation Loss: 4.3368
+2024-08-30 15:49:53,165 - INFO - Sample generated text:
+How do I create a list in Python?,</p>
+
+<p></p>
+
+<p>Try is a two in a way strain of the text of the right of the byte.    A read to close a list in the URL.
+
+<n>
+<n>
+<p>p</p>
+
+<p>
+
+<p>Con new a list of "a" you can have the same of the way as the following. You can be loaded or the list of the number of this list, but have for ASCII to have the table (a href is a end of the case instance.</p>
+
+
+<p>
+<p>This is a list to paths?  <<>>
+
+<p>I can be used on a I of similar, which can there the bit of exists.                                                                                                                                                                                                                                                                                                     </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 15:49:53,794 - INFO - Epoch 3, Batch 0, Loss: 4.5708
+2024-08-30 15:51:02,496 - INFO - Epoch 3, Batch 100, Loss: 4.6082
+2024-08-30 15:52:11,285 - INFO - Epoch 3, Batch 200, Loss: 4.6454
+2024-08-30 15:53:19,981 - INFO - Epoch 3, Batch 300, Loss: 4.6077
+2024-08-30 15:54:28,821 - INFO - Epoch 3, Batch 400, Loss: 4.7140
+2024-08-30 15:55:37,434 - INFO - Epoch 3, Batch 500, Loss: 4.5433
+2024-08-30 15:56:46,242 - INFO - Epoch 3, Batch 600, Loss: 4.6397
+2024-08-30 15:57:54,921 - INFO - Epoch 3, Batch 700, Loss: 4.5464
+2024-08-30 15:59:03,727 - INFO - Epoch 3, Batch 800, Loss: 4.6238
+2024-08-30 16:00:12,328 - INFO - Epoch 3, Batch 900, Loss: 4.5922
+2024-08-30 16:01:20,997 - INFO - Epoch 3, Batch 1000, Loss: 4.5302
+2024-08-30 16:02:29,624 - INFO - Epoch 3, Batch 1100, Loss: 4.6981
+2024-08-30 16:03:38,349 - INFO - Epoch 3, Batch 1200, Loss: 4.4698
+2024-08-30 16:04:46,956 - INFO - Epoch 3, Batch 1300, Loss: 4.7073
+2024-08-30 16:05:55,589 - INFO - Epoch 3, Batch 1400, Loss: 4.6459
+2024-08-30 16:05:59,266 - INFO - Epoch 3 completed. Average Loss: 4.5986
+2024-08-30 16:06:33,373 - INFO - Validation Loss: 4.2981
+2024-08-30 16:07:02,264 - INFO - Sample generated text:
+How do I create a list in Python? to use to use that can be able, and know that do the user to the following of the server method, that can use a content?  The example of the path of the good.
+ 
+<p>
+<p>
+
+<p> <p><http://code>org/quest/forge/lat-2/index/t4-p.html"
+
+<p><code>packages, the user, so from the list of the last.
+</p>
+</pre>
+
+<p>
+<p>
+
+<p>:
+</p>
+
+<<p>I can look a parent of this is present, it, but won't going it is a index, so can have the
+</p>
+</code>
+
+<p>This work on the same between.
+</p>
+
+<p>
+<p>I is a single a <p>
+
+<pre><code> means
+</s> = '>
+<open><p>
+<p>
+</p>
+
+<p>
+<p>I keys to be called, but there is lower from a tool of this alternative.
+</code>
+<p>
+  <p>Get can be a statement of the entirety of the the function.  The <p>
+
+<p>I have a <p>
+<p></code> <p>
+</s>: <p>
+'''
+
+<p></code>
+</code></code>
+
+<p>
+<p>
+<p>
+<p>If be the list is an specific 
+</code>
+<p>>
+
+<p>
+<p>The the list of the number as the secret to be using the line.
+
+<p>
+<p>
+
+<source></code></code>
+   <p>
+
+<p>
+</code></code>
+</s>: <p>
+
+<p></code>
+</s>></code>
+
+<p><code>
+</s>: <p>
+</s></s></code>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 16:07:02,899 - INFO - Epoch 4, Batch 0, Loss: 4.5780
+2024-08-30 16:08:12,969 - INFO - Epoch 4, Batch 100, Loss: 4.5776
+2024-08-30 16:09:23,535 - INFO - Epoch 4, Batch 200, Loss: 4.4383
+2024-08-30 16:10:33,951 - INFO - Epoch 4, Batch 300, Loss: 4.5933
+2024-08-30 16:11:44,136 - INFO - Epoch 4, Batch 400, Loss: 4.4151
+2024-08-30 16:12:54,081 - INFO - Epoch 4, Batch 500, Loss: 4.2231
+2024-08-30 16:14:04,205 - INFO - Epoch 4, Batch 600, Loss: 4.3352
+2024-08-30 16:15:14,268 - INFO - Epoch 4, Batch 700, Loss: 4.5918
+2024-08-30 16:16:24,336 - INFO - Epoch 4, Batch 800, Loss: 4.4570
+2024-08-30 16:17:35,123 - INFO - Epoch 4, Batch 900, Loss: 4.6096
+2024-08-30 16:18:45,167 - INFO - Epoch 4, Batch 1000, Loss: 4.5337
+2024-08-30 16:19:55,948 - INFO - Epoch 4, Batch 1100, Loss: 4.5897
+2024-08-30 16:21:06,470 - INFO - Epoch 4, Batch 1200, Loss: 4.5799
+2024-08-30 16:22:17,321 - INFO - Epoch 4, Batch 1300, Loss: 4.6475
+2024-08-30 16:23:28,134 - INFO - Epoch 4, Batch 1400, Loss: 4.6875
+2024-08-30 16:23:31,896 - INFO - Epoch 4 completed. Average Loss: 4.5444
+2024-08-30 16:24:06,034 - INFO - Validation Loss: 4.2386
+2024-08-30 16:24:35,166 - INFO - Sample generated text:
+How do I create a list in Python?:</p>
+
+<p>
+<p>
+</p>
+<p>
+
+<p>An is a list of the link longest?</p>
+
+<p>
+
+<p>I need it be a word of a linear version seen?</p>
+
+<p>
+
+<p>I's most graphics to find the first of a few and you want with accepted it that you have the commands of the number of the n and time, <p>
+  print <p></p>
+
+<p>
+
+<p>The do the list in the first module. You would be a proportion for the digits is only that it is a way way is a string which be required to use a string of the path, but you'll get a time
+</p></code>
+
+<p>I can have the regex in the shared's a source.</p>
+
+<pre>
+<p>DistLength to a new code.
+
+
+<p>
+ A: <j>
+
+<p>This is an function is that to make a part. Also versions to use me:</p>
+
+<p>I are a list to to a end in the file using the file.  It have a list of this method, and the same <p>
+
+<p>If a model that use that to the specific of the match line in a directory at the way that be actually in the loop of the number. The moment is a function is there to run the way of the same of the same is (b>
+
+<p> A you want and better on the variable and the lot and initialized is not the input-default. It would want at a same output locally, so it't understand for list in the path.</p>
+</s>: A <p>
+
+<p>You can can have the number of the regular, which have the same <p>
+</s>: <p> A example can be instant to have the package. Unfortunately is an the wait in the way?</p>
+</s>: <p>
+</s>:</s>.tm
+</s>
+</s>.append(r</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 16:24:35,798 - INFO - Epoch 5, Batch 0, Loss: 4.5241
+2024-08-30 16:25:46,330 - INFO - Epoch 5, Batch 100, Loss: 4.5078
+2024-08-30 16:26:56,990 - INFO - Epoch 5, Batch 200, Loss: 4.2402
+2024-08-30 16:28:07,351 - INFO - Epoch 5, Batch 300, Loss: 4.6824
+2024-08-30 16:29:18,037 - INFO - Epoch 5, Batch 400, Loss: 4.6396
+2024-08-30 16:30:28,497 - INFO - Epoch 5, Batch 500, Loss: 4.4855
+2024-08-30 16:31:37,367 - INFO - Epoch 5, Batch 600, Loss: 4.6344
+2024-08-30 16:32:46,270 - INFO - Epoch 5, Batch 700, Loss: 4.5232
+2024-08-30 16:33:55,182 - INFO - Epoch 5, Batch 800, Loss: 4.3895
+2024-08-30 16:35:03,965 - INFO - Epoch 5, Batch 900, Loss: 4.4575
+2024-08-30 16:36:12,660 - INFO - Epoch 5, Batch 1000, Loss: 4.2167
+2024-08-30 16:37:21,401 - INFO - Epoch 5, Batch 1100, Loss: 4.5315
+2024-08-30 16:38:30,215 - INFO - Epoch 5, Batch 1200, Loss: 4.5545
+2024-08-30 16:39:39,065 - INFO - Epoch 5, Batch 1300, Loss: 4.3248
+2024-08-30 16:40:47,815 - INFO - Epoch 5, Batch 1400, Loss: 4.6390
+2024-08-30 16:40:51,509 - INFO - Epoch 5 completed. Average Loss: 4.4828
+2024-08-30 16:41:25,679 - INFO - Validation Loss: 4.1783
+2024-08-30 16:41:54,617 - INFO - Sample generated text:
+How do I create a list in Python? <start>I?</p>
+
+<p>2</code>
+</code>
+</code>
+
+<p>
+<p>http://code.ac.pseoca/of-nypp.html"</of></p>
+
+<a>
+<p>I is a better to a <p>
+<p>print(b></code>
+
+<p>This is one to read on <p>
+
+<p>This is the list of the global class,</p>
+
+<p>Note have a more string, then this, however is an way.</p>
+
+<p>I is free to do a list of a bullet of a calls to a list of the regex of the following of a synp^p>
+
+<p>Does I have the algorithm is that using the first.</p>
+
+<p> A of <p>For have the value of the output. For have the list of the folder in the current path.  A is the first is a value is an <p>
+
+<p>Example's function which have a example that the switch of the grid of the last.  You have a list of <p>
+ A: <p>
+
+<p>This have the is the list of the list of the script of a given to set a list of the datex, you can be done on the concrete will have the number of the following, and many the first copy of the idea. The example is're in the number of Python, I the string and the row should you is generated to a file of the numbers, but then available.                                                                                                               </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 16:41:55,206 - INFO - Epoch 6, Batch 0, Loss: 4.6774
+2024-08-30 16:43:03,786 - INFO - Epoch 6, Batch 100, Loss: 4.5395
+2024-08-30 16:44:12,577 - INFO - Epoch 6, Batch 200, Loss: 4.5282
+2024-08-30 16:45:21,248 - INFO - Epoch 6, Batch 300, Loss: 4.3608
+2024-08-30 16:46:30,035 - INFO - Epoch 6, Batch 400, Loss: 4.4246
+2024-08-30 16:47:38,919 - INFO - Epoch 6, Batch 500, Loss: 4.3813
+2024-08-30 16:48:47,553 - INFO - Epoch 6, Batch 600, Loss: 4.1677
+2024-08-30 16:49:56,138 - INFO - Epoch 6, Batch 700, Loss: 4.6253
+2024-08-30 16:51:04,999 - INFO - Epoch 6, Batch 800, Loss: 4.7538
+2024-08-30 16:52:13,766 - INFO - Epoch 6, Batch 900, Loss: 4.5900
+2024-08-30 16:53:22,610 - INFO - Epoch 6, Batch 1000, Loss: 4.4273
+2024-08-30 16:54:31,260 - INFO - Epoch 6, Batch 1100, Loss: 4.3677
+2024-08-30 16:55:40,024 - INFO - Epoch 6, Batch 1200, Loss: 4.4184
+2024-08-30 16:56:48,675 - INFO - Epoch 6, Batch 1300, Loss: 4.6034
+2024-08-30 16:57:57,618 - INFO - Epoch 6, Batch 1400, Loss: 4.1044
+2024-08-30 16:58:01,320 - INFO - Epoch 6 completed. Average Loss: 4.4179
+2024-08-30 16:58:35,576 - INFO - Validation Loss: 4.1197
+2024-08-30 16:59:04,793 - INFO - Sample generated text:
+How do I create a list in Python? of a list in the j. 
+<p>I would a position of increasing for the first.  So, or the list of a to's the same between the request. 
+</p>
+
+<p>This is a same of b-n2.  at the value of this <p>
+  A: <p>
+  <p>It got a "foo, then was there be then the word environment. Those the list of a list, then have a same of them.  This is the wing of least PulL, then the case of the first string's you have not: false of the same child. However all a new. The example of the same of the difference of strings of the fact. That split of this case is a integer of a list of the i.
+</p>
+
+<p>This is the class of a string.  To see just be a: bit of the string, but be a whole common.  It have a most file, and take it is the output, comments is the best to an the result in the code.  Once is not the best-like from the case of the variable.  If there want to find the same in the question to be also in the I case are done to the list of the string, you be the same and it is read so complicated the sample is not that very it for the same that be able to be the first of the above.  The function was I can be done.  For is a I way of the e of the sequence, and it be starting, you could be oper on a second, and a place, then run the years (this, then often probably to a unique in that?</p>
+ A: <p><p>If the function is the first word across I, e is a other if you want with the new time, but it can do to work.  You have to be nost, and look on the source of the recommended that you're shown to get it to manipulate:</p>
+
+<p>I can use a file is and? if it is a following name, which to create a current it about the same-code</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 16:59:05,382 - INFO - Epoch 7, Batch 0, Loss: 4.2907
+2024-08-30 17:00:13,899 - INFO - Epoch 7, Batch 100, Loss: 4.2005
+2024-08-30 17:01:22,677 - INFO - Epoch 7, Batch 200, Loss: 4.4307
+2024-08-30 17:02:31,810 - INFO - Epoch 7, Batch 300, Loss: 4.2934
+2024-08-30 17:03:44,560 - INFO - Epoch 7, Batch 400, Loss: 4.1179
+2024-08-30 17:04:59,068 - INFO - Epoch 7, Batch 500, Loss: 4.1375
+2024-08-30 17:06:13,440 - INFO - Epoch 7, Batch 600, Loss: 4.2430
+2024-08-30 17:07:26,603 - INFO - Epoch 7, Batch 700, Loss: 4.4704
+2024-08-30 17:08:40,170 - INFO - Epoch 7, Batch 800, Loss: 4.4702
+2024-08-30 17:09:54,071 - INFO - Epoch 7, Batch 900, Loss: 4.4580
+2024-08-30 17:11:09,302 - INFO - Epoch 7, Batch 1000, Loss: 4.2775
+2024-08-30 17:12:22,880 - INFO - Epoch 7, Batch 1100, Loss: 4.2166
+2024-08-30 17:13:34,856 - INFO - Epoch 7, Batch 1200, Loss: 4.0723
+2024-08-30 17:14:46,701 - INFO - Epoch 7, Batch 1300, Loss: 4.3626
+2024-08-30 17:15:58,249 - INFO - Epoch 7, Batch 1400, Loss: 4.1355
+2024-08-30 17:16:02,132 - INFO - Epoch 7 completed. Average Loss: 4.3540
+2024-08-30 17:16:36,211 - INFO - Validation Loss: 4.0682
+2024-08-30 17:17:05,027 - INFO - Sample generated text:
+How do I create a list in Python?? <p>I me to keep the bit to use the above to the above, to a first memory to be elsewhere. However.</p>
+
+<p>There is see the standard bcode, the <p>ext.python.pcode "I need to be here to not get this/code/p>
+
+<p>I can be assumed to the import command in this.? return it may be installed on it that use an output like. If there to convert the script server in group, and the script way to do the package that would this recipient in the script, but I want to use the constructor of the file is not the file of the code.  You also be the parameters of the same streaming?</ac>
+
+<p>I also the file, then you know the way of the file is an there function, and the and is  you want at a file in the file directory of the device (which).  If there is need that want to be able to send the file file in python>
+</s>:<p>
+ A: <p>I't a output to the file. Also that want to use the whole script.  This is a file:</p>
+
+<all>I's working tool that you be able to the xml module. When've the script.    I's a line to the simple.  <p>I just being that any a way to be a low's code.  It you want a a powerful into a simple instance is this, <p>
+
+<p>
+<p></code>
+-p>
+<p>I can I only a more value in the file status found.</p>
+
+<p>The approach to verify a project for "a"</code>
+</s>: <p>If do a following file-code-around-code... now.based out, eg</p>
+
+<p>I can have a of Python-code is the bunch for the script, but their wrong to be.</p>
+
+<p>Use in the list of the database.  It is the same of the full method, but the those are placed, so it just done to:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 17:17:05,654 - INFO - Epoch 8, Batch 0, Loss: 4.0369
+2024-08-30 17:18:16,777 - INFO - Epoch 8, Batch 100, Loss: 4.1947
+2024-08-30 17:19:28,384 - INFO - Epoch 8, Batch 200, Loss: 4.2871
+2024-08-30 17:20:39,919 - INFO - Epoch 8, Batch 300, Loss: 4.2691
+2024-08-30 17:21:51,693 - INFO - Epoch 8, Batch 400, Loss: 4.0875
+2024-08-30 17:23:03,489 - INFO - Epoch 8, Batch 500, Loss: 4.3235
+2024-08-30 17:24:15,192 - INFO - Epoch 8, Batch 600, Loss: 4.2412
+2024-08-30 17:25:26,697 - INFO - Epoch 8, Batch 700, Loss: 4.2202
+2024-08-30 17:26:38,158 - INFO - Epoch 8, Batch 800, Loss: 4.1446
+2024-08-30 17:27:48,184 - INFO - Epoch 8, Batch 900, Loss: 4.0712
+2024-08-30 17:28:58,420 - INFO - Epoch 8, Batch 1000, Loss: 4.1137
+2024-08-30 17:30:08,777 - INFO - Epoch 8, Batch 1100, Loss: 4.3368
+2024-08-30 17:31:18,877 - INFO - Epoch 8, Batch 1200, Loss: 4.2585
+2024-08-30 17:32:28,851 - INFO - Epoch 8, Batch 1300, Loss: 4.2122
+2024-08-30 17:33:39,527 - INFO - Epoch 8, Batch 1400, Loss: 4.4166
+2024-08-30 17:33:43,311 - INFO - Epoch 8 completed. Average Loss: 4.2925
+2024-08-30 17:34:17,954 - INFO - Validation Loss: 4.0258
+2024-08-30 17:34:46,838 - INFO - Sample generated text:
+How do I create a list in Python? it in a list to bin about the list, that should be much to see a mask of the file. Can there have a file that not have a array of the output space and the image as the character in the list of the separate, but is a answer to the environment (which in the d.</p>
+
+<pre><code># would do only don't have to how this to be the dictionary of the value of 2 in a second of while is there?</p>
+
+<pre><code>__preots__ = [
+    # f
+        i = '%p'
+        "amp"    = None
+          if           
+                                                                                               
+                                                                                                                                                                                                         </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 17:34:47,469 - INFO - Epoch 9, Batch 0, Loss: 4.1872
+2024-08-30 17:35:59,168 - INFO - Epoch 9, Batch 100, Loss: 4.1781
+2024-08-30 17:37:12,743 - INFO - Epoch 9, Batch 200, Loss: 4.3569
+2024-08-30 17:38:26,351 - INFO - Epoch 9, Batch 300, Loss: 4.1227
+2024-08-30 17:39:40,353 - INFO - Epoch 9, Batch 400, Loss: 4.2114
+2024-08-30 17:40:54,022 - INFO - Epoch 9, Batch 500, Loss: 4.3573
+2024-08-30 17:42:07,695 - INFO - Epoch 9, Batch 600, Loss: 4.1571
+2024-08-30 17:43:21,551 - INFO - Epoch 9, Batch 700, Loss: 4.1458
+2024-08-30 17:44:35,257 - INFO - Epoch 9, Batch 800, Loss: 4.0995
+2024-08-30 17:45:49,118 - INFO - Epoch 9, Batch 900, Loss: 4.5549
+2024-08-30 17:47:02,453 - INFO - Epoch 9, Batch 1000, Loss: 4.1821
+2024-08-30 17:48:13,667 - INFO - Epoch 9, Batch 1100, Loss: 4.3479
+2024-08-30 17:49:24,907 - INFO - Epoch 9, Batch 1200, Loss: 4.1542
+2024-08-30 17:50:36,128 - INFO - Epoch 9, Batch 1300, Loss: 4.3394
+2024-08-30 17:51:47,317 - INFO - Epoch 9, Batch 1400, Loss: 4.0294
+2024-08-30 17:51:51,142 - INFO - Epoch 9 completed. Average Loss: 4.2394
+2024-08-30 17:52:25,309 - INFO - Validation Loss: 3.9548
+2024-08-30 17:52:54,234 - INFO - Sample generated text:
+How do I create a list in Python?: <p>You have a list of the tree of a list of the answer of a list that text in the list of the dictionary it are using the given of the number, and you want the results of the elements:</p>
+
+<p>I can can do I recognise some this, delete in the following of a list?</p>
+
+<p>You do, frame's the <p>If there do the same way to it can want to call the file of a root of the script line. If it is a same-p>
+
+<p>I see your code has a variable:</p>
+
+<pre><code>def __pr__(self):
+    return ''
+</s>_month = 0
+</code></pre>
+
+<p>This is an special to set the list of the list of its last:</p>
+
+<p>This have not a string does of a values is a datetime. A you can be to cannot a user of the list of the list:</p>
+</s>: <p>The In is a list of the same list of the full an a list to the first function.  If there do not use the <code>(range(a))</code></code>
+
+<p><code>code</code>
+
+<pre><code>
+</code></pre>
+
+<p>I've have a don of it function is not modified in <code>numpy</code></code>
+ A: <p>I can would do the random to be able at Python, and not I be then been a list of the way of the new Python. Should is a good of the list and the position of this:</p>
+
+<p>This's matters about a moment of the variable way and call the <p>
+ A: <p>It is the same of the <p>The lot, <p> A: <p>
+
+<p>
+<p>This you use a terms are both to effort's a number of the value in the same found in this class.  Do can need any a few of a list of the same</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 17:52:54,865 - INFO - Epoch 10, Batch 0, Loss: 4.1457
+2024-08-30 17:54:06,052 - INFO - Epoch 10, Batch 100, Loss: 4.4026
+2024-08-30 17:55:16,541 - INFO - Epoch 10, Batch 200, Loss: 4.3026
+2024-08-30 17:56:27,063 - INFO - Epoch 10, Batch 300, Loss: 4.0957
+2024-08-30 17:57:37,792 - INFO - Epoch 10, Batch 400, Loss: 4.2980
+2024-08-30 17:58:48,048 - INFO - Epoch 10, Batch 500, Loss: 4.2638
+2024-08-30 17:59:58,358 - INFO - Epoch 10, Batch 600, Loss: 4.1054
+2024-08-30 18:01:08,397 - INFO - Epoch 10, Batch 700, Loss: 4.2411
+2024-08-30 18:02:18,904 - INFO - Epoch 10, Batch 800, Loss: 4.1372
+2024-08-30 18:03:28,928 - INFO - Epoch 10, Batch 900, Loss: 4.2371
+2024-08-30 18:04:38,759 - INFO - Epoch 10, Batch 1000, Loss: 4.2233
+2024-08-30 18:05:48,848 - INFO - Epoch 10, Batch 1100, Loss: 4.2976
+2024-08-30 18:06:58,926 - INFO - Epoch 10, Batch 1200, Loss: 4.0502
+2024-08-30 18:08:09,239 - INFO - Epoch 10, Batch 1300, Loss: 4.1752
+2024-08-30 18:09:19,296 - INFO - Epoch 10, Batch 1400, Loss: 4.1789
+2024-08-30 18:09:23,114 - INFO - Epoch 10 completed. Average Loss: 4.1881
+2024-08-30 18:09:57,260 - INFO - Validation Loss: 3.9225
+2024-08-30 18:10:26,185 - INFO - Sample generated text:
+How do I create a list in Python??</p>
+
+<p>The this is a string of python the list of the entire file!</p>
+
+<p>I do a file, and use the days of the same of the list of a list of the list, for the list of the string:</p>
+
+<pre><code>my = [2 for x in range(1)
+</code></pre>
+
+<pre><code>&gt;&gt;&gt;&gt; [obj, b, 2,3]
+</code></pre>
+
+<p>
+<p>In of the problem is True, and the bit: for each the first variable.</p>
+
+<p>I only this is able in the program of each character.  </p>
+
+<p># there is the same bit of the text.  I can do a number of the list of the second is the following of the "repeat" is be returned cannot hex as the problem.
+print answer:</p>
+
+<p>How you use a table to be doing, it can be able to do the the number of the list of the other.  It is called to do in the next way:</p>
+
+<p>I would a better of two, but it is there wish. The part of the project.  However, the time is both strings of the elements of the bounds between the same lengths in the data, and could a array of the <a>Note it can be used, and the original of the string.  I've would come to use the way that in the same value, but it is not to convert a list of the separate, if the <p>
+    <p>I can not use a whole way, but should be not will be assumed from the system user.  It can not do the first list-e>
+</s>: <p>You can be able of the <p>I't want to also a loaded that you can be able to an index.  If you don't use the each value of the same of the
+</p>
+</s>: A <p></s>:</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 18:10:26,814 - INFO - Epoch 11, Batch 0, Loss: 4.2989
+2024-08-30 18:11:36,608 - INFO - Epoch 11, Batch 100, Loss: 4.0655
+2024-08-30 18:12:46,953 - INFO - Epoch 11, Batch 200, Loss: 3.9647
+2024-08-30 18:13:56,882 - INFO - Epoch 11, Batch 300, Loss: 4.1657
+2024-08-30 18:15:07,305 - INFO - Epoch 11, Batch 400, Loss: 4.2720
+2024-08-30 18:16:17,189 - INFO - Epoch 11, Batch 500, Loss: 4.0009
+2024-08-30 18:17:27,340 - INFO - Epoch 11, Batch 600, Loss: 4.1914
+2024-08-30 18:18:37,654 - INFO - Epoch 11, Batch 700, Loss: 4.1032
+2024-08-30 18:19:47,639 - INFO - Epoch 11, Batch 800, Loss: 4.3016
+2024-08-30 18:20:57,692 - INFO - Epoch 11, Batch 900, Loss: 4.1189
+2024-08-30 18:22:07,778 - INFO - Epoch 11, Batch 1000, Loss: 4.1532
+2024-08-30 18:23:17,875 - INFO - Epoch 11, Batch 1100, Loss: 4.1031
+2024-08-30 18:24:28,270 - INFO - Epoch 11, Batch 1200, Loss: 4.1664
+2024-08-30 18:25:38,489 - INFO - Epoch 11, Batch 1300, Loss: 4.2307
+2024-08-30 18:26:48,776 - INFO - Epoch 11, Batch 1400, Loss: 4.0578
+2024-08-30 18:26:52,504 - INFO - Epoch 11 completed. Average Loss: 4.1413
+2024-08-30 18:27:26,620 - INFO - Validation Loss: 3.8830
+2024-08-30 18:27:55,527 - INFO - Sample generated text:
+How do I create a list in Python? to run the file.  This is a file from the file of the file files.  What is a file is not the file is the file line.  This is an files?                                                                                                                                                                                                                                                                                                                                                                                                                                                </s></s></s>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 18:27:56,159 - INFO - Epoch 12, Batch 0, Loss: 4.0995
+2024-08-30 18:29:06,426 - INFO - Epoch 12, Batch 100, Loss: 4.1054
+2024-08-30 18:30:16,638 - INFO - Epoch 12, Batch 200, Loss: 4.0488
+2024-08-30 18:31:26,952 - INFO - Epoch 12, Batch 300, Loss: 4.3633
+2024-08-30 18:32:37,049 - INFO - Epoch 12, Batch 400, Loss: 4.0338
+2024-08-30 18:33:47,165 - INFO - Epoch 12, Batch 500, Loss: 4.2284
+2024-08-30 18:34:57,408 - INFO - Epoch 12, Batch 600, Loss: 4.3258
+2024-08-30 18:36:07,623 - INFO - Epoch 12, Batch 700, Loss: 4.0518
+2024-08-30 18:37:17,997 - INFO - Epoch 12, Batch 800, Loss: 4.2737
+2024-08-30 18:38:28,057 - INFO - Epoch 12, Batch 900, Loss: 4.0005
+2024-08-30 18:39:38,221 - INFO - Epoch 12, Batch 1000, Loss: 4.1498
+2024-08-30 18:40:47,986 - INFO - Epoch 12, Batch 1100, Loss: 4.0477
+2024-08-30 18:41:58,194 - INFO - Epoch 12, Batch 1200, Loss: 4.1123
+2024-08-30 18:43:08,326 - INFO - Epoch 12, Batch 1300, Loss: 3.9232
+2024-08-30 18:44:18,346 - INFO - Epoch 12, Batch 1400, Loss: 4.0176
+2024-08-30 18:44:22,172 - INFO - Epoch 12 completed. Average Loss: 4.0974
+2024-08-30 18:44:56,233 - INFO - Validation Loss: 3.8612
+2024-08-30 18:45:25,168 - INFO - Sample generated text:
+How do I create a list in Python? 'p>
+</s>.p>
+
+<p>The just, if you't do a <code>i</code></code>
+
+<p>I have a new element of the list and see field.</p>
+
+<p>If there will use the question function and see it like how.</p>
+
+<p>I have the way of this generator on <p>I want know a list and which to be a lot of the word, it are just a function ofk points.  For avoid like a line of the list of the figure.  Examples another how.</p>
+ A: <p>The addition, the <string>for is a string of the 'tuple' will be attribute, for which that there in the wheel of the same of the denominations of the list that statement of a dictionary if then be returning used of an large. The example, XML has a example with a string of a string. If there would be able to create this by an name. If there don't be done, but the behaviour of the library of a list of a object in the input of the list of the list of the beginning.</p>
+
+<p>When you have a <a href="http://docs.python.org/library/dev/of.html" rel="nofollow">an">https://code>python.org/a/a/gt-2.0.html/a-a-a-in-python-a-a-code-the-user-1.0.3.3/1.8/rg/python.html.html" rel="nofollow">http://code>django.com/preipes/a-python/site-2.html?</p>
+ A: <p>I't do it, but there just use a decor data, it is not the same to the module of the system, thus there the others. You can be able to be hard on a CSI. For you should someone that if it have it in the value, you can a value to get the same complex.</p>
+</s>:</s>>
+</s>.</s></s></s></s></s>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 18:45:25,793 - INFO - Epoch 13, Batch 0, Loss: 4.1300
+2024-08-30 18:46:35,795 - INFO - Epoch 13, Batch 100, Loss: 4.0746
+2024-08-30 18:47:46,176 - INFO - Epoch 13, Batch 200, Loss: 4.0414
+2024-08-30 18:48:56,354 - INFO - Epoch 13, Batch 300, Loss: 4.0830
+2024-08-30 18:50:06,430 - INFO - Epoch 13, Batch 400, Loss: 3.9431
+2024-08-30 18:51:16,368 - INFO - Epoch 13, Batch 500, Loss: 4.2910
+2024-08-30 18:52:26,336 - INFO - Epoch 13, Batch 600, Loss: 4.0976
+2024-08-30 18:53:36,044 - INFO - Epoch 13, Batch 700, Loss: 4.0994
+2024-08-30 18:54:46,306 - INFO - Epoch 13, Batch 800, Loss: 4.0697
+2024-08-30 18:55:56,576 - INFO - Epoch 13, Batch 900, Loss: 4.0898
+2024-08-30 18:57:07,031 - INFO - Epoch 13, Batch 1000, Loss: 4.2605
+2024-08-30 18:58:20,170 - INFO - Epoch 13, Batch 1100, Loss: 4.0099
+2024-08-30 18:59:33,532 - INFO - Epoch 13, Batch 1200, Loss: 3.9119
+2024-08-30 19:00:46,931 - INFO - Epoch 13, Batch 1300, Loss: 4.2190
+2024-08-30 19:01:59,439 - INFO - Epoch 13, Batch 1400, Loss: 4.1657
+2024-08-30 19:02:03,252 - INFO - Epoch 13 completed. Average Loss: 4.0597
+2024-08-30 19:02:38,016 - INFO - Validation Loss: 3.8194
+2024-08-30 19:03:07,776 - INFO - Sample generated text:
+How do I create a list in Python? to read a list of a list of a list of all lower:</p>
+
+<pre><code>p = '3'
+
+print 'output' in a
+print 'a'
+print family(p, 5)
+</code></pre>
+
+<p>I make Python a string x, that I would be using the array of the number of a name in a list of the user. </p>
+ A: <p>I can have a element of the list of the following string.  When there be represented to:</p>
+
+<pre><code>import cgt
+
+def x_a(x, y):
+    return x.x
+
+print "</p>
+
+<p>The example, but you're not take the number of each key:</p>
+
+<pre><code>os.path.join(os.path.join(os.path.dirname(__file__), "mract"))
+</code></pre>
+
+<p>I want to do the same regex to the file of the name.  For the list of the list if you't it, and the function is None in the list you want in a list of the file.  If you want to do the last lines:</p>
+
+<pre><code>&gt;&gt;&gt;&gt; r.compile(r')
+['-a', 'foo', 'b'])
+</code></pre>
+
+<p>I can be able to do a I that you want to calculate a little data in the file, and other exit to the list that the line file</p>
+
+<p>Create there characters using Python</p>
+
+<pre><code>print1
+</code></pre>
+</s>: <p>You to do the same of the <code>int_a</code></code> in its <code>foo</code> so a list of <code>funcode(*code, as the function.</code> of <code>#</code>  <p>That great</p>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 19:03:08,434 - INFO - Epoch 14, Batch 0, Loss: 3.9886
+2024-08-30 19:04:21,234 - INFO - Epoch 14, Batch 100, Loss: 3.9167
+2024-08-30 19:05:34,458 - INFO - Epoch 14, Batch 200, Loss: 4.4172
+2024-08-30 19:06:45,589 - INFO - Epoch 14, Batch 300, Loss: 4.2748
+2024-08-30 19:07:55,755 - INFO - Epoch 14, Batch 400, Loss: 3.9284
+2024-08-30 19:09:06,841 - INFO - Epoch 14, Batch 500, Loss: 4.1210
+2024-08-30 19:10:20,973 - INFO - Epoch 14, Batch 600, Loss: 3.9524
+2024-08-30 19:11:35,313 - INFO - Epoch 14, Batch 700, Loss: 3.9955
+2024-08-30 19:12:49,475 - INFO - Epoch 14, Batch 800, Loss: 3.6189
+2024-08-30 19:14:03,774 - INFO - Epoch 14, Batch 900, Loss: 3.9487
+2024-08-30 19:15:16,544 - INFO - Epoch 14, Batch 1000, Loss: 3.9316
+2024-08-30 19:16:28,345 - INFO - Epoch 14, Batch 1100, Loss: 4.0660
+2024-08-30 19:17:57,755 - INFO - Epoch 14, Batch 1200, Loss: 4.0151
+2024-08-30 19:19:27,119 - INFO - Epoch 14, Batch 1300, Loss: 3.9089
+2024-08-30 19:20:55,884 - INFO - Epoch 14, Batch 1400, Loss: 3.9992
+2024-08-30 19:21:00,621 - INFO - Epoch 14 completed. Average Loss: 4.0248
+2024-08-30 19:21:45,643 - INFO - Validation Loss: 3.7776
+2024-08-30 19:22:18,372 - INFO - Sample generated text:
+How do I create a list in Python?.</p>
+
+<p>I've a easy of some the file is a list.
+1: print I, I can get a list of dumpy to the number of a list.  I use a dictionary of a difference in a list of each representation for a notebook string. Is there a list of win, i, if <p>initial is a number of a string of the number of a list of each array of the step.    I more the two of list that as the number of the value is equal in one. I do have a list of the list as array, as it is a string, and the list of this will i as a list, and that should be yields or smaller. </p>
+
+<p>I would use this, if you can be of the string, you can use the number of the value and mean I should be able to any the list of the <code>http://code.python.org/wiki/python/2.html#pofcess"></p>
+
+<p>Any you can implement a way to do the target but the name in the same, then you can have an <code>py.1</code> <code>i</code> and the Eclipse of the <code>x</code> that is the code is a easy that or the list of a list of the second's straightforward is the i.  You want of the same way and the sentence that is the second is not only a lot of other. To there should be called to a function methods, the first is possible with a lines previous (e.g.g.y.g. The example? When the solution is not an similar of the list of the function, and know to be called to the <code>split</code>. then you want to find to another the.0.  Thanks is an you? all the question for the function.</p>
+</s>: <p>You you're like to call information, but there's a following source that:</p>
+
+<p>The two good, in the order?</p>
+</s>: <p>If you use a new module at the class is the <code>type</code></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 19:22:19,092 - INFO - Epoch 15, Batch 0, Loss: 4.2494
+2024-08-30 19:23:44,356 - INFO - Epoch 15, Batch 100, Loss: 3.9453
+2024-08-30 19:25:06,729 - INFO - Epoch 15, Batch 200, Loss: 3.9066
+2024-08-30 19:26:31,205 - INFO - Epoch 15, Batch 300, Loss: 3.8067
+2024-08-30 19:27:58,724 - INFO - Epoch 15, Batch 400, Loss: 4.1220
+2024-08-30 19:29:25,741 - INFO - Epoch 15, Batch 500, Loss: 3.8448
+2024-08-30 19:30:53,209 - INFO - Epoch 15, Batch 600, Loss: 3.9449
+2024-08-30 19:32:21,416 - INFO - Epoch 15, Batch 700, Loss: 4.0123
+2024-08-30 19:33:51,151 - INFO - Epoch 15, Batch 800, Loss: 3.9259
+2024-08-30 19:35:25,204 - INFO - Epoch 15, Batch 900, Loss: 3.9788
+2024-08-30 19:36:59,212 - INFO - Epoch 15, Batch 1000, Loss: 3.8620
+2024-08-30 19:38:37,977 - INFO - Epoch 15, Batch 1100, Loss: 3.8277
+2024-08-30 19:40:13,725 - INFO - Epoch 15, Batch 1200, Loss: 4.1659
+2024-08-30 19:41:47,120 - INFO - Epoch 15, Batch 1300, Loss: 3.8154
+2024-08-30 19:43:23,149 - INFO - Epoch 15, Batch 1400, Loss: 4.0906
+2024-08-30 19:43:28,324 - INFO - Epoch 15 completed. Average Loss: 3.9887
+2024-08-30 19:44:17,133 - INFO - Validation Loss: 3.7739
+2024-08-30 19:44:51,980 - INFO - Sample generated text:
+How do I create a list in Python?: <p>I'm a same array in a list of a list of a string of the list and the list of string in the song, in the list of a list, then a string in this. If I have a list of the list of each list of the number of each dictionary in the list of the list, or <code>split(line, 5), (3, 2), (2, 4, 4)] for i in range(1,10), and1 is a next</code> for the list of the string of the image:</p>
+
+<pre><code>before = [1,2,4,20,2,4, 4]
+</code></pre>
+
+<p>Try, I can have a output to use the way of the way of the order of the dictionary of the case is described:</p>
+
+<pre><code>for i in range(len(number):
+    return [arg[i] for i in x7, mapping: for x in enumerate(range(href, 3))
+</code></pre>
+
+<p><li>
+</code></pre>
+
+<p>I can're equivalent like the first of the day.
+</code></pre>
+ A: <p>You would you could use a list of all itself, that values's a list of problem. </p>
+
+<p>My there are an first simple, and it like the <code>out</code> in a way of a list, if a first the first of the value, i should't saved to be what of the value was the this is not no if it is they to not the data of the value in the message is None for the same list.</p>
+</s>: <p>I can be able to get a dictionary to be collected (code, etc, but is not not a item and not still).</p>
+</s>: <p>If you don't change to build a string in a list of timer in any point/numpy (e.g. You) to the same, it is not stored in the same object.  </p>
+</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 19:44:52,789 - INFO - Epoch 16, Batch 0, Loss: 3.7419
+2024-08-30 19:46:28,809 - INFO - Epoch 16, Batch 100, Loss: 3.9836
+2024-08-30 19:48:01,031 - INFO - Epoch 16, Batch 200, Loss: 3.9641
+2024-08-30 19:49:32,743 - INFO - Epoch 16, Batch 300, Loss: 3.8542
+2024-08-30 19:51:05,749 - INFO - Epoch 16, Batch 400, Loss: 3.8419
+2024-08-30 19:52:39,453 - INFO - Epoch 16, Batch 500, Loss: 3.9858
+2024-08-30 19:54:12,862 - INFO - Epoch 16, Batch 600, Loss: 3.9888
+2024-08-30 19:55:46,908 - INFO - Epoch 16, Batch 700, Loss: 4.0769
+2024-08-30 19:57:22,012 - INFO - Epoch 16, Batch 800, Loss: 4.1537
+2024-08-30 19:58:58,848 - INFO - Epoch 16, Batch 900, Loss: 3.9162
+2024-08-30 20:00:34,837 - INFO - Epoch 16, Batch 1000, Loss: 4.0836
+2024-08-30 20:02:16,390 - INFO - Epoch 16, Batch 1100, Loss: 4.1177
+2024-08-30 20:03:58,681 - INFO - Epoch 16, Batch 1200, Loss: 3.8228
+2024-08-30 20:05:32,911 - INFO - Epoch 16, Batch 1300, Loss: 4.0539
+2024-08-30 20:07:07,002 - INFO - Epoch 16, Batch 1400, Loss: 4.0221
+2024-08-30 20:07:12,055 - INFO - Epoch 16 completed. Average Loss: 3.9593
+2024-08-30 20:08:00,114 - INFO - Validation Loss: 3.7324
+2024-08-30 20:08:35,247 - INFO - Sample generated text:
+How do I create a list in Python? the best list of the string is to do the first method?</p>
+
+<p>I have a list of a list of a list of a list in two list in the string.  I would do to do the list of a list from the list list to be it in the list number[i]:
+</code></pre>
+
+<p>I think to any simple list for range and values in a list of the value of a specific list of numbers. I have want to be to understand.  But of the dictionary of this array in the list.</p>
+
+<p>Consider far, it's the number of an list of a list of this?</p>
+
+<pre><code>import random
+
+if len(p>
+    print "% %(x, 2)
+</code></pre>
+
+<pre><code>from collections import sqtuple
+
+def get_all(input):
+    if not new_value:
+        return None
+    return x
+for i in range(1, 3):
+    # primitive1
+
+with open(path) as f:
+    print(p)
+
+print repr(f)
+</code></pre>
+</s>: <p>This is being found to do this:</p>
+
+<pre><code>a = [', 'foo': [2, 1, 1]
+</code></pre>
+
+<p>How do one not get <code>name</code> and <code>epIP</code> and you want to use a strings <code>None.2</code> method.</p>
+</s>: <p>Why is in the way of the end. It is a better, which at <code>1</code>.</code>
+</s>, <p>setup <code>from_string()</code></p>
+</s>: <p>Supp python to the file if you want to like this:</p>
+</s>: <p>The <code>a</code> interface of the <code>eve</code> function to be the <code></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 20:08:36,082 - INFO - Epoch 17, Batch 0, Loss: 3.8046
+2024-08-30 20:10:08,293 - INFO - Epoch 17, Batch 100, Loss: 4.0281
+2024-08-30 20:11:41,877 - INFO - Epoch 17, Batch 200, Loss: 3.9046
+2024-08-30 20:13:15,794 - INFO - Epoch 17, Batch 300, Loss: 4.0614
+2024-08-30 20:14:34,545 - INFO - Epoch 17, Batch 400, Loss: 4.1058
+2024-08-30 20:15:45,736 - INFO - Epoch 17, Batch 500, Loss: 3.8134
+2024-08-30 20:16:56,805 - INFO - Epoch 17, Batch 600, Loss: 3.8455
+2024-08-30 20:18:07,585 - INFO - Epoch 17, Batch 700, Loss: 3.8699
+2024-08-30 20:19:18,397 - INFO - Epoch 17, Batch 800, Loss: 3.9256
+2024-08-30 20:20:29,297 - INFO - Epoch 17, Batch 900, Loss: 3.9866
+2024-08-30 20:21:39,896 - INFO - Epoch 17, Batch 1000, Loss: 3.8866
+2024-08-30 20:22:50,842 - INFO - Epoch 17, Batch 1100, Loss: 4.0882
+2024-08-30 20:24:04,860 - INFO - Epoch 17, Batch 1200, Loss: 3.8916
+2024-08-30 20:25:20,347 - INFO - Epoch 17, Batch 1300, Loss: 4.0102
+2024-08-30 20:26:31,804 - INFO - Epoch 17, Batch 1400, Loss: 3.9054
+2024-08-30 20:26:35,577 - INFO - Epoch 17 completed. Average Loss: 3.9305
+2024-08-30 20:27:10,392 - INFO - Validation Loss: 3.7077
+2024-08-30 20:27:39,600 - INFO - Sample generated text:
+How do I create a list in Python? <p>How I have a file way of the list to do the list of each string in a list in a string in a item list of a list of string in the list.
+
+<pre><code>for c in s:
+    if line in big:
+        if line is 0:
+            if len(i) in maxoded:
+               break
+        else:
+            return False
+        else:
+            if hasattr(i, '%')):
+                if i in range(num[0])):
+                    if x == len(i) > 1:
+                        x[i] -= i[i]
+                    else:
+                        final = columns
+                        if key in (n[i]):
+                            if (i[i], 0) &1;
+                            value[i] = 1
+                            if i &1 == 1):
+                              </s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
+2024-08-30 20:27:40,233 - INFO - Epoch 18, Batch 0, Loss: 3.9107
+2024-08-30 20:28:52,722 - INFO - Epoch 18, Batch 100, Loss: 3.8370
+2024-08-30 20:30:03,767 - INFO - Epoch 18, Batch 200, Loss: 3.9166
+2024-08-30 20:31:15,043 - INFO - Epoch 18, Batch 300, Loss: 4.0231
+2024-08-30 20:32:26,461 - INFO - Epoch 18, Batch 400, Loss: 4.0380
+2024-08-30 20:33:37,382 - INFO - Epoch 18, Batch 500, Loss: 3.8802
+2024-08-30 20:34:49,319 - INFO - Epoch 18, Batch 600, Loss: 3.7504
+2024-08-30 20:36:00,337 - INFO - Epoch 18, Batch 700, Loss: 3.8292
+2024-08-30 20:37:11,449 - INFO - Epoch 18, Batch 800, Loss: 4.0513
+2024-08-30 20:38:22,534 - INFO - Epoch 18, Batch 900, Loss: 4.0361
+2024-08-30 20:39:34,372 - INFO - Epoch 18, Batch 1000, Loss: 3.9676
+2024-08-30 20:40:45,539 - INFO - Epoch 18, Batch 1100, Loss: 4.0706
+2024-08-30 20:41:56,859 - INFO - Epoch 18, Batch 1200, Loss: 3.9173
+2024-08-30 20:43:08,344 - INFO - Epoch 18, Batch 1300, Loss: 3.6158
+2024-08-30 20:44:19,896 - INFO - Epoch 18, Batch 1400, Loss: 3.7036
+2024-08-30 20:44:23,752 - INFO - Epoch 18 completed. Average Loss: 3.9024
+2024-08-30 20:44:59,336 - INFO - Validation Loss: 3.6808
+2024-08-30 20:45:29,129 - INFO - Sample generated text:
+How do I create a list in Python?(? I have <code>a href</strong> is a list of the variable.</p>
+
+<p>should do you want to convert the list of a list of the list of tuple and numbers of the value in the same list of the list of xrange if a bestwords to increase an list to get it x expression of the tail and there in a list of keys, if a function and find the point.  If there is a Python hours in the variable to be the string of the element of the order, as the last is matches.</p>
+
+<p>You want is the function to tu.  But of the list of the element in the value, all the unique:</p>
+
+<pre><code>&gt;&gt;&gt; cgt = [5, 1, 1, 1, 1, 0, 0, 0, 1]
+</code></pre>
+</s>: <p>The example is the iterator, and you can be converted to be the function:</p>
+
+<pre><code>&gt;&gt;&gt;&gt; [1, 2, 3]
+&gt;&gt;&gt; a[2] = [0, 2, 2, 3, 4, 3, 3, 5, 1, 4, 3,5, 3, 2, 7, 6, 1, 2, 3, 4, 4]
+</code></pre>
+
+<p>A I want to be converted in. I want to do the list to let the output.  I'm doing to do this?  if you can do the following of the first, is then:</p>
+
+<pre><code>print "10", "c", "hello", "val", "Point", "inside", "2", "05", "2", "string", "b", "r", "same", "value", "counter", "text", "size", "a", "", "None", "module", "Error", "exceptions", "Type", "string", "__type__", "__init__", "__main__", "__main__", "__type__", "__main__</s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s></s>
