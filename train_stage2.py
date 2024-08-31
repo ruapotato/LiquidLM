@@ -20,6 +20,19 @@ torch.manual_seed(42)
 np.random.seed(42)
 random.seed(42)
 
+class PositionalEncoding(nn.Module):
+    def __init__(self, d_model, max_len=5000):
+        super().__init__()
+        position = torch.arange(max_len).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2) * (-math.log(10000.0) / d_model))
+        pe = torch.zeros(max_len, 1, d_model)
+        pe[:, 0, 0::2] = torch.sin(position * div_term)
+        pe[:, 0, 1::2] = torch.cos(position * div_term)
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        return x + self.pe[:x.size(0)]
+
 class TimeAwareReservoirLayer(nn.Module):
     def __init__(self, input_size, reservoir_size, sparsity=0.95):
         super().__init__()
@@ -47,41 +60,55 @@ class TimeAwareReservoirLayer(nn.Module):
         # Combine reservoir output with time-dependent ripples
         return torch.tanh(r + time_factor)
 
+class SelfAttentionLayer(nn.Module):
+    def __init__(self, d_model, nhead, dropout=0.1):
+        super().__init__()
+        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout)
+        self.norm1 = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, src, src_mask=None):
+        src2 = self.self_attn(src, src, src, attn_mask=src_mask)[0]
+        src = src + self.dropout(src2)
+        src = self.norm1(src)
+        return src
+
 class LiquidLayer(nn.Module):
-    def __init__(self, input_size, reservoir_size, hidden_size, output_size, num_layers=4, dropout_rate=0.4):
+    def __init__(self, input_size, reservoir_size, hidden_size, output_size, num_layers=4, nhead=16, dropout_rate=0.2):
         super().__init__()
         self.reservoir = TimeAwareReservoirLayer(input_size, reservoir_size)
-        self.recurrent_layer = nn.LSTM(reservoir_size, hidden_size, num_layers=num_layers, batch_first=True, dropout=dropout_rate)
-        self.layer_norm = nn.LayerNorm(hidden_size)
-        self.output_layer = nn.Linear(hidden_size, output_size)
+        self.pos_encoder = PositionalEncoding(reservoir_size)
+        self.attention_layers = nn.ModuleList([SelfAttentionLayer(reservoir_size, nhead, dropout_rate) for _ in range(num_layers)])
+        self.layer_norm = nn.LayerNorm(reservoir_size)
+        self.output_layer = nn.Linear(reservoir_size, output_size)
         self.dropout = nn.Dropout(dropout_rate)
 
-    def forward(self, x, hidden_state, t):
+    def forward(self, x, t):
         reservoir_out = self.reservoir(x, t)
+        reservoir_out = self.pos_encoder(reservoir_out)
         reservoir_out = self.dropout(reservoir_out)
-        output, new_hidden_state = self.recurrent_layer(reservoir_out, hidden_state)
-        output = self.layer_norm(output)
+        
+        for layer in self.attention_layers:
+            reservoir_out = layer(reservoir_out)
+        
+        output = self.layer_norm(reservoir_out)
         output = self.dropout(output)
         output = self.output_layer(output)
-        return output, new_hidden_state
+        return output
 
 class LiquidLM(nn.Module):
-    def __init__(self, vocab_size, reservoir_size, hidden_size, num_layers=4, dropout_rate=0.4):
+    def __init__(self, vocab_size, reservoir_size, hidden_size, num_layers=8, nhead=16, dropout_rate=0.2):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, hidden_size)
-        self.liquid_layer = LiquidLayer(hidden_size, reservoir_size, hidden_size, vocab_size, num_layers, dropout_rate)
+        self.liquid_layer = LiquidLayer(hidden_size, reservoir_size, hidden_size, vocab_size, num_layers, nhead, dropout_rate)
 
-    def forward(self, x, hidden_state, t):
+    def forward(self, x, t):
         embedded = self.embedding(x)
-        output, new_hidden_state = self.liquid_layer(embedded, hidden_state, t)
-        return output, new_hidden_state
-
-    def init_hidden(self, batch_size):
-        return (torch.zeros(self.liquid_layer.recurrent_layer.num_layers, batch_size, self.liquid_layer.recurrent_layer.hidden_size),
-                torch.zeros(self.liquid_layer.recurrent_layer.num_layers, batch_size, self.liquid_layer.recurrent_layer.hidden_size))
+        output = self.liquid_layer(embedded, t)
+        return output
 
 class StackOverflowDataset(Dataset):
-    def __init__(self, tokenizer, max_length=512, max_samples=50000):
+    def __init__(self, tokenizer, max_length=2048, max_samples=50000):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.max_samples = max_samples
@@ -130,15 +157,13 @@ class StackOverflowDataset(Dataset):
 def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
     model.eval()
     device = next(model.parameters()).device
-    hidden = model.init_hidden(1)
-    hidden = tuple(h.to(device) for h in hidden)
     input_ids = torch.tensor(tokenizer.encode(start_string)).unsqueeze(0).to(device)
     generated_text = start_string
 
     with torch.no_grad():
         for i in range(length):
-            t = torch.tensor([i]).float().to(device)
-            predictions, hidden = model(input_ids, hidden, t)
+            t = torch.arange(input_ids.size(1)).unsqueeze(0).float().to(device)
+            predictions = model(input_ids, t)
             predictions = predictions[:, -1, :] / temperature
             next_token_id = torch.multinomial(torch.softmax(predictions, dim=-1), num_samples=1).squeeze()
 
@@ -148,7 +173,7 @@ def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
 
     return generated_text
 
-def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=8):
+def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
 
@@ -175,8 +200,8 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=8):
             val_size = len(epoch_dataset) - train_size
             train_dataset, val_dataset = random_split(epoch_dataset, [train_size, val_size])
 
-            train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-            val_loader = DataLoader(val_dataset, batch_size=32)
+            train_loader = DataLoader(train_dataset, batch_size=4, shuffle=True)
+            val_loader = DataLoader(val_dataset, batch_size=4)
 
             model.train()
             total_loss = 0
@@ -187,12 +212,9 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=8):
                 y = x.clone().roll(-1, dims=1)
                 y[:, -1] = tokenizer.pad_token_id
 
-                hidden = model.init_hidden(x.size(0))
-                hidden = tuple(h.to(device) for h in hidden)
+                t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
 
-                t = torch.arange(x.size(1)).float().to(device)
-
-                output, _ = model(x, hidden, t)
+                output = model(x, t)
                 loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
                 loss = loss / accumulation_steps
                 loss.backward()
@@ -222,10 +244,8 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=8):
                     y = x.clone().roll(-1, dims=1)
                     y[:, -1] = tokenizer.pad_token_id
 
-                    hidden = model.init_hidden(x.size(0))
-                    hidden = tuple(h.to(device) for h in hidden)
-                    t = torch.arange(x.size(1)).float().to(device)
-                    output, _ = model(x, hidden, t)
+                    t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
+                    output = model(x, t)
                     loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
                     val_loss += loss.item()
 
@@ -273,15 +293,16 @@ if __name__ == "__main__":
         torch.autograd.set_detect_anomaly(True)
 
         # Hyperparameters
-        reservoir_size = 4096
+        reservoir_size = 3072
         hidden_size = 1024
-        batch_size = 32
+        batch_size = 4
         epochs = 60
         lr = 0.00005
-        dropout_rate = 0.4
-        accumulation_steps = 16
-        sequence_length = 512
-        num_layers = 4
+        dropout_rate = 0.2
+        accumulation_steps = 4
+        sequence_length = 2048
+        num_layers = 8
+        nhead = 16
 
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         logging.info(f"Using device: {device}")
@@ -291,7 +312,7 @@ if __name__ == "__main__":
 
         # Load the pre-trained model
         checkpoint = torch.load('best_model.pth', map_location=device)
-        model = LiquidLM(tokenizer.vocab_size, reservoir_size, hidden_size, num_layers, dropout_rate).to(device)
+        model = LiquidLM(tokenizer.vocab_size, reservoir_size, hidden_size, num_layers, nhead, dropout_rate).to(device)
         model.load_state_dict(checkpoint['model_state_dict'])
         logging.info("Pre-trained model loaded successfully.")
 
