@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader, random_split
+from torch.utils.data import Dataset, DataLoader, random_split, Subset
 from datasets import load_dataset
 import numpy as np
 import random
@@ -107,6 +107,46 @@ class LiquidLM(nn.Module):
         output = self.liquid_layer(embedded, t)
         return output
 
+class CodeParrotDataset(Dataset):
+    def __init__(self, tokenizer, max_length=2048, max_samples=50000):
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.max_samples = max_samples
+
+        # Load a subset of the data
+        self.data = load_dataset("codeparrot/codeparrot-clean-valid", split="train")
+
+        # Filter out long examples
+        self.data = self.data.filter(lambda example: self.check_length(example))
+
+        # Limit the number of samples
+        if len(self.data) > max_samples:
+            self.data = self.data.select(range(max_samples))
+
+        logging.info(f"Total examples after filtering: {len(self.data)}")
+
+    def check_length(self, example):
+        return len(self.tokenizer.encode(example['content'])) < self.max_length
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        item = self.data[idx]
+        encoded = self.tokenizer.encode_plus(
+            item['content'],
+            add_special_tokens=True,
+            max_length=self.max_length,
+            padding='max_length',
+            truncation=True,
+            return_tensors='pt'
+        )
+
+        return {
+            'input_ids': encoded['input_ids'].squeeze(),
+            'attention_mask': encoded['attention_mask'].squeeze(),
+        }
+
 def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
     model.eval()
     device = next(model.parameters()).device
@@ -126,11 +166,11 @@ def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
 
     return generated_text
 
-def train(model, train_loader, val_loader, tokenizer, epochs, lr, device, accumulation_steps=4):
+def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
 
-    total_steps = len(train_loader) * epochs // accumulation_steps
+    total_steps = len(dataset) * epochs // accumulation_steps
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=total_steps // 20, num_training_steps=total_steps)
 
     best_val_loss = float('inf')
@@ -145,6 +185,17 @@ def train(model, train_loader, val_loader, tokenizer, epochs, lr, device, accumu
 
     try:
         for epoch in range(epochs):
+            # Resample the dataset for each epoch
+            indices = torch.randperm(len(dataset)).tolist()[:50000]
+            epoch_dataset = Subset(dataset, indices)
+            
+            train_size = int(0.9 * len(epoch_dataset))
+            val_size = len(epoch_dataset) - train_size
+            train_dataset, val_dataset = random_split(epoch_dataset, [train_size, val_size])
+
+            train_loader = DataLoader(train_dataset, batch_size=4, shuffle=True)
+            val_loader = DataLoader(val_dataset, batch_size=4)
+
             model.train()
             total_loss = 0
             optimizer.zero_grad()
@@ -209,7 +260,7 @@ def train(model, train_loader, val_loader, tokenizer, epochs, lr, device, accumu
                     logging.info(f'Early stopping triggered after {epoch+1} epochs')
                     break
 
-            sample_text = generate_text(model, tokenizer, "def main():", length=500)
+            sample_text = generate_text(model, tokenizer, "def fibonacci(n):", length=500)
             logging.info(f'Sample generated text:\n{sample_text}')
 
             if device.type == 'cuda':
@@ -229,14 +280,6 @@ def train(model, train_loader, val_loader, tokenizer, epochs, lr, device, accumu
         logging.error(f"An error occurred during training: {str(e)}")
         raise
 
-def tokenize_function(examples, tokenizer):
-    return tokenizer(examples['content'], truncation=True, padding='max_length', max_length=2048)
-
-def collate_fn(batch):
-    return {
-        'input_ids': torch.tensor([item['input_ids'] for item in batch])
-    }
-
 if __name__ == "__main__":
     try:
         torch.autograd.set_detect_anomaly(True)
@@ -255,28 +298,13 @@ if __name__ == "__main__":
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         logging.info(f"Using device: {device}")
 
-        dataset = load_dataset("codeparrot/codeparrot-clean-valid")
-
         tokenizer = RobertaTokenizerFast.from_pretrained("microsoft/codebert-base")
 
-        tokenized_datasets = dataset.map(
-            lambda examples: tokenize_function(examples, tokenizer),
-            batched=True,
-            remove_columns=dataset["train"].column_names,
-            num_proc=4,
-        )
-
-        train_val_dataset = tokenized_datasets["train"]
-        train_size = int(0.9 * len(train_val_dataset))
-        val_size = len(train_val_dataset) - train_size
-        train_dataset, val_dataset = random_split(train_val_dataset, [train_size, val_size])
-
-        train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
-        val_loader = DataLoader(val_dataset, batch_size=batch_size, collate_fn=collate_fn)
+        dataset = CodeParrotDataset(tokenizer, max_length=sequence_length, max_samples=50000)
 
         model = LiquidLM(tokenizer.vocab_size, reservoir_size, hidden_size, num_layers, nhead, dropout_rate).to(device)
 
-        train(model, train_loader, val_loader, tokenizer, epochs, lr, device, accumulation_steps)
+        train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps)
 
         checkpoint = torch.load('best_model.pth')
         model.load_state_dict(checkpoint['model_state_dict'])
