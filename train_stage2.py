@@ -1,12 +1,12 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader, random_split, Subset
+from torch.utils.data import Dataset, DataLoader, random_split
 from datasets import load_dataset
 import numpy as np
 import random
 import math
-from transformers import get_linear_schedule_with_warmup, RobertaTokenizerFast
+from transformers import get_linear_schedule_with_warmup, AutoTokenizer
 import logging
 from tqdm import tqdm
 import os
@@ -187,7 +187,7 @@ class StackOverflowDataset(Dataset):
     def check_length(self, example):
         question = example['title'] + " " + example['question_body']
         answer = example['answer_body']
-        text = f"Q: {question} A: {answer}"
+        text = f"Human: {question}\n\nAssistant: {answer}"
         return len(self.tokenizer.encode(text)) < self.max_length
 
     def __len__(self):
@@ -197,10 +197,12 @@ class StackOverflowDataset(Dataset):
         item = self.data[idx]
         question = item['title'] + " " + item['question_body']
         answer = item['answer_body']
-        text = f"Q: {question} A: {answer}"
+        
+        # Format as a simple chat-like conversation
+        formatted_text = f"Human: {question}\n\nAssistant: {answer}"
 
         encoded = self.tokenizer.encode_plus(
-            text,
+            formatted_text,
             add_special_tokens=True,
             max_length=self.max_length,
             padding='max_length',
@@ -215,8 +217,9 @@ class StackOverflowDataset(Dataset):
 
 def generate_text(model, tokenizer, start_string, length=100, temperature=0.7):
     model.eval()
-    input_ids = torch.tensor(tokenizer.encode(start_string)).unsqueeze(0).to(device)
-    generated_text = start_string
+    input_text = f"Human: {start_string}\n\nAssistant:"
+    input_ids = torch.tensor(tokenizer.encode(input_text)).unsqueeze(0).to(device)
+    generated_text = input_text
 
     with torch.no_grad():
         for i in range(length):
@@ -225,12 +228,10 @@ def generate_text(model, tokenizer, start_string, length=100, temperature=0.7):
             predictions = model(input_ids, t)
             predictions = predictions[:, -1, :] / temperature
             
-            # Handle potential NaN values
             if torch.isnan(predictions).any() or torch.isinf(predictions).any():
                 logging.warning("NaN or Inf detected in predictions. Stopping generation.")
                 break
             
-            # Use softmax with careful normalization
             probs = torch.softmax(predictions - predictions.max(dim=-1, keepdim=True).values, dim=-1)
             next_token_id = torch.multinomial(probs, num_samples=1).squeeze()
 
@@ -273,16 +274,20 @@ def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_ste
             optimizer.zero_grad()
 
             progress_bar = tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs}")
-            for batch_idx, data in enumerate(progress_bar):
-                x = data['input_ids'].to(device)
-                y = x.clone().roll(-1, dims=1)
-                y[:, -1] = tokenizer.pad_token_id
+            for batch_idx, batch in enumerate(progress_bar):
+                input_ids = batch['input_ids'].to(device)
+                attention_mask = batch['attention_mask'].to(device)
 
-                t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
+                # Create labels by shifting input_ids
+                labels = input_ids.clone()
+                labels[:, :-1] = input_ids[:, 1:]
+                labels[:, -1] = tokenizer.pad_token_id
+
+                t = torch.arange(input_ids.size(1)).unsqueeze(0).repeat(input_ids.size(0), 1).float().to(device)
 
                 with torch.cuda.amp.autocast():
-                    output = model(x, t)
-                    loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
+                    output = model(input_ids, t)
+                    loss = criterion(output.view(-1, output.size(-1)), labels.view(-1))
                     loss = loss / accumulation_steps
 
                 scaler.scale(loss).backward()
@@ -304,14 +309,18 @@ def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_ste
             model.eval()
             val_loss = 0
             with torch.no_grad():
-                for data in val_loader:
-                    x = data['input_ids'].to(device)
-                    y = x.clone().roll(-1, dims=1)
-                    y[:, -1] = tokenizer.pad_token_id
+                for batch in val_loader:
+                    input_ids = batch['input_ids'].to(device)
+                    attention_mask = batch['attention_mask'].to(device)
 
-                    t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
-                    output = model(x, t)
-                    loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
+                    # Create labels by shifting input_ids
+                    labels = input_ids.clone()
+                    labels[:, :-1] = input_ids[:, 1:]
+                    labels[:, -1] = tokenizer.pad_token_id
+
+                    t = torch.arange(input_ids.size(1)).unsqueeze(0).repeat(input_ids.size(0), 1).float().to(device)
+                    output = model(input_ids, t)
+                    loss = criterion(output.view(-1, output.size(-1)), labels.view(-1))
                     val_loss += loss.item()
 
             avg_val_loss = val_loss / len(val_loader)
@@ -368,7 +377,8 @@ if __name__ == "__main__":
 
     logging.info(f"Initializing model with parameters: d_model={d_model}, reservoir_size={reservoir_size}, num_heads={num_heads}, num_layers={num_layers}")
 
-    tokenizer = RobertaTokenizerFast.from_pretrained("microsoft/codebert-base")
+    tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
+    tokenizer.pad_token = tokenizer.eos_token
 
     # Load the pre-trained model from stage 1
     model = LiquidLM(
