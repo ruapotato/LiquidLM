@@ -1,0 +1,506 @@
+2024-09-01 16:13:03,000 - INFO - Initializing model with parameters: d_model=768, reservoir_size=2048, num_heads=12, num_layers=6
+/matrix/david/main_home_folder/myProjects/AI/David/pyenv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+2024-09-01 16:13:04,158 - WARNING - Repo card metadata block was not found. Setting CardData to empty.
+2024-09-01 16:13:06,835 - INFO - Starting training...
+Epoch 1/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=4.41]
+2024-09-01 16:21:31,154 - INFO - Epoch 1 completed. Average Loss: 6.4807
+2024-09-01 16:22:13,285 - INFO - Validation Loss: 4.4879
+2024-09-01 16:22:29,026 - INFO - Sample generated text:
+import pygame:.org/or.f-8
+import os
+import os as c
+import sys
+from django. import *
+from django.())
+from django. Luigi import              def __init__(self):
+                                        
+Epoch 2/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:31<00:00,  5.50it/s, loss=3.31]
+2024-09-01 16:31:00,189 - INFO - Epoch 2 completed. Average Loss: 4.0368
+2024-09-01 16:31:42,542 - INFO - Validation Loss: 3.6180
+2024-09-01 16:31:57,299 - INFO - Sample generated text:
+import pygame:est
+import random
+import json
+from sqlalchemy.p.http import errors
+from django.core.config import models
+from django.utils import (
+                                                               
+Epoch 3/30: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:16<00:00,  5.66it/s, loss=2.8]
+2024-09-01 16:40:13,914 - INFO - Epoch 3 completed. Average Loss: 3.4221
+2024-09-01 16:40:56,371 - INFO - Validation Loss: 3.1708
+2024-09-01 16:41:11,104 - INFO - Sample generated text:
+import pygame:.dirname
+import os
+import json
+
+from time import *
+import datetime
+import time
+import json
+import hashlib.path
+
+from pylint import datetime
+from hman_commands import time
+
+from. import log
+from the import render_config
+
+from.utils import pytest_mod, \
+                         
+Epoch 4/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:17<00:00,  5.65it/s, loss=2.59]
+2024-09-01 16:49:28,814 - INFO - Epoch 4 completed. Average Loss: 3.0681
+2024-09-01 16:50:11,330 - INFO - Validation Loss: 2.9067
+2024-09-01 16:50:26,026 - INFO - Sample generated text:
+import pygame: as m
+import math
+from numpy.mpp.s import (
+                                                                                   
+Epoch 5/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:34<00:00,  5.47it/s, loss=2.44]
+2024-09-01 16:59:00,253 - INFO - Epoch 5 completed. Average Loss: 2.8432
+2024-09-01 16:59:45,557 - INFO - Validation Loss: 2.7253
+2024-09-01 17:00:00,352 - INFO - Sample generated text:
+import pygame:.db as pd
+
+from pyd.backend.scheduler import (
+     Alias,
+     DataFrame,
+     DefaultModel,
+     Datasetrize,
+     osv,
+    MIM,
+     Dax,
+     Has,
+    QMainWindow,
+     PIPE
+Epoch 6/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:51<00:00,  5.29it/s, loss=2.52]
+2024-09-01 17:08:51,838 - INFO - Epoch 6 completed. Average Loss: 2.6857
+2024-09-01 17:09:36,704 - INFO - Validation Loss: 2.6048
+2024-09-01 17:09:51,437 - INFO - Sample generated text:
+import pygame:
+import pytest
+from pytest import api_test
+
+from pytest import test_full
+from test_user_group.test import extract_test_test_test
+
+from test_utils.test import test_test_test_test_test
+from test_test_tests.test import test_test_test_test
+
+from test_test_test import test_test_test_test
+
+from test_test.test_test_
+Epoch 7/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:46<00:00,  5.34it/s, loss=2.94]
+2024-09-01 17:18:38,269 - INFO - Epoch 7 completed. Average Loss: 2.5637
+2024-09-01 17:19:21,126 - INFO - Validation Loss: 2.4987
+2024-09-01 17:19:35,846 - INFO - Sample generated text:
+import pygame:moves.base as mock
+from StringIO import Client
+
+_cache = {
+    'name': 'py.py.py',
+    'name': 'py.py.py',
+    'description': 'py-py',
+    'description': 'pyramid/py/pytest-m-py',
+    'name': 'py3.py',
+    'name': 'py
+Epoch 8/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:21<00:00,  5.61it/s, loss=2.52]
+2024-09-01 17:27:57,138 - INFO - Epoch 8 completed. Average Loss: 2.4642
+2024-09-01 17:28:39,853 - INFO - Validation Loss: 2.4121
+2024-09-01 17:28:54,735 - INFO - Sample generated text:
+import pygame:
+import os.path
+
+class Grid(object):
+    def __init__(self, config, config, config, config, config, config, config, config, config, config, config, config, config):
+         self.config = config.config()
+         self.config = config
+        self.config = config
+      
+Epoch 9/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:21<00:00,  5.61it/s, loss=2.15]
+2024-09-01 17:37:15,824 - INFO - Epoch 9 completed. Average Loss: 2.3780
+2024-09-01 17:37:58,570 - INFO - Validation Loss: 2.3437
+2024-09-01 17:38:13,444 - INFO - Sample generated text:
+import pygame:
+import pandas
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+from plt.plot import ax as plt
+from plt.plot import plt
+from plt.plot import train
+from plt.plot import plotly as plt
+
+Epoch 10/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=2.38]
+2024-09-01 17:46:34,365 - INFO - Epoch 10 completed. Average Loss: 2.3012
+2024-09-01 17:47:17,054 - INFO - Validation Loss: 2.2748
+2024-09-01 17:47:31,903 - INFO - Sample generated text:
+import pygame:.pygame
+from pygame import PyQt5
+
+class AbstractTest(migrations.TestCase):
+
+    def test_test_for_for_for_for_for_for_for_if_values(self,
+                                             
+Epoch 11/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=2.52]
+2024-09-01 17:55:52,921 - INFO - Epoch 11 completed. Average Loss: 2.2325
+2024-09-01 17:56:35,605 - INFO - Validation Loss: 2.2166
+2024-09-01 17:56:50,439 - INFO - Sample generated text:
+import pygame:f
+
+from varsers.queue import ArrayConfig
+
+
+def get_es(nodes):
+    t = 0
+    assert t == 1
+    assert t == 1
+    assert t == 1
+    assert t == 2
+    assert t == 3
+    t = [1, 2, 3, 4, 3, 4, 5, 5, 4, 6, 8, 6,
+Epoch 12/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:21<00:00,  5.61it/s, loss=2.29]
+2024-09-01 18:05:11,738 - INFO - Epoch 12 completed. Average Loss: 2.1699
+2024-09-01 18:05:54,436 - INFO - Validation Loss: 2.1597
+2024-09-01 18:06:09,129 - INFO - Sample generated text:
+import pygame:ize
+import pygame
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.cm import mplots
+from matplotlib.optimize import pyplot
+from matplotlib.plot import plot_plot as plt
+from pltpl.plt import plot_plot as plt
+from pltplt.platypes import plot_plot as plt
+from pltplt.platoms
+Epoch 13/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:21<00:00,  5.61it/s, loss=1.94]
+2024-09-01 18:14:30,579 - INFO - Epoch 13 completed. Average Loss: 2.1130
+2024-09-01 18:15:13,293 - INFO - Validation Loss: 2.1117
+2024-09-01 18:15:28,001 - INFO - Sample generated text:
+import pygame:_pygame
+import numpy as np
+import pygame
+import traceback
+import random
+import random
+import pygame
+
+# the game will be a random.
+from pygame.game.game.cv import *
+from pygame.game.game.game import *
+
+# basic state of the button to be the random
+for i in range(0,1,0):
+    for i in range(1,1,1):
+Epoch 14/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:21<00:00,  5.61it/s, loss=2.18]
+2024-09-01 18:23:49,102 - INFO - Epoch 14 completed. Average Loss: 2.0615
+2024-09-01 18:24:31,784 - INFO - Validation Loss: 2.0641
+2024-09-01 18:24:46,599 - INFO - Sample generated text:
+import pygame:
+import weech.log
+from weech.tools import setup
+import weech.tools.logging as logging
+import weech.tools.logging as logging
+import weboob.tools.logger.logging as logging
+import weech.tools.tools as logging
+import weblob.tools.parser.logging as logging
+import weblob.tools.tools.logging as logging
+import weblob.tools.util.log
+Epoch 15/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=1.87]
+2024-09-01 18:33:07,283 - INFO - Epoch 15 completed. Average Loss: 2.0154
+2024-09-01 18:33:49,975 - INFO - Validation Loss: 2.0308
+2024-09-01 18:34:04,692 - INFO - Sample generated text:
+import pygame:
+
+from.. import _
+from.. import tools
+
+
+class MySentence:
+    def __init__(self, screen, *args):
+        self.Node = 0
+        self.origin = 0
+        self.agate = 0
+
+        self.players = 0
+        self.position = 0
+
+Epoch 16/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=1.98]
+2024-09-01 18:42:25,569 - INFO - Epoch 16 completed. Average Loss: 1.9743
+2024-09-01 18:43:08,311 - INFO - Validation Loss: 1.9954
+2024-09-01 18:43:22,996 - INFO - Sample generated text:
+import pygame:
+from pygame.game.mixins import *
+from pygame.game.website import *
+from game.widgets import *
+from game.widgets import *
+from game.widgets.widgets import *
+from game.widgets import *
+from game.widgets import *
+from game.widgets import *
+from game.widgets.widgets import *
+
+#     Book = Game
+
+class GamebuttonBox
+Epoch 17/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:20<00:00,  5.62it/s, loss=1.62]
+2024-09-01 18:51:43,702 - INFO - Epoch 17 completed. Average Loss: 1.9377
+2024-09-01 18:52:26,326 - INFO - Validation Loss: 1.9677
+2024-09-01 18:52:41,282 - INFO - Sample generated text:
+import pygame:
+from Pygame.QtGui import QtCore
+from PyQt4.QtGui import QtGui
+
+from PyQt5.QtGui import QEvent, QTimer, QPushButtonBox
+from electrum.gui import QApplication
+from electrum.gui import get_main_thread
+from electrum.gui import QDialog
+from electrum.gui import QtGui
+from electrum.gui import QtGui
+Epoch 18/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:19<00:00,  5.64it/s, loss=1.52]
+2024-09-01 19:01:00,522 - INFO - Epoch 18 completed. Average Loss: 1.9053
+2024-09-01 19:01:43,203 - INFO - Validation Loss: 1.9442
+2024-09-01 19:01:57,975 - INFO - Sample generated text:
+import pygame:.pygame.game
+import pygame.game
+from pygame.game import Game
+import pygame.game
+import pygame
+
+from..geometry import Game
+
+from..utils.exceptions import ObjectDoesNotAllowed
+
+
+def game(game, game, game):
+    game = game.game.game.game.game
+    game.play(game, game)
+    game.game.game.game
+Epoch 19/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:18<00:00,  5.64it/s, loss=1.58]
+2024-09-01 19:10:16,696 - INFO - Epoch 19 completed. Average Loss: 1.8771
+2024-09-01 19:10:59,311 - INFO - Validation Loss: 1.9222
+2024-09-01 19:11:13,988 - INFO - Sample generated text:
+import pygame:.widgets
+import pygame
+import pygame
+import time
+import time
+import os
+import subprocess
+import math
+import time
+import time
+import string
+import sys
+import traceback
+
+# define the basic creation object
+#
+# start
+#
+#
+#
+
+#
+#
+#
+#
+#
+
+#
+
+class Game:
+	def draw():
+		#
+		#
+	#
+		
+Epoch 20/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:33<00:00,  5.48it/s, loss=2.46]
+2024-09-01 19:19:47,571 - INFO - Epoch 20 completed. Average Loss: 1.8521
+2024-09-01 19:20:32,858 - INFO - Validation Loss: 1.9026
+2024-09-01 19:20:47,593 - INFO - Sample generated text:
+import pygame: as pygame
+from pygame.game import Game
+from pygame.game.game import Game
+from pygame.time import pygame
+from pygame import game
+from pygame.game import Game, Game
+from pygame.game import Game
+from pygame.game.game import Game
+from pygame.game import Game
+
+class Game(Screen):
+    def Game(self, gui, screen, screen, game):
+   
+Epoch 21/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:36<00:00,  5.44it/s, loss=1.62]
+2024-09-01 19:29:24,551 - INFO - Epoch 21 completed. Average Loss: 1.8301
+2024-09-01 19:30:07,107 - INFO - Validation Loss: 1.8842
+2024-09-01 19:30:21,834 - INFO - Sample generated text:
+import pygame: as pygame
+
+
+def test_game_around(game_editor):
+    dom = pygame.game.rect(game_editor)
+    ver = pygame.game.Rect(layout)
+    b = pygame.game.rect.height.Rect(
+        pygame.game.rect.Rect(
+          pygame.game.rect.rect
+Epoch 22/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:18<00:00,  5.65it/s, loss=1.19]
+2024-09-01 19:38:40,053 - INFO - Epoch 22 completed. Average Loss: 1.8106
+2024-09-01 19:39:22,629 - INFO - Validation Loss: 1.8727
+2024-09-01 19:39:37,300 - INFO - Sample generated text:
+import pygame:
+
+pygame.display.set_option('font')
+pygame.display.set_option('font.width')
+pygame.display.set_option('font.height')
+pygame.display.set_option('font.height')
+
+pygame.display.set_option('font.height')
+pygame.display.add_option('font.font')
+pygame.display.set_option('font.font')
+
+
+Epoch 23/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:17<00:00,  5.65it/s, loss=1.65]
+2024-09-01 19:47:55,030 - INFO - Epoch 23 completed. Average Loss: 1.7939
+2024-09-01 19:48:37,558 - INFO - Validation Loss: 1.8604
+2024-09-01 19:48:52,223 - INFO - Sample generated text:
+import pygame:, string, os.path, sys, time, random, time, time, time, shutil, time
+from pygame.locals import *
+from pygame.state import *
+
+# This adds the scene is available at the time.pygame.mixin.
+# For the camera, one script is (the for the device)
+
+pygame.init_logger(pygame.init_logger())
+
+
+# The main loop interface to
+Epoch 24/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:18<00:00,  5.65it/s, loss=1.6]
+2024-09-01 19:57:10,476 - INFO - Epoch 24 completed. Average Loss: 1.7791
+2024-09-01 19:57:53,027 - INFO - Validation Loss: 1.8500
+2024-09-01 19:58:07,722 - INFO - Sample generated text:
+import pygame:, random, re
+from plotly.plotting import show_search
+from plotly.matplotly.plotly.plotly import figure_to_xform
+from plotly.plotly import plotly_from_to_xform
+from plotly.plotly.plotly import plotly
+from plotly.plotly.figure import plotly_plot_from
+from plotly.plotly.plotly import plotly
+from plotly.
+Epoch 25/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:30<00:00,  5.51it/s, loss=1.84]
+2024-09-01 20:06:38,390 - INFO - Epoch 25 completed. Average Loss: 1.7665
+2024-09-01 20:07:20,940 - INFO - Validation Loss: 1.8435
+2024-09-01 20:07:35,686 - INFO - Sample generated text:
+import pygame:, pygame, pygame, pygame.loc.locals
+import pygame, game
+from game.game import game
+
+class Game2(game.game.game.game.game.game.Clock):
+                                                    
+Epoch 26/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:17<00:00,  5.65it/s, loss=2.12]
+2024-09-01 20:15:53,182 - INFO - Epoch 26 completed. Average Loss: 1.7560
+2024-09-01 20:16:35,680 - INFO - Validation Loss: 1.8345
+2024-09-01 20:16:50,538 - INFO - Sample generated text:
+import pygame:, string
+import datetime
+import networkx as nx
+
+class pygame:
+	class Game(object):
+		def __init__(self, game, player=None, game=None, game=None, game=None):
+			game = game.game
+			game = game.game # game game
+			game = game.game
+			game.game.game.game.game.sync().
+Epoch 27/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:47<00:00,  5.33it/s, loss=1.57]
+2024-09-01 20:25:38,280 - INFO - Epoch 27 completed. Average Loss: 1.7467
+2024-09-01 20:26:23,880 - INFO - Validation Loss: 1.8302
+2024-09-01 20:26:38,629 - INFO - Sample generated text:
+import pygame:
+
+## SETPATH = pygame.display.font.display("animation_rect.font.font")
+## INANAL_FONTAL_FILE = pygame.font.Font("font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font.font
+Epoch 28/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.56it/s, loss=1.69]
+2024-09-01 20:35:04,279 - INFO - Epoch 28 completed. Average Loss: 1.7396
+2024-09-01 20:35:46,777 - INFO - Validation Loss: 1.8256
+2024-09-01 20:36:01,429 - INFO - Sample generated text:
+import pygame: as pygame
+import numpy as np
+import matplotlib.pyplot as plt
+#from matplotlib.backend import Figure
+import numpy as np
+
+from numba import random
+
+from pandas.util.testing import (assert_almost_equal, assert_equal, assert_equal, assert_equal, assert_equal)
+
+# import pandas as pd
+from pandas.core.exception import OrderedDict
+Epoch 29/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:17<00:00,  5.65it/s, loss=1.49]
+2024-09-01 20:44:18,980 - INFO - Epoch 29 completed. Average Loss: 1.7338
+2024-09-01 20:45:01,456 - INFO - Validation Loss: 1.8234
+2024-09-01 20:45:16,118 - INFO - Sample generated text:
+import pygame:.locals
+from pygame.locals import *
+
+
+class GameEvent(pygame.Frame):
+    def __init__(self, *args, **kwargs):
+        self.screen = self.screen
+
+    def draw(self, x):
+        draw()
+        draw()
+        draw()
+  
+Epoch 30/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:17<00:00,  5.65it/s, loss=1.75]
+2024-09-01 20:53:33,842 - INFO - Epoch 30 completed. Average Loss: 1.7300
+2024-09-01 20:54:16,285 - INFO - Validation Loss: 1.8220
+2024-09-01 20:54:30,917 - INFO - Sample generated text:
+import pygame:.pygame.locals as ts
+import pygame.locals as ts
+
+def pygame_locals(locals):
+    return locals
+
+def pygame_locals(locals):
+    returnlocals
+
+def pygame_locals(locals):
+    returnlocals.locals
+
+def pygame_locals(locals):
+    returnlocals.locals.
+2024-09-01 20:54:30,961 - INFO - Training completed. Loading best model...
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train.py:349: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('best_model.pth')
+2024-09-01 20:54:48,093 - INFO - Generating sample text...
+2024-09-01 20:54:49,054 - INFO - Generated text:
+import pygame as pygame
+import numpy as np
+from scipy.fluidgets import *
+from scipy.linalg import *
+import numpy as np
+from scipy.stats import nc_zones
+
+pygame.init()
+
+pygame.init()
+pygame.init()
+
+
+def draw():
+    #window is useful if sys.stdout.stderr()
+    #window is selected, and we can get the window
+    #window is the window is done to the window
+    font = pygame.window.mouse.new_rect()
+    font.rect.rect.rectangle()
+    font.rect.rectangle()
+    font.rect.rectangle()
+    font.rectangle()
+    #image is selected, we will get the window for the window
+
