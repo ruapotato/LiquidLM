@@ -1,0 +1,408 @@
+2024-09-01 20:59:32,093 - INFO - Pre-trained model from stage 1 loaded successfully.
+Filter:   0%|                                                                                                                                                                    | 0/493561 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (539 > 512). Running this sequence through the model will result in indexing errors
+Filter: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 493561/493561 [07:17<00:00, 1128.38 examples/s]
+2024-09-01 21:06:52,338 - INFO - Total examples after filtering: 50000
+2024-09-01 21:06:52,338 - INFO - Starting fine-tuning on Stack Overflow Python data...
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train_stage2.py:261: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Epoch 1/30:   0%|                                                                                                                                                                         | 0/2813 [00:00<?, ?it/s]/matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train_stage2.py:283: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [09:15<00:00,  5.06it/s, loss=3.35]
+2024-09-01 21:16:11,916 - INFO - Epoch 1 completed. Average Loss: 3.4176
+2024-09-01 21:16:59,601 - INFO - Validation Loss: 3.0578
+2024-09-01 21:17:14,397 - INFO - Sample generated text:
+How do I create a list in Python?: </p>
+
+<pre><code>a = [1, 2, 2, 2, 3, 4, 5, 3]
+print a
+</code></pre>
+
+<pre><code>a = [1, 2, 3, 4, 8, 2, 3]
+</code></pre>
+
+<p>I have a list of list of list in the list of lists:</p>
+
+<pre><code>a =
+Epoch 2/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:46<00:00,  5.35it/s, loss=2.51]
+2024-09-01 21:26:00,505 - INFO - Epoch 2 completed. Average Loss: 2.9927
+2024-09-01 21:26:45,761 - INFO - Validation Loss: 2.8575
+2024-09-01 21:27:00,455 - INFO - Sample generated text:
+How do I create a list in Python?/or? <p>How do I find a list of sequences in a list?</p>
+
+<pre><code>list1 = [1, 2, 3, 2, 3, 3, 4, 3, 4]
+</code></pre>
+
+<p>in this:</p>
+
+<pre><code>list1 = [1, 1, 1, 1, 3, 1, 1]
+</code></pre>
+
+
+Epoch 3/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:33<00:00,  5.48it/s, loss=2.88]
+2024-09-01 21:35:34,246 - INFO - Epoch 3 completed. Average Loss: 2.8125
+2024-09-01 21:36:18,248 - INFO - Validation Loss: 2.7120
+2024-09-01 21:36:33,212 - INFO - Sample generated text:
+How do I create a list in Python? time.sleep?  I've tried writing a list, but I'm trying to do not use.  What's the way to do this?</p>
+
+<pre><code>from collections import Counter
+
+from collections import defaultdict
+
+def make_environ(value):
+    if not value:
+        print "This is not a list"
+        if not value:
+  
+Epoch 4/30: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:31<00:00,  5.50it/s, loss=3.1]
+2024-09-01 21:45:04,916 - INFO - Epoch 4 completed. Average Loss: 2.6670
+2024-09-01 21:45:48,676 - INFO - Validation Loss: 2.6029
+2024-09-01 21:46:03,348 - INFO - Sample generated text:
+How do I create a list in Python?? (id) = 1.0, method(id) = 2.0, method(data) = 2.0, method(data)</id = 3.0, method(data)
+</ul>
+ A: <p>We're looking for a wrapper for parsing requests from <a href="http://docs.python.org/library/urllib.html#urllib.urlopen">urllib.urlopen</a> from a Unicode
+Epoch 5/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:32<00:00,  5.48it/s, loss=2.26]
+2024-09-01 21:54:36,390 - INFO - Epoch 5 completed. Average Loss: 2.5519
+2024-09-01 21:55:20,009 - INFO - Validation Loss: 2.5170
+2024-09-01 21:55:34,711 - INFO - Sample generated text:
+How do I create a list in Python? is there a way to filter a list? How do I filter a list?</p>
+
+<pre><code>def list_list(d):
+    for d in d:
+        for d in d:
+            if d.lower() not in d:
+                key = d[d]
+ 
+Epoch 6/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:40<00:00,  5.40it/s, loss=2.41]
+2024-09-01 22:04:15,561 - INFO - Epoch 6 completed. Average Loss: 2.4619
+2024-09-01 22:05:00,797 - INFO - Validation Loss: 2.4533
+2024-09-01 22:05:15,533 - INFO - Sample generated text:
+How do I create a list in Python?? Or is it possible to create a list in Python?</p>
+
+<pre><code>for i in range(10):
+                                                                      
+Epoch 7/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:48<00:00,  5.32it/s, loss=2.01]
+2024-09-01 22:14:04,534 - INFO - Epoch 7 completed. Average Loss: 2.3883
+2024-09-01 22:14:49,711 - INFO - Validation Loss: 2.4001
+2024-09-01 22:15:04,437 - INFO - Sample generated text:
+How do I create a list in Python?? <p>I'd like to create a list of tuples, and the list of those tuples, and I want to modify them. </p>
+
+<pre><code>a = [1,2,3,4,5]
+b = [0,1,3,4,5]
+c = [0,1,1,2,3,4,5]
+</code></pre>
+
+<p>What is the most
+Epoch 8/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:49<00:00,  5.31it/s, loss=2.07]
+2024-09-01 22:23:53,942 - INFO - Epoch 8 completed. Average Loss: 2.3252
+2024-09-01 22:24:39,214 - INFO - Validation Loss: 2.3497
+2024-09-01 22:24:53,944 - INFO - Sample generated text:
+How do I create a list in Python? coding:</p>
+
+<pre><code>list = [('one', 'two', 'three'), ('two', 'two', 'three'), ('three', 'three'), ('three', 'three'), ('three', 'three'), ('four', 'three'), ('three', 'three')]
+</code></pre>
+
+<p>Is there a way to do this in Python?</p>
+ A: <pre><code>list = [('
+Epoch 9/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:49<00:00,  5.31it/s, loss=2.32]
+2024-09-01 22:33:43,353 - INFO - Epoch 9 completed. Average Loss: 2.2690
+2024-09-01 22:34:28,541 - INFO - Validation Loss: 2.3085
+2024-09-01 22:34:43,519 - INFO - Sample generated text:
+How do I create a list in Python?? <p>I am trying to create a list of all the values in a list in Python.  However, I am wondering if this is possible to create a list in Python?  What am I doing wrong?</p>
+
+<pre><code>for item in list:
+    if item not in item:
+        return
+</code></pre>
+
+<p>But I am not sure if this is possible,
+Epoch 10/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:47<00:00,  5.33it/s, loss=2.18]
+2024-09-01 22:43:31,170 - INFO - Epoch 10 completed. Average Loss: 2.2192
+2024-09-01 22:44:16,367 - INFO - Validation Loss: 2.2734
+2024-09-01 22:44:31,135 - INFO - Sample generated text:
+How do I create a list in Python?? <p>I'm trying to create a list in Python that has a list of its dir:</p>
+
+<pre><code>setList = ["a", "b", "c"]
+</code></pre>
+
+<p>However, I can't imagine it's an obvious way to do it, but I can't find the answer for what it's.</p>
+ A: <p>I've seen here's <a href="http://
+Epoch 11/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:47<00:00,  5.34it/s, loss=2.2]
+2024-09-01 22:53:18,436 - INFO - Epoch 11 completed. Average Loss: 2.1749
+2024-09-01 22:54:03,692 - INFO - Validation Loss: 2.2426
+2024-09-01 22:54:18,416 - INFO - Sample generated text:
+How do I create a list in Python?? How do I create a list in Python?</p>
+ A: <pre><code>a = [1,2,3,4,5]
+</code></pre>
+
+<p>For example:</p>
+
+<pre><code>[1,2,3,4,5]
+</code></pre>
+
+<p>If you want to create a list, you can use this:</p>
+
+<pre><
+Epoch 12/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:47<00:00,  5.34it/s, loss=1.78]
+2024-09-01 23:03:05,530 - INFO - Epoch 12 completed. Average Loss: 2.1330
+2024-09-01 23:03:52,583 - INFO - Validation Loss: 2.2131
+2024-09-01 23:04:07,273 - INFO - Sample generated text:
+How do I create a list in Python? and how do I create a list like this:</p>
+
+<pre><code>list = [1,2,3,4,5]
+
+list2 = [4,5,6]
+
+
+list2 = [4,5,6]
+
+list2 = [5,6]
+
+list2 = [6,7,8]
+</code></pre>
+
+<p>I don't think it would be possible,
+Epoch 13/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:32<00:00,  5.49it/s, loss=2.04]
+2024-09-01 23:12:39,756 - INFO - Epoch 13 completed. Average Loss: 2.0958
+2024-09-01 23:13:23,023 - INFO - Validation Loss: 2.1867
+2024-09-01 23:13:37,703 - INFO - Sample generated text:
+How do I create a list in Python? or.net</p>
+ A: <p>In Python 3, you can use <code>itertools</code> to create the list of objects within a function.  In Perl, you can do this:</p>
+
+<pre><code>def filter_lists(iterable, iterable):
+    return iter(iterable)
+</code></pre>
+
+<p><strong>Edit:</strong> I haven't seen
+Epoch 14/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:24<00:00,  5.57it/s, loss=2.12]
+2024-09-01 23:22:02,556 - INFO - Epoch 14 completed. Average Loss: 2.0608
+2024-09-01 23:22:45,772 - INFO - Validation Loss: 2.1631
+2024-09-01 23:23:00,397 - INFO - Sample generated text:
+How do I create a list in Python? and how can I create this list?</p>
+
+<pre><code>[&lt;[a&gt;&gt;,a&lt;b&gt;]
+</code></pre>
+
+<p>I want to create a list in Python like this:</p>
+
+<pre><code>[a&lt;b&gt;,a&lt; b&gt;,c&lt;b&gt;]
+</
+Epoch 15/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:23<00:00,  5.59it/s, loss=1.97]
+2024-09-01 23:31:24,098 - INFO - Epoch 15 completed. Average Loss: 2.0284
+2024-09-01 23:32:07,309 - INFO - Validation Loss: 2.1413
+2024-09-01 23:32:22,019 - INFO - Sample generated text:
+How do I create a list in Python?? <p>What is the easiest way to create a list in Python, and vice versa?</p>
+
+<p>I want to create a list, like so</p>
+
+<pre><code>a = [1,2,3]
+</code></pre>
+
+<p>but it doesn't work. Is there a way to do this?</p>
+ A: <p>You can use a dict instead:</p>
+Epoch 16/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:23<00:00,  5.59it/s, loss=2.2]
+2024-09-01 23:40:45,653 - INFO - Epoch 16 completed. Average Loss: 1.9992
+2024-09-01 23:41:28,892 - INFO - Validation Loss: 2.1222
+2024-09-01 23:41:43,539 - INFO - Sample generated text:
+How do I create a list in Python? and has the following list comprehension:</p>
+
+<pre><code>list = [u'1', u'2', u'3', u'4']
+list2 = [u'1', u'4', u'3', u'4']]
+</code></pre>
+
+<p>I want to get this list comprehension:</p>
+
+<pre><code>[u'1', u'1', u'2', u
+Epoch 17/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:23<00:00,  5.59it/s, loss=1.99]
+2024-09-01 23:50:07,107 - INFO - Epoch 17 completed. Average Loss: 1.9719
+2024-09-01 23:50:50,324 - INFO - Validation Loss: 2.1021
+2024-09-01 23:51:05,040 - INFO - Sample generated text:
+How do I create a list in Python? with the built-in range() function? <p>How do I create a list in Python that is a built-in range() function?</p>
+
+<pre><code>&gt;&gt;&gt; a = [1, 2, 3]
+&gt;&gt;&gt; b = [3, 4, 8]
+&gt;&gt;&gt; a.remove(a)
+[3, 4, 2
+Epoch 18/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:23<00:00,  5.59it/s, loss=2.03]
+2024-09-01 23:59:28,472 - INFO - Epoch 18 completed. Average Loss: 1.9468
+2024-09-02 00:00:11,679 - INFO - Validation Loss: 2.0839
+2024-09-02 00:00:26,556 - INFO - Sample generated text:
+How do I create a list in Python? but I cannot find anything in the list.  How do I do that?</p>
+
+<pre><code>&gt;&gt;&gt; for i in range(1,10):
+...     print i
+</code></pre>
+ A: <p><code>l</code> will give you a list of lists</p>
+
+<pre><code>a=list(a)
+a.append(3)
+Epoch 19/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:24<00:00,  5.58it/s, loss=1.95]
+2024-09-02 00:08:50,683 - INFO - Epoch 19 completed. Average Loss: 1.9232
+2024-09-02 00:09:33,921 - INFO - Validation Loss: 2.0702
+2024-09-02 00:09:48,625 - INFO - Sample generated text:
+How do I create a list in Python?. Every time I want to do something like :</p>
+
+<pre><code>list = [[1,2,3],[4,5,6],[7,8,9]]
+</code></pre>
+
+<p>What is the cleanest way to do this?</p>
+ A: <pre><code>list = [[1,2,3],[4,5,6]]
+</code></pre>
+
+<p>I
+Epoch 20/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.83]
+2024-09-02 00:18:13,869 - INFO - Epoch 20 completed. Average Loss: 1.9022
+2024-09-02 00:18:57,176 - INFO - Validation Loss: 2.0556
+2024-09-02 00:19:11,805 - INFO - Sample generated text:
+How do I create a list in Python?? </p>
+
+<p>I want to do that in Python with the built-in function <code>list</code> but I don't know what the proper values do, like:</p>
+
+<pre><code>&gt;&gt;&gt; a = [1,2,3,4,5]
+&gt;&gt;&gt; b = [5,6]
+&gt;&gt;&gt
+Epoch 21/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:24<00:00,  5.57it/s, loss=2.2]
+2024-09-02 00:27:36,582 - INFO - Epoch 21 completed. Average Loss: 1.8829
+2024-09-02 00:28:19,847 - INFO - Validation Loss: 2.0435
+2024-09-02 00:28:34,492 - INFO - Sample generated text:
+How do I create a list in Python? and how do I create a list without retrieving the value of the list? I can do something like:</p>
+
+<pre><code>mylist = [1,2,3,4,5]
+mylist = mylist # -&gt; 3
+
+mylist.pop(0) #...
+</code></pre>
+
+<p>but I don't know why it doesn't work, because mylist is of the list, because my
+Epoch 22/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.55]
+2024-09-02 00:36:59,872 - INFO - Epoch 22 completed. Average Loss: 1.8654
+2024-09-02 00:37:43,105 - INFO - Validation Loss: 2.0322
+2024-09-02 00:37:57,798 - INFO - Sample generated text:
+How do I create a list in Python? and other than x, and x, respectively.</p>
+
+<p>I would like to do that in Python 2.6 but I can't find the right way to do it.</p>
+
+<pre><code>list = []
+
+for item in list:
+    if item not in list:
+        list.append(item)
+</code></pre>
+
+<p>Is there a more efficient way
+Epoch 23/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:24<00:00,  5.58it/s, loss=1.78]
+2024-09-02 00:46:22,208 - INFO - Epoch 23 completed. Average Loss: 1.8481
+2024-09-02 00:47:05,450 - INFO - Validation Loss: 2.0203
+2024-09-02 00:47:20,101 - INFO - Sample generated text:
+How do I create a list in Python?? Is there a method that can preserve a specific value? I would like to be able to do something like what:</p>
+
+<pre><code>def foo(x):
+    if x not in foo:
+        return x
+    else:
+        return x
+
+foo(foo(x))
+</code></pre>
+ A: <p>You could do it like
+Epoch 24/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.76]
+2024-09-02 00:55:45,286 - INFO - Epoch 24 completed. Average Loss: 1.8340
+2024-09-02 00:56:28,572 - INFO - Validation Loss: 2.0127
+2024-09-02 00:56:43,228 - INFO - Sample generated text:
+How do I create a list in Python? and.5 files.</p>
+
+<p>I'd like to take an array of this list:</p>
+
+<pre><code>array = [
+    ['foo', 'bar', 'baz']
+    ['foo', 'bar', 'baz']
+</code></pre>
+
+<p>When I want to zip the list in memory, I get an array of all the elements in the array:</p>
+Epoch 25/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=2.26]
+2024-09-02 01:05:08,437 - INFO - Epoch 25 completed. Average Loss: 1.8215
+2024-09-02 01:05:51,725 - INFO - Validation Loss: 2.0057
+2024-09-02 01:06:06,357 - INFO - Sample generated text:
+How do I create a list in Python? and btw.</p>
+
+<p>I am trying to create a temporary list using Python 2.6 and I want to create a temporary file, how do I do that?</p>
+ A: <p>Here's a list of the files of the <code>.py</code>:</p>
+
+<pre><code>r = open(r,"rb").read()
+</code></pre>
+
+<p>You can then use <
+Epoch 26/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.94]
+2024-09-02 01:14:31,801 - INFO - Epoch 26 completed. Average Loss: 1.8102
+2024-09-02 01:15:15,072 - INFO - Validation Loss: 1.9998
+2024-09-02 01:15:29,726 - INFO - Sample generated text:
+How do I create a list in Python?? Why? What is the preferred way to create a list in Python?</p>
+
+<pre><code>list = [1, 2, 3]
+list.append(list)
+</code></pre>
+
+<p>I know that we can create a list using this generator:</p>
+
+<pre><code>list = [1, 2, 3]
+
+list.append(list)
+</code></pre>
+ A:
+Epoch 27/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.88]
+2024-09-02 01:23:54,826 - INFO - Epoch 27 completed. Average Loss: 1.8008
+2024-09-02 01:24:38,104 - INFO - Validation Loss: 1.9944
+2024-09-02 01:24:52,741 - INFO - Sample generated text:
+How do I create a list in Python? and curses. What would be the most efficient way to do this?</p>
+
+<pre><code>&gt;&gt;&gt; from os import path
+&gt;&gt;&gt; os.path.getsize('/home/build/test/sandboxes/')
+('/home/build/test/sandboxes/', '', '', '', 'w', '', 'g', 'w', 'w', 'w
+Epoch 28/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.84]
+2024-09-02 01:33:18,214 - INFO - Epoch 28 completed. Average Loss: 1.7928
+2024-09-02 01:34:01,472 - INFO - Validation Loss: 1.9905
+2024-09-02 01:34:16,117 - INFO - Sample generated text:
+How do I create a list in Python? that I can convert to a list with values like "a" or "b" or "c" etc.</p>
+
+<pre><code>list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+# what if the lists are all values in a list like "a"
+
+list2 = [5, 6]
+
+# what if the list2 is in list1?
+
+list2 = [5
+Epoch 29/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.97]
+2024-09-02 01:42:41,566 - INFO - Epoch 29 completed. Average Loss: 1.7863
+2024-09-02 01:43:24,818 - INFO - Validation Loss: 1.9871
+2024-09-02 01:43:39,466 - INFO - Sample generated text:
+How do I create a list in Python?? Does it have to be so that it is not added to the entire list?</p>
+ A: <p>I can do this with Python 2.5.2 or newer, but you can use <code>list.sort()</code> and <code>sort()</code>.</p>
+
+<pre><code>&gt;&gt;&gt; list(list('x', 1), ('z', 1), ('z', 1),
+Epoch 30/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2813/2813 [08:25<00:00,  5.57it/s, loss=1.97]
+2024-09-02 01:52:04,980 - INFO - Epoch 30 completed. Average Loss: 1.7812
+2024-09-02 01:52:48,280 - INFO - Validation Loss: 1.9859
+2024-09-02 01:53:02,938 - INFO - Sample generated text:
+How do I create a list in Python? and greater than x? <p>How do I create a list in Python, I do:</p>
+
+<pre><code>mylist = [[1,2,3],[4,5,6],[7,8,9]]
+</code></pre>
+
+<p>I want to create a list in that list, with the same number and zero values, with the value of the same number and the number with the new value. I can do this
+2024-09-02 01:53:02,982 - INFO - Fine-tuning completed. Loading best model...
+/matrix/david/main_home_folder/myProjects/AI/LiquidLM/./train_stage2.py:390: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load('best_model_finetuned.pth')
+2024-09-02 01:53:20,026 - INFO - Generating sample text...
+2024-09-02 01:53:21,006 - INFO - Generated text:
+How do I use a list comprehension in Python? and.NET Framework? <p>I've got a list of Python classes I need to handle all the lines of in a database.  I've looked at that list comprehension, but how do I do it all?  I'm using a list comprehension with lists, but it seems like it's a bit ugly and I can't find the right way to do it.</p>
+ A: <p>You can use <a href="http://docs.python.org/library/itertools.html#itertools.count" rel="nofollow">itertools</a> to do it with a list comprehension:</p>
+
+<pre><code>import itertools
+
+def grouper(seq, n):
+    for i in itertools.count(seq):
+        for j in iterable:
+            yield i
+2024-09-02 01:53:21,006 - INFO - Script completed successfully.
