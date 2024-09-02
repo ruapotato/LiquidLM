@@ -7,9 +7,11 @@ import numpy as np
 import random
 import math
 from transformers import get_linear_schedule_with_warmup, RobertaTokenizerFast
-import signal
-import sys
 import logging
+from tqdm import tqdm
+import os
+import multiprocessing
+import signal
 import gc
 
 # Set up logging
@@ -19,6 +21,21 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 torch.manual_seed(42)
 np.random.seed(42)
 random.seed(42)
+
+# Set the multiprocessing start method to 'spawn'
+multiprocessing.set_start_method('spawn', force=True)
+
+# Set the device to GPU if available, otherwise CPU
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+logging.info(f"Using device: {device}")
+
+# Increase the file descriptor limit
+import resource
+soft, hard = resource.getrlimit(resource.RLIMIT_NOFILE)
+resource.setrlimit(resource.RLIMIT_NOFILE, (hard, hard))
+
+# Set environment variable to disable tokenizer parallelism
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len=5000):
@@ -40,7 +57,7 @@ class TimeAwareReservoirLayer(nn.Module):
         self.reservoir_size = reservoir_size
 
         # Initialize the reservoir weights randomly and make them sparse
-        weights = torch.randn(reservoir_size, input_size) * 0.1
+        weights = torch.randn(reservoir_size, input_size) * 0.02
         mask = torch.rand(reservoir_size, input_size) > sparsity
         self.reservoir.weight.data = weights * mask
 
@@ -55,57 +72,99 @@ class TimeAwareReservoirLayer(nn.Module):
         r = self.reservoir(x)
 
         # Create time-dependent ripples using sinusoidal encoding
-        time_factor = torch.sin(self.frequencies * t.unsqueeze(-1)) + torch.cos(self.frequencies * t.unsqueeze(-1))
+        time_factor = torch.sin(self.frequencies[None, None, :] * t[:, :, None])
 
         # Combine reservoir output with time-dependent ripples
-        return torch.tanh(r + time_factor)
+        return torch.tanh(r + time_factor * 0.1)
 
-class SelfAttentionLayer(nn.Module):
-    def __init__(self, d_model, nhead, dropout=0.1):
+class MultiHeadAttention(nn.Module):
+    def __init__(self, d_model, num_heads):
         super().__init__()
-        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout)
-        self.norm1 = nn.LayerNorm(d_model)
-        self.dropout = nn.Dropout(dropout)
+        self.d_model = d_model
+        self.num_heads = num_heads
+        self.head_dim = d_model // num_heads
 
-    def forward(self, src, src_mask=None):
-        src2 = self.self_attn(src, src, src, attn_mask=src_mask)[0]
-        src = src + self.dropout(src2)
-        src = self.norm1(src)
-        return src
+        self.q_linear = nn.Linear(d_model, d_model)
+        self.k_linear = nn.Linear(d_model, d_model)
+        self.v_linear = nn.Linear(d_model, d_model)
+        self.out_linear = nn.Linear(d_model, d_model)
+
+    def forward(self, q, k, v, mask=None):
+        batch_size = q.size(0)
+
+        q = self.q_linear(q).view(batch_size, -1, self.num_heads, self.head_dim).transpose(1, 2)
+        k = self.k_linear(k).view(batch_size, -1, self.num_heads, self.head_dim).transpose(1, 2)
+        v = self.v_linear(v).view(batch_size, -1, self.num_heads, self.head_dim).transpose(1, 2)
+
+        scores = torch.matmul(q, k.transpose(-2, -1)) / math.sqrt(self.head_dim)
+        
+        if mask is not None:
+            mask = mask.unsqueeze(0).unsqueeze(1)  # Add batch and head dimensions
+            scores = scores.masked_fill(mask == float('-inf'), float('-inf'))
+
+        attention_weights = torch.softmax(scores, dim=-1)
+        attention_output = torch.matmul(attention_weights, v)
+
+        attention_output = attention_output.transpose(1, 2).contiguous().view(batch_size, -1, self.d_model)
+        return self.out_linear(attention_output)
 
 class LiquidLayer(nn.Module):
-    def __init__(self, input_size, reservoir_size, hidden_size, output_size, num_layers=4, nhead=16, dropout_rate=0.2):
+    def __init__(self, d_model, reservoir_size, num_heads, dropout=0.1):
         super().__init__()
-        self.reservoir = TimeAwareReservoirLayer(input_size, reservoir_size)
-        self.pos_encoder = PositionalEncoding(reservoir_size)
-        self.attention_layers = nn.ModuleList([SelfAttentionLayer(reservoir_size, nhead, dropout_rate) for _ in range(num_layers)])
-        self.layer_norm = nn.LayerNorm(reservoir_size)
-        self.output_layer = nn.Linear(reservoir_size, output_size)
-        self.dropout = nn.Dropout(dropout_rate)
+        self.attention = MultiHeadAttention(d_model, num_heads)
+        self.reservoir = TimeAwareReservoirLayer(d_model, reservoir_size)
+        self.reservoir_proj = nn.Linear(reservoir_size, d_model)
+        self.feed_forward = nn.Sequential(
+            nn.Linear(d_model, d_model * 4),
+            nn.ReLU(),
+            nn.Linear(d_model * 4, d_model)
+        )
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
+        self.norm3 = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
 
-    def forward(self, x, t):
-        reservoir_out = self.reservoir(x, t)
-        reservoir_out = self.pos_encoder(reservoir_out)
-        reservoir_out = self.dropout(reservoir_out)
-        
-        for layer in self.attention_layers:
-            reservoir_out = layer(reservoir_out)
-        
-        output = self.layer_norm(reservoir_out)
-        output = self.dropout(output)
-        output = self.output_layer(output)
-        return output
+    def forward(self, x, t, mask=None):
+        # Multi-head attention with mask
+        attn_output = self.attention(x, x, x, mask)
+        x = self.norm1(x + self.dropout(attn_output))
+
+        # Time-aware reservoir
+        reservoir_output = self.reservoir(x, t)
+        reservoir_output = self.reservoir_proj(reservoir_output)
+        x = self.norm2(x + self.dropout(reservoir_output))
+
+        # Feed-forward network
+        ff_output = self.feed_forward(x)
+        x = self.norm3(x + self.dropout(ff_output))
+
+        return x
 
 class LiquidLM(nn.Module):
-    def __init__(self, vocab_size, reservoir_size, hidden_size, num_layers=8, nhead=16, dropout_rate=0.2):
+    def __init__(self, vocab_size, d_model, reservoir_size, num_heads, num_layers, dropout=0.1):
         super().__init__()
-        self.embedding = nn.Embedding(vocab_size, hidden_size)
-        self.liquid_layer = LiquidLayer(hidden_size, reservoir_size, hidden_size, vocab_size, num_layers, nhead, dropout_rate)
+        self.embedding = nn.Embedding(vocab_size, d_model)
+        self.pos_encoder = PositionalEncoding(d_model)
+        self.layers = nn.ModuleList([LiquidLayer(d_model, reservoir_size, num_heads, dropout) for _ in range(num_layers)])
+        self.fc_out = nn.Linear(d_model, vocab_size)
+        self.dropout = nn.Dropout(dropout)
+
+    def generate_square_subsequent_mask(self, sz):
+        mask = (torch.triu(torch.ones(sz, sz)) == 1).transpose(0, 1)
+        mask = mask.float().masked_fill(mask == 0, float('-inf')).masked_fill(mask == 1, float(0.0))
+        return mask
 
     def forward(self, x, t):
-        embedded = self.embedding(x)
-        output = self.liquid_layer(embedded, t)
-        return output
+        x = self.embedding(x) * math.sqrt(self.embedding.embedding_dim)
+        x = self.pos_encoder(x.transpose(0, 1)).transpose(0, 1)
+        x = self.dropout(x)
+
+        mask = self.generate_square_subsequent_mask(x.size(1)).to(x.device)
+
+        for layer in self.layers:
+            x = layer(x, t, mask)
+
+        return self.fc_out(x)
 
 class StackOverflowDataset(Dataset):
     def __init__(self, tokenizer, max_length=2048, max_samples=50000):
@@ -154,18 +213,26 @@ class StackOverflowDataset(Dataset):
             'attention_mask': encoded['attention_mask'].squeeze(),
         }
 
-def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
+def generate_text(model, tokenizer, start_string, length=100, temperature=0.7):
     model.eval()
-    device = next(model.parameters()).device
     input_ids = torch.tensor(tokenizer.encode(start_string)).unsqueeze(0).to(device)
     generated_text = start_string
 
     with torch.no_grad():
         for i in range(length):
             t = torch.arange(input_ids.size(1)).unsqueeze(0).float().to(device)
+            
             predictions = model(input_ids, t)
             predictions = predictions[:, -1, :] / temperature
-            next_token_id = torch.multinomial(torch.softmax(predictions, dim=-1), num_samples=1).squeeze()
+            
+            # Handle potential NaN values
+            if torch.isnan(predictions).any() or torch.isinf(predictions).any():
+                logging.warning("NaN or Inf detected in predictions. Stopping generation.")
+                break
+            
+            # Use softmax with careful normalization
+            probs = torch.softmax(predictions - predictions.max(dim=-1, keepdim=True).values, dim=-1)
+            next_token_id = torch.multinomial(probs, num_samples=1).squeeze()
 
             input_ids = torch.cat([input_ids, next_token_id.unsqueeze(0).unsqueeze(0)], dim=-1)
             next_token = tokenizer.decode([next_token_id.item()])
@@ -173,16 +240,25 @@ def generate_text(model, tokenizer, start_string, length=2000, temperature=0.7):
 
     return generated_text
 
-def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
+def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_steps=4):
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
 
-    total_steps = len(dataset) * epochs // accumulation_steps
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=total_steps // 20, num_training_steps=total_steps)
+    train_size = int(0.9 * len(dataset))
+    val_size = len(dataset) - train_size
+    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, num_workers=0)
+
+    total_steps = len(train_loader) * epochs // accumulation_steps
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=total_steps // 10, num_training_steps=total_steps)
 
     best_val_loss = float('inf')
-    patience = 30
+    patience = 5
     patience_counter = 0
+
+    scaler = torch.cuda.amp.GradScaler()
 
     def signal_handler(sig, frame):
         logging.info("Ctrl+C detected. Stopping training...")
@@ -192,46 +268,35 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
 
     try:
         for epoch in range(epochs):
-            # Resample the dataset for each epoch
-            indices = torch.randperm(len(dataset)).tolist()[:50000]
-            epoch_dataset = Subset(dataset, indices)
-            
-            train_size = int(0.9 * len(epoch_dataset))
-            val_size = len(epoch_dataset) - train_size
-            train_dataset, val_dataset = random_split(epoch_dataset, [train_size, val_size])
-
-            train_loader = DataLoader(train_dataset, batch_size=4, shuffle=True)
-            val_loader = DataLoader(val_dataset, batch_size=4)
-
             model.train()
             total_loss = 0
             optimizer.zero_grad()
 
-            for batch_idx, data in enumerate(train_loader):
+            progress_bar = tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs}")
+            for batch_idx, data in enumerate(progress_bar):
                 x = data['input_ids'].to(device)
                 y = x.clone().roll(-1, dims=1)
                 y[:, -1] = tokenizer.pad_token_id
 
                 t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
 
-                output = model(x, t)
-                loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
-                loss = loss / accumulation_steps
-                loss.backward()
+                with torch.cuda.amp.autocast():
+                    output = model(x, t)
+                    loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
+                    loss = loss / accumulation_steps
+
+                scaler.scale(loss).backward()
 
                 if (batch_idx + 1) % accumulation_steps == 0:
+                    scaler.unscale_(optimizer)
                     torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-                    optimizer.step()
+                    scaler.step(optimizer)
+                    scaler.update()
                     scheduler.step()
                     optimizer.zero_grad()
 
                 total_loss += loss.item() * accumulation_steps
-
-                if batch_idx % 100 == 0:
-                    logging.info(f'Epoch {epoch+1}, Batch {batch_idx}, Loss: {loss.item() * accumulation_steps:.4f}')
-
-                if device.type == 'cuda':
-                    torch.cuda.empty_cache()
+                progress_bar.set_postfix({'loss': loss.item() * accumulation_steps})
 
             avg_loss = total_loss / len(train_loader)
             logging.info(f'Epoch {epoch+1} completed. Average Loss: {avg_loss:.4f}')
@@ -267,11 +332,10 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
                     logging.info(f'Early stopping triggered after {epoch+1} epochs')
                     break
 
-            sample_text = generate_text(model, tokenizer, "How do I create a list in Python?", length=500)
+            sample_text = generate_text(model, tokenizer, "How do I create a list in Python?", length=100)
             logging.info(f'Sample generated text:\n{sample_text}')
 
-            if device.type == 'cuda':
-                torch.cuda.empty_cache()
+            torch.cuda.empty_cache()
 
     except KeyboardInterrupt:
         logging.info("Training interrupted. Saving the model...")
@@ -287,51 +351,47 @@ def train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps=4):
         logging.error(f"An error occurred during training: {str(e)}")
         raise
 
-# Main execution
 if __name__ == "__main__":
-    try:
-        torch.autograd.set_detect_anomaly(True)
+    # Model parameters
+    vocab_size = 50265  # RobertaTokenizer default vocab size
+    d_model = 768
+    reservoir_size = 2048
+    num_heads = 12
+    num_layers = 6
+    dropout_rate = 0.1
+    lr = 5e-5
 
-        # Hyperparameters
-        reservoir_size = 3072
-        hidden_size = 1024
-        batch_size = 4
-        epochs = 60
-        lr = 0.00005
-        dropout_rate = 0.2
-        accumulation_steps = 4
-        sequence_length = 2048
-        num_layers = 8
-        nhead = 16
+    batch_size = 16
+    epochs = 30
+    accumulation_steps = 4
+    sequence_length = 512
 
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        logging.info(f"Using device: {device}")
+    logging.info(f"Initializing model with parameters: d_model={d_model}, reservoir_size={reservoir_size}, num_heads={num_heads}, num_layers={num_layers}")
 
-        # Create a tokenizer
-        tokenizer = RobertaTokenizerFast.from_pretrained("microsoft/codebert-base")
+    tokenizer = RobertaTokenizerFast.from_pretrained("microsoft/codebert-base")
 
-        # Load the pre-trained model
-        checkpoint = torch.load('best_model.pth', map_location=device)
-        model = LiquidLM(tokenizer.vocab_size, reservoir_size, hidden_size, num_layers, nhead, dropout_rate).to(device)
-        model.load_state_dict(checkpoint['model_state_dict'])
-        logging.info("Pre-trained model loaded successfully.")
+    # Load the pre-trained model from stage 1
+    model = LiquidLM(
+        vocab_size, d_model, reservoir_size, 
+        num_heads, num_layers, dropout_rate
+    ).to(device)
+    
+    checkpoint = torch.load('best_model.pth', map_location=device)
+    model.load_state_dict(checkpoint['model_state_dict'])
+    logging.info("Pre-trained model from stage 1 loaded successfully.")
 
-        # Prepare StackOverflow dataset
-        dataset = StackOverflowDataset(tokenizer, max_length=sequence_length, max_samples=50000)
+    # Prepare StackOverflow dataset
+    dataset = StackOverflowDataset(tokenizer, max_length=sequence_length, max_samples=50000)
 
-        # Fine-tune the model
-        train(model, dataset, tokenizer, epochs, lr, device, accumulation_steps)
+    logging.info("Starting fine-tuning on Stack Overflow Python data...")
+    train(model, dataset, tokenizer, epochs, lr, batch_size, accumulation_steps)
 
-        # Load the best fine-tuned model
-        checkpoint = torch.load('best_model_finetuned.pth')
-        model.load_state_dict(checkpoint['model_state_dict'])
+    logging.info("Fine-tuning completed. Loading best model...")
+    checkpoint = torch.load('best_model_finetuned.pth')
+    model.load_state_dict(checkpoint['model_state_dict'])
 
-        # Generate some text
-        generated_text = generate_text(model, tokenizer, "How do I use a list comprehension in Python?", length=2000)
-        logging.info(f"Generated text:\n{generated_text}")
+    logging.info("Generating sample text...")
+    generated_text = generate_text(model, tokenizer, "How do I use a list comprehension in Python?", length=200)
+    logging.info(f"Generated text:\n{generated_text}")
 
-    except KeyboardInterrupt:
-        logging.info("Script interrupted by user. Exiting...")
-    except Exception as e:
-        logging.error(f"An unexpected error occurred: {str(e)}")
-        raise
+    logging.info("Script completed successfully.")
