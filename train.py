@@ -1,16 +1,19 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader, random_split
+from torch.utils.data import Dataset, DataLoader, random_split, ConcatDataset
 from datasets import load_dataset
 import numpy as np
 import random
 import math
-from transformers import get_linear_schedule_with_warmup, RobertaTokenizerFast
+from transformers import get_linear_schedule_with_warmup, AutoTokenizer
 import logging
 from tqdm import tqdm
 import os
 import multiprocessing
+import signal
+import gc
+from datasets import load_dataset, concatenate_datasets
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -48,11 +51,12 @@ class PositionalEncoding(nn.Module):
     def forward(self, x):
         return x + self.pe[:x.size(0)]
 
-class TimeAwareReservoirLayer(nn.Module):
-    def __init__(self, input_size, reservoir_size, sparsity=0.95):
+class SharedTimeAwareReservoir(nn.Module):
+    def __init__(self, input_size, reservoir_size, num_layers, sparsity=0.95):
         super().__init__()
         self.reservoir = nn.Linear(input_size, reservoir_size, bias=False)
         self.reservoir_size = reservoir_size
+        self.num_layers = num_layers
 
         # Initialize the reservoir weights randomly and make them sparse
         weights = torch.randn(reservoir_size, input_size) * 0.02
@@ -65,15 +69,21 @@ class TimeAwareReservoirLayer(nn.Module):
         # Initialize time-dependent frequencies for ripples
         self.frequencies = nn.Parameter(torch.randn(reservoir_size) * 0.01, requires_grad=False)
 
-    def forward(self, x, t):
-        # Apply the reservoir transformation
+        # Layer-specific projections
+        self.layer_projections = nn.ModuleList([nn.Linear(reservoir_size, input_size) for _ in range(num_layers)])
+
+    def forward(self, x, t, layer_idx):
+        # Apply the shared reservoir transformation
         r = self.reservoir(x)
 
         # Create time-dependent ripples using sinusoidal encoding
         time_factor = torch.sin(self.frequencies[None, None, :] * t[:, :, None])
 
         # Combine reservoir output with time-dependent ripples
-        return torch.tanh(r + time_factor * 0.1)
+        reservoir_output = torch.tanh(r + time_factor * 0.1)
+
+        # Apply layer-specific projection
+        return self.layer_projections[layer_idx](reservoir_output)
 
 class MultiHeadAttention(nn.Module):
     def __init__(self, d_model, num_heads):
@@ -106,12 +116,12 @@ class MultiHeadAttention(nn.Module):
         attention_output = attention_output.transpose(1, 2).contiguous().view(batch_size, -1, self.d_model)
         return self.out_linear(attention_output)
 
-class LiquidLayer(nn.Module):
-    def __init__(self, d_model, reservoir_size, num_heads, dropout=0.1):
+class LiquidLayerWithSharedReservoir(nn.Module):
+    def __init__(self, d_model, shared_reservoir, layer_idx, num_heads, dropout=0.1):
         super().__init__()
         self.attention = MultiHeadAttention(d_model, num_heads)
-        self.reservoir = TimeAwareReservoirLayer(d_model, reservoir_size)
-        self.reservoir_proj = nn.Linear(reservoir_size, d_model)
+        self.shared_reservoir = shared_reservoir
+        self.layer_idx = layer_idx
         self.feed_forward = nn.Sequential(
             nn.Linear(d_model, d_model * 4),
             nn.ReLU(),
@@ -127,9 +137,8 @@ class LiquidLayer(nn.Module):
         attn_output = self.attention(x, x, x, mask)
         x = self.norm1(x + self.dropout(attn_output))
 
-        # Time-aware reservoir
-        reservoir_output = self.reservoir(x, t)
-        reservoir_output = self.reservoir_proj(reservoir_output)
+        # Time-aware shared reservoir
+        reservoir_output = self.shared_reservoir(x, t, self.layer_idx)
         x = self.norm2(x + self.dropout(reservoir_output))
 
         # Feed-forward network
@@ -138,12 +147,16 @@ class LiquidLayer(nn.Module):
 
         return x
 
-class LiquidLM(nn.Module):
+class LiquidLMWithSharedReservoir(nn.Module):
     def __init__(self, vocab_size, d_model, reservoir_size, num_heads, num_layers, dropout=0.1):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, d_model)
         self.pos_encoder = PositionalEncoding(d_model)
-        self.layers = nn.ModuleList([LiquidLayer(d_model, reservoir_size, num_heads, dropout) for _ in range(num_layers)])
+        self.shared_reservoir = SharedTimeAwareReservoir(d_model, reservoir_size, num_layers)
+        self.layers = nn.ModuleList([
+            LiquidLayerWithSharedReservoir(d_model, self.shared_reservoir, i, num_heads, dropout) 
+            for i in range(num_layers)
+        ])
         self.fc_out = nn.Linear(d_model, vocab_size)
         self.dropout = nn.Dropout(dropout)
 
@@ -164,21 +177,35 @@ class LiquidLM(nn.Module):
 
         return self.fc_out(x)
 
-class CodeParrotDataset(Dataset):
-    def __init__(self, tokenizer, max_length=2048, max_samples=50000):
+class CombinedDataset(Dataset):
+    def __init__(self, tokenizer, max_length=2048, max_samples=1000000):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.max_samples = max_samples
 
-        dataset = load_dataset("codeparrot/codeparrot-clean-valid", split="train")
-        self.data = dataset.select(range(min(len(dataset), max_samples)))
-        self.data = self.data.map(self.preprocess, remove_columns=dataset.column_names)
-        self.data = self.data.filter(lambda x: len(x['input_ids']) > 0)
+        # Load CodeParrot dataset
+        codeparrot = load_dataset("codeparrot/codeparrot-clean-valid", split="train")
+        codeparrot = codeparrot.select(range(min(len(codeparrot), max_samples // 3)))
+        
+        # Load Stack Overflow dataset
+        stackoverflow = load_dataset("koutch/stackoverflow_python", split="train")
+        stackoverflow = stackoverflow.select(range(min(len(stackoverflow), max_samples // 3)))
 
-    def preprocess(self, example):
-        content = example['content']
+        # Load The Stack dataset (Python subset)
+        the_stack = load_dataset("bigcode/the-stack", data_dir="data/python", split="train")
+        the_stack = the_stack.select(range(min(len(the_stack), max_samples // 3)))
+
+        # Preprocess datasets
+        codeparrot = codeparrot.map(self.preprocess_codeparrot, remove_columns=codeparrot.column_names)
+        stackoverflow = stackoverflow.map(self.preprocess_stackoverflow, remove_columns=stackoverflow.column_names)
+        the_stack = the_stack.map(self.preprocess_the_stack, remove_columns=the_stack.column_names)
+
+        # Combine datasets
+        self.data = concatenate_datasets([codeparrot, stackoverflow, the_stack])
+
+    def preprocess_codeparrot(self, example):
         encoded = self.tokenizer.encode_plus(
-            content,
+            example['content'],
             add_special_tokens=True,
             max_length=self.max_length,
             padding='max_length',
@@ -186,8 +213,40 @@ class CodeParrotDataset(Dataset):
             return_tensors='pt'
         )
         return {
-            'input_ids': encoded['input_ids'].squeeze().tolist(),
-            'attention_mask': encoded['attention_mask'].squeeze().tolist(),
+            'input_ids': encoded['input_ids'].squeeze(),
+            'attention_mask': encoded['attention_mask'].squeeze(),
+        }
+
+    def preprocess_stackoverflow(self, example):
+        question = example['title'] + " " + example['question_body']
+        answer = example['answer_body']
+        text = f"Human: {question}\n\nAssistant: {answer}"
+        
+        encoded = self.tokenizer.encode_plus(
+            text,
+            add_special_tokens=True,
+            max_length=self.max_length,
+            padding='max_length',
+            truncation=True,
+            return_tensors='pt'
+        )
+        return {
+            'input_ids': encoded['input_ids'].squeeze(),
+            'attention_mask': encoded['attention_mask'].squeeze(),
+        }
+
+    def preprocess_the_stack(self, example):
+        encoded = self.tokenizer.encode_plus(
+            example['content'],
+            add_special_tokens=True,
+            max_length=self.max_length,
+            padding='max_length',
+            truncation=True,
+            return_tensors='pt'
+        )
+        return {
+            'input_ids': encoded['input_ids'].squeeze(),
+            'attention_mask': encoded['attention_mask'].squeeze(),
         }
 
     def __len__(self):
@@ -200,24 +259,22 @@ class CodeParrotDataset(Dataset):
             'attention_mask': torch.tensor(item['attention_mask'], dtype=torch.long)
         }
 
-def generate_text(model, tokenizer, start_string, length=100, temperature=0.7):
+def generate_text(model, tokenizer, start_string, max_length=200, temperature=0.7):
     model.eval()
     input_ids = torch.tensor(tokenizer.encode(start_string)).unsqueeze(0).to(device)
     generated_text = start_string
 
     with torch.no_grad():
-        for i in range(length):
+        for i in range(max_length):
             t = torch.arange(input_ids.size(1)).unsqueeze(0).float().to(device)
             
             predictions = model(input_ids, t)
             predictions = predictions[:, -1, :] / temperature
             
-            # Handle potential NaN values
             if torch.isnan(predictions).any() or torch.isinf(predictions).any():
                 logging.warning("NaN or Inf detected in predictions. Stopping generation.")
                 break
             
-            # Use softmax with careful normalization
             probs = torch.softmax(predictions - predictions.max(dim=-1, keepdim=True).values, dim=-1)
             next_token_id = torch.multinomial(probs, num_samples=1).squeeze()
 
@@ -225,9 +282,12 @@ def generate_text(model, tokenizer, start_string, length=100, temperature=0.7):
             next_token = tokenizer.decode([next_token_id.item()])
             generated_text += next_token
 
+            if next_token == tokenizer.eos_token:
+                break
+
     return generated_text
 
-def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_steps=4):
+def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_steps=4, eval_steps=1000):
     criterion = nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
     optimizer = optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
 
@@ -245,110 +305,147 @@ def train(model, dataset, tokenizer, epochs, lr, batch_size=32, accumulation_ste
     patience = 5
     patience_counter = 0
 
-    scaler = torch.amp.GradScaler('cuda')
+    scaler = torch.cuda.amp.GradScaler()
 
-    for epoch in range(epochs):
-        model.train()
-        total_loss = 0
-        optimizer.zero_grad()
+    def signal_handler(sig, frame):
+        logging.info("Ctrl+C detected. Stopping training...")
+        raise KeyboardInterrupt
 
-        progress_bar = tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs}")
-        for batch_idx, data in enumerate(progress_bar):
-            x = data['input_ids'].to(device)
-            y = x.clone().roll(-1, dims=1)
-            y[:, -1] = tokenizer.pad_token_id
+    signal.signal(signal.SIGINT, signal_handler)
 
-            t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
+    try:
+        global_step = 0
+        for epoch in range(epochs):
+            model.train()
+            total_loss = 0
+            optimizer.zero_grad()
 
-            with torch.amp.autocast('cuda'):
-                output = model(x, t)
-                loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
-                loss = loss / accumulation_steps
+            progress_bar = tqdm(train_loader, desc=f"Epoch {epoch+1}/{epochs}")
+            for batch_idx, batch in enumerate(progress_bar):
+                input_ids = batch['input_ids'].to(device)
+                attention_mask = batch['attention_mask'].to(device)
 
-            scaler.scale(loss).backward()
+                # Create labels by shifting input_ids
+                labels = input_ids.clone()
+                labels[:, :-1] = input_ids[:, 1:]
+                labels[:, -1] = tokenizer.pad_token_id
 
-            if (batch_idx + 1) % accumulation_steps == 0:
-                scaler.unscale_(optimizer)
-                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-                scaler.step(optimizer)
-                scaler.update()
-                scheduler.step()
-                optimizer.zero_grad()
+                t = torch.arange(input_ids.size(1)).unsqueeze(0).repeat(input_ids.size(0), 1).float().to(device)
 
-            total_loss += loss.item() * accumulation_steps
-            progress_bar.set_postfix({'loss': loss.item() * accumulation_steps})
+                with torch.cuda.amp.autocast():
+                    output = model(input_ids, t)
+                    loss = criterion(output.view(-1, output.size(-1)), labels.view(-1))
+                    loss = loss / accumulation_steps
 
-        avg_loss = total_loss / len(train_loader)
-        logging.info(f'Epoch {epoch+1} completed. Average Loss: {avg_loss:.4f}')
+                scaler.scale(loss).backward()
 
-        model.eval()
-        val_loss = 0
-        with torch.no_grad():
-            for data in val_loader:
-                x = data['input_ids'].to(device)
-                y = x.clone().roll(-1, dims=1)
-                y[:, -1] = tokenizer.pad_token_id
+                if (batch_idx + 1) % accumulation_steps == 0:
+                    scaler.unscale_(optimizer)
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+                    scaler.step(optimizer)
+                    scaler.update()
+                    scheduler.step()
+                    optimizer.zero_grad()
 
-                t = torch.arange(x.size(1)).unsqueeze(0).repeat(x.size(0), 1).float().to(device)
-                output = model(x, t)
-                loss = criterion(output.reshape(-1, output.size(-1)), y.reshape(-1))
-                val_loss += loss.item()
+                total_loss += loss.item() * accumulation_steps
+                progress_bar.set_postfix({'loss': loss.item() * accumulation_steps})
 
-        avg_val_loss = val_loss / len(val_loader)
-        logging.info(f'Validation Loss: {avg_val_loss:.4f}')
+                global_step += 1
+                if global_step % eval_steps == 0:
+                    model.eval()
+                    val_loss = 0
+                    with torch.no_grad():
+                        for val_batch in val_loader:
+                            val_input_ids = val_batch['input_ids'].to(device)
+                            val_attention_mask = val_batch['attention_mask'].to(device)
 
-        if avg_val_loss < best_val_loss:
-            best_val_loss = avg_val_loss
-            patience_counter = 0
-            torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'loss': best_val_loss,
-            }, 'best_model.pth')
-        else:
-            patience_counter += 1
-            if patience_counter >= patience:
-                logging.info(f'Early stopping triggered after {epoch+1} epochs')
-                break
+                            val_labels = val_input_ids.clone()
+                            val_labels[:, :-1] = val_input_ids[:, 1:]
+                            val_labels[:, -1] = tokenizer.pad_token_id
 
-        sample_text = generate_text(model, tokenizer, "import pygame:", length=100)
-        logging.info(f'Sample generated text:\n{sample_text}')
+                            val_t = torch.arange(val_input_ids.size(1)).unsqueeze(0).repeat(val_input_ids.size(0), 1).float().to(device)
+                            val_output = model(val_input_ids, val_t)
+                            val_loss += criterion(val_output.view(-1, val_output.size(-1)), val_labels.view(-1)).item()
 
-        torch.cuda.empty_cache()
+                    avg_val_loss = val_loss / len(val_loader)
+                    logging.info(f'Step {global_step}, Validation Loss: {avg_val_loss:.4f}')
+
+                    if avg_val_loss < best_val_loss:
+                        best_val_loss = avg_val_loss
+                        patience_counter = 0
+                        torch.save({
+                            'step': global_step,
+                            'model_state_dict': model.state_dict(),
+                            'optimizer_state_dict': optimizer.state_dict(),
+                            'loss': best_val_loss,
+                        }, 'best_model.pth')
+                    else:
+                        patience_counter += 1
+                        if patience_counter >= patience:
+                            logging.info(f'Early stopping triggered after {global_step} steps')
+                            return
+
+                    sample_text = generate_text(model, tokenizer, "def fibonacci(n):", max_length=100)
+                    logging.info(f'Sample generated text:\n{sample_text}')
+
+                    model.train()
+
+            avg_loss = total_loss / len(train_loader)
+            logging.info(f'Epoch {epoch+1} completed. Average Loss: {avg_loss:.4f}')
+
+            torch.cuda.empty_cache()
+
+    except KeyboardInterrupt:
+        logging.info("Training interrupted. Saving the model...")
+        torch.save({
+            'epoch': epoch,
+            'model_state_dict': model.state_dict(),
+            'optimizer_state_dict': optimizer.state_dict(),
+            'loss': best_val_loss,
+        }, 'interrupted_model.pth')
+        raise
+
+    except Exception as e:
+        logging.error(f"An error occurred during training: {str(e)}")
+        raise
 
 if __name__ == "__main__":
     # Model parameters
-    vocab_size = 50265  # RobertaTokenizer default vocab size
+    vocab_size = 50265  # Default vocab size for most tokenizers
     d_model = 768
-    reservoir_size = 2048
+    reservoir_size = 4096
     num_heads = 12
     num_layers = 6
     dropout_rate = 0.1
-    lr = 5e-5
+    lr = 1e-4
 
-    batch_size = 16
-    epochs = 30
-    accumulation_steps = 4
-    sequence_length = 512
+    batch_size = 8
+    epochs = 50
+    accumulation_steps = 8
+    sequence_length = 1024
+    eval_steps = 1000
 
     logging.info(f"Initializing model with parameters: d_model={d_model}, reservoir_size={reservoir_size}, num_heads={num_heads}, num_layers={num_layers}")
 
-    tokenizer = RobertaTokenizerFast.from_pretrained("microsoft/codebert-base")
+    tokenizer = AutoTokenizer.from_pretrained("microsoft/codebert-base")
+    tokenizer.pad_token = tokenizer.eos_token
 
-    dataset = CodeParrotDataset(tokenizer, max_length=sequence_length, max_samples=50000)
-    model = LiquidLM(
+    model = LiquidLMWithSharedReservoir(
         vocab_size, d_model, reservoir_size, 
         num_heads, num_layers, dropout_rate
     ).to(device)
 
+    dataset = CombinedDataset(tokenizer, max_length=sequence_length, max_samples=1000000)
+
     logging.info("Starting training...")
-    train(model, dataset, tokenizer, epochs, lr, batch_size, accumulation_steps)
+    train(model, dataset, tokenizer, epochs, lr, batch_size, accumulation_steps, eval_steps)
 
     logging.info("Training completed. Loading best model...")
     checkpoint = torch.load('best_model.pth')
     model.load_state_dict(checkpoint['model_state_dict'])
 
     logging.info("Generating sample text...")
-    generated_text = generate_text(model, tokenizer, "import pygame", length=200)
+    generated_text = generate_text(model, tokenizer, "def quicksort(arr):", max_length=200)
     logging.info(f"Generated text:\n{generated_text}")
+
+    logging.info("Script completed successfully.")
